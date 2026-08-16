@@ -4,11 +4,15 @@
  *
  * Emits, for every plugin, BOTH a Chinese intent (intentZh) and an English
  * intent (intentEn). Outputs:
- *   catalog/plugins.csv        — flat spreadsheet (both intent columns)
+ *   pages/plugins.csv          — flat spreadsheet (both intent columns)
  *   catalog/plugins.md         — combined markdown table (both intent columns)
- *   catalog/index.html         — interactive site (both intent columns)
- *   catalog/plugins.zh.md / plugins.zh.html  — 中文版 (intent = Chinese)
- *   catalog/plugins.en.md / plugins.en.html  — English version (intent = English)
+ *   pages/index.html           — interactive site (both intent columns)
+ *   catalog/plugins.zh.md + pages/plugins.zh.html  — 中文版 (intent = Chinese)
+ *   catalog/plugins.en.md + pages/plugins.en.html  — English version (intent = English)
+ *
+ * HTML/CSV artifacts are written into ../pages so they ship with the repo and
+ * are deployed to GitHub Pages via .github/workflows/deploy.yml; the .md files
+ * stay in catalog/ as gitignored dev intermediates.
  */
 import { readFileSync, writeFileSync, existsSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
@@ -16,6 +20,7 @@ import { dirname, join } from 'node:path'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(__dirname, '..')
+const PAGES = join(ROOT, 'pages')
 const INTENTS = join(__dirname, 'intents.json')
 const META = join(__dirname, 'meta-raw.json')
 const SIZES = join(__dirname, 'sizes-raw.json')
@@ -72,7 +77,7 @@ const date = new Date().toISOString().slice(0, 10)
 const cols = ['repo', 'url', 'intentZh', 'intentEn', 'category', 'isDsh', 'language', 'tech', 'keyDeps',
   'stars', 'forks', 'sizeBytes', 'sizeHuman', 'created', 'updated', 'license', 'openIssues', 'compat', 'cloned', 'needsReview', 'lists', 'signals']
 const esc = v => `"${String(v ?? '').replace(/"/g, '""')}"`
-writeFileSync(join(__dirname, 'plugins.csv'),
+writeFileSync(join(PAGES, 'plugins.csv'),
   [cols.join(',')].concat(rows.map(r => cols.map(c => esc(r[c])).join(','))).join('\n'))
 
 // ---------- UI text per language ----------
@@ -228,8 +233,8 @@ const dataJson = JSON.stringify(rows).replace(/</g, '\\u003c')
 // ---------- write language-specific files ----------
 writeFileSync(join(__dirname, 'plugins.zh.md'), '# ' + UI.zh.title + '\n\n' + mdTable(UI.zh, 'intentZh'))
 writeFileSync(join(__dirname, 'plugins.en.md'), '# ' + UI.en.title + '\n\n' + mdTable(UI.en, 'intentEn'))
-writeFileSync(join(__dirname, 'plugins.zh.html'), htmlDoc(UI.zh, 'intentZh').replace('__DATA__', dataJson))
-writeFileSync(join(__dirname, 'plugins.en.html'), htmlDoc(UI.en, 'intentEn').replace('__DATA__', dataJson))
+writeFileSync(join(PAGES, 'plugins.zh.html'), htmlDoc(UI.zh, 'intentZh').replace('__DATA__', dataJson))
+writeFileSync(join(PAGES, 'plugins.en.html'), htmlDoc(UI.en, 'intentEn').replace('__DATA__', dataJson))
 const comboHead = ['<th data-k="repo">仓库</th>',
   '<th data-k="intentZh">意图(中文)</th>',
   '<th data-k="intentEn">Intent(EN)</th>',
@@ -268,11 +273,11 @@ const comboHtml = '<!doctype html>\n'
   + 'q.oninput=render;catSel.onchange=render;dshSel.onchange=render;sortSel.onchange=render;\n'
   + 'document.querySelectorAll("th[data-k]").forEach(th=>th.onclick=()=>{sortSel.value=th.dataset.k;sortDir*=-1;render();});\n' + THEME_JS + 'render();\n'
   + '</script></body></html>\n'
-writeFileSync(join(__dirname, 'index.html'), comboHtml.replace('__DATA__', dataJson))
+writeFileSync(join(PAGES, 'index.html'), comboHtml.replace('__DATA__', dataJson))
 
 console.log(`Generated (${totalN} rows, ${dshN} DSH, ${clonedN} cloned):
-  plugins.csv (both intent columns)
-  plugins.md  (combined bilingual)
-  index.html  (combined bilingual)
-  plugins.zh.md / plugins.zh.html  (中文版)
-  plugins.en.md / plugins.en.html  (English version)`)
+  pages/plugins.csv (both intent columns)
+  catalog/plugins.md  (combined bilingual)
+  pages/index.html  (combined bilingual)
+  catalog/plugins.zh.md / pages/plugins.zh.html  (中文版)
+  catalog/plugins.en.md / pages/plugins.en.html  (English version)`)

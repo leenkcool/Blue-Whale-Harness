@@ -1,0 +1,53 @@
+# 从 catalog/ 数据与脚本构建站点：部署到 GitHub Pages，并把生成的 pages/ 产物以 bot 身份回写提交到仓库
+name: 构建并部署站点到Pages
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - 'catalog/**'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+jobs:
+  build-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: 拉取仓库
+        uses: actions/checkout@v4
+      - name: 安装 Node.js 环境
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: 从 catalog/ 生成站点产物到 pages/
+        run: node catalog/generate.mjs
+      - name: 上传生成的 pages/ 产物
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './pages'
+      - name: 部署到Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
+      - name: 回写生成的产物到 pages/
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "${{ github.ref_name }}"
+          git add pages/
+          if git diff --cached --quiet; then
+            echo "pages/ 无变更，跳过回写提交"
+            exit 0
+          fi
+          git commit -m "chore(pages): 同步生成站点产物 [skip ci]"
+          git push origin "HEAD:${{ github.ref_name }}" || {
+            git pull --rebase origin "${{ github.ref_name }}"
+            git push origin "HEAD:${{ github.ref_name }}"
+          }

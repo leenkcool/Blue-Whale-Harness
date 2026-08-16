@@ -7,16 +7,13 @@ node_modules/
 # Cloned plugin sources (not needed in the index repo)
 Plugins/
 
-# Generated website artifacts (deployed to leenkcool.github.io instead)
-catalog/index.html
-catalog/plugins.csv
+# Dev intermediates (the deployable site now lives in pages/ and IS tracked)
 catalog/plugins.md
-catalog/plugins.zh.html
 catalog/plugins.zh.md
-catalog/plugins.en.html
 catalog/plugins.en.md
 catalog/risk-report.csv
 catalog/risk-report.html
 catalog/risk-report.md
 catalog/risk-report-detail.csv
 catalog/intents.backup.*.json
+
