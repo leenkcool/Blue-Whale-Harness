@@ -2,7 +2,7 @@
 
 > 收录所有自由人脉产生的 DeepSeek Harness（DSH）插件。
 
-🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
+🌐 **在线总表：[leenkcool.github.io/Blue-Whale-Harness](https://leenkcool.github.io/Blue-Whale-Harness)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录（由本仓库 pages/ 部署）。
 
 > 自动生成于 2026-08-16 ｜ 共 **1803** 个仓库 ｜ 真·DSH 插件 **1673** 个
 
@@ -10,7 +10,7 @@
 
 - 仓库总数：**1803**
 - 真·DSH 插件：**1673**
-- 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
+- 在线浏览：https://leenkcool.github.io/Blue-Whale-Harness （[中文版](https://leenkcool.github.io/Blue-Whale-Harness/plugins.zh.html) ｜ [English](https://leenkcool.github.io/Blue-Whale-Harness/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/Blue-Whale-Harness/plugins.csv)）
 
 ## 分类索引
 
@@ -1899,11 +1899,11 @@
 ```bash
 node catalog/analyze.mjs     # 采集仓库元数据 + 意图（HY3 直译）
 node catalog/merge.mjs       # 套用人工翻译
-node catalog/generate.mjs    # 生成 catalog/index.html 等网站产物
+node catalog/generate.mjs    # 生成 pages/ 网站产物（index.html / plugins.{zh,en}.html / plugins.csv）
 node catalog/build-readme.mjs # 重新生成本 README
 ```
 
-生成的网站产物部署到 [leenkcool.github.io](https://github.com/leenkcool/leenkcool.github.io)。
+生成的网站产物（pages/）随仓库维护：push 到 main 且改动 catalog/ 时，CI 先运行 catalog/generate.mjs 从数据构建站点，再经 [.github/workflows/deploy.yml](.github/workflows/deploy.yml) 自动部署到 GitHub Pages：https://leenkcool.github.io/Blue-Whale-Harness；部署后生成的产物会以 bot 身份自动提交回 main 的 pages/（带 [skip ci]，不会再次触发构建）。
 
 ## License
 
