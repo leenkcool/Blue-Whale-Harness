@@ -90402,5 +90402,50 @@
   "compat": "unknown",
   "featured": false,
   "analyzed_at": "2026-08-23T07:30:51.091Z"
+ },
+ "maxwell-feng/dsh-searxng-web": {
+  "repo": "maxwell-feng/dsh-searxng-web",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "dsh-plugin-topic",
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "JavaScript",
+  "intent": "DeepSeek Harness plugin that backs the native web_search / web_fetch tools with your own self-hosted SearXNG instance — keyless, private, no third-party search vendor; rides dsh's ctx.web provider seam so every agent and subagent inherits it, with an SSRF-guarded fetch provider included.",
+  "intentEn": "DeepSeek Harness plugin that backs the native web_search / web_fetch tools with your own self-hosted SearXNG instance — keyless, private, no third-party search vendor; rides dsh's ctx.web provider seam so every agent and subagent inherits it, with an SSRF-guarded fetch provider included.",
+  "intentZh": "用自托管的 SearXNG 实例接管 DSH 原生 web_search / web_fetch 工具：无需 API Key、查询不经过第三方搜索厂商；走 dsh 的 ctx.web 提供方接缝，所有 agent 与 subagent 直接继承，另带 SSRF 防护的网页抓取提供方。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 0,
+  "forks": 0,
+  "created_at": "2026-08-22T18:02:10Z",
+  "updated_at": "2026-08-24T09:20:26.202Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "deepseek-harness",
+   "dsh",
+   "dsh-plugin",
+   "searxng",
+   "self-hosted",
+   "web-search"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T09:20:26.202Z"
  }
 }

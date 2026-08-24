@@ -29964,5 +29964,21 @@
   "_lists": [
    "plugin"
   ]
+ },
+ {
+  "repo": "maxwell-feng/dsh-searxng-web",
+  "name": "dsh-searxng-web",
+  "category": "tools",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 0,
+  "compat": "unknown",
+  "desc_en": "Back the native web_search/web_fetch tools with your self-hosted SearXNG — keyless, private, no third-party vendor.",
+  "desc_zh": "用自托管的 SearXNG 实例接管 DSH 原生 web_search / web_fetch 工具：无需 API Key、查询不经过第三方搜索厂商；走 dsh 的 ctx.web 提供方接缝，所有 agent 与 subagent 直接继承，另带 SSRF 防护的网页抓取提供方。",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
  }
 ]

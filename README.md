@@ -4,12 +4,12 @@
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
 
-> 自动生成于 2026-08-23 ｜ 共 **1838** 个仓库 ｜ 真·DSH 插件 **1708** 个
+> 自动生成于 2026-08-24 ｜ 共 **1839** 个仓库 ｜ 真·DSH 插件 **1709** 个
 
 ## 统计
 
-- 仓库总数：**1838**
-- 真·DSH 插件：**1708**
+- 仓库总数：**1839**
+- 真·DSH 插件：**1709**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
 ## 分类索引
@@ -18,7 +18,7 @@
 - **utility** — 347 个仓库，★25761
 - **skills** — 49 个仓库，★23452
 - **orchestration** — 198 个仓库，★16017
-- **tools** — 581 个仓库，★15383
+- **tools** — 582 个仓库，★15383
 - **session** — 231 个仓库，★15126
 - **ui** — 187 个仓库，★6119
 - **uncategorized** — 1 个仓库，★2189
@@ -809,7 +809,7 @@
 | [lcc815/dsh-debate-plugin](https://github.com/lcc815/dsh-debate-plugin) | DeepSeek Harness 辩论插件：立场锁定的正反 subagent 逐轮交锋，支持流式输出、Markdown 渲染与中立评审。 | Adversarial pro/con debate plugin for DeepSeek Harness with stance-locked subagents, live  | 0 | TypeScript | yes |
 | [pandarayc/dsh-release-guard](https://github.com/pandarayc/dsh-release-guard) | DSH 插件发布安全网：preset 健康检查、Canary 灰度决策、Supervisor 监控控制（防抖）与自动回滚，坏包不再拖垮宿主。 | Canary-release safety guard for DeepSeek Harness: preset health checks, stable-vs-canary r | 0 | JavaScript | yes |
 
-### tools（581）
+### tools（582）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1394,6 +1394,7 @@
 | [tmpdot/dsh-checkpoint-diff](https://github.com/tmpdot/dsh-checkpoint-diff) | DeepSeek Harness 检查点时间线 diff 与回滚——把 dsh-checkpoint-rewind 的检查点变成可浏览时间线（会话/项目范围），任意两节点间逐文件行 | Checkpoint timeline diff & rollback for DeepSeek Harness — turn dsh-checkpoint-rewind chec | 0 | JavaScript | yes |
 | [scwlkq/deepseek-harness](https://github.com/scwlkq/deepseek-harness) | 任务看板插件（随 DeepSeek Harness 构建发布）：五态看板（初始化/执行中/待审核/已完成/失败），支持增删改查、搜索、同列拖拽排序，Agent 启动/停止/通过/驳 | Task Board plugin (bundled in a DeepSeek Harness build): a five-state kanban (init/in-prog | 0 | TypeScript | yes |
 | [ravenli059/dsh-login](https://github.com/ravenli059/dsh-login) | 给 dsh-web 加一道登录门：打开 dsh-web 的端口时先要输入用户名和密码，验证通过后才能看到界面。 | Login gate for the DeepSeek Harness Web GUI: requires username and password authentication | 0 | JavaScript | yes |
+| [maxwell-feng/dsh-searxng-web](https://github.com/maxwell-feng/dsh-searxng-web) | 用自托管的 SearXNG 实例接管 DSH 原生 web_search / web_fetch 工具：无需 API Key、查询不经过第三方搜索厂商；走 dsh 的 ctx.we | DeepSeek Harness plugin that backs the native web_search / web_fetch tools with your own s | 0 | JavaScript | yes |
 
 ### session（231）
 
