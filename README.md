@@ -4,7 +4,7 @@
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
 
-> 自动生成于 2026-08-23 ｜ 共 **1838** 个仓库 ｜ 真·DSH 插件 **1708** 个
+> 自动生成于 2026-08-24 ｜ 共 **1838** 个仓库 ｜ 真·DSH 插件 **1708** 个
 
 ## 统计
 
@@ -19,7 +19,7 @@
 - **skills** — 49 个仓库，★23452
 - **orchestration** — 198 个仓库，★16017
 - **tools** — 581 个仓库，★15383
-- **session** — 231 个仓库，★15126
+- **session** — 231 个仓库，★15151
 - **ui** — 187 个仓库，★6119
 - **uncategorized** — 1 个仓库，★2189
 - **acp** — 65 个仓库，★268
@@ -1408,6 +1408,7 @@
 | [JingbiaoMei/Tokdash](https://github.com/JingbiaoMei/Tokdash) | 智能体仪表盘：会话与配额用量可视化分析。跨提供商跟踪、分析与优化 token 消耗…… | Agent Dashboard: Visualization and analytics for Sessions and Quota Usage. Track, analyze, | 54 | Python | yes |
 | [ZSeven-W/dsh-noema](https://github.com/ZSeven-W/dsh-noema) | DSH 的 Noema 长期记忆插件：持久、可检视的智能体记忆，带回忆工具与设置页。 | Noema long-term memory plugin for DSH: durable, inspectable agent memory with recall tools | 52 | TypeScript | yes |
 | [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) | DeepSeek Harness 的上下文洞察面板插件——在 Web 界面新增 Context 标签页，展示模型上下文窗口由哪些内容构成…… | A DeepSeek Harness plugin for  Context insight dashboard — showing what the model's contex | 42 | TypeScript | yes |
+| [modusensus/dsh-mneme](https://github.com/modusensus/dsh-mneme) | DeepSeek Harness 自进化记忆引擎。记忆像人脑一样按幂律随时间衰减（偏好永不衰减、项目慢冷、闲聊冷得快），autoDream 自我巩固 + 睡眠深度维护、实体-属性- | Self-evolving memory for DeepSeek Harness: memories decay like a brain (power-law half-liv | 39 | JavaScript | yes |
 | [Nwflower/dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) | 从 Claude Code/Codex/Reasonix 导入历史消息到 DSH。 | Import chat history from Claude Code/Codex/Reasonix into DSH. | 35 | JavaScript | yes |
 | [Han-1413141/dsh-cost-meter](https://github.com/Han-1413141/dsh-cost-meter) | DeepSeek Harness 会话费用统计插件:本会话费用、当日费用、历史记录与官方价格同步 | dsh-cost-meter — DSH plugin (session) | 32 | JavaScript | yes |
 | [whyihaveyou/dsh-suite](https://github.com/whyihaveyou/dsh-suite) | 把 append-only 会话日志导出成人读的 Markdown / HTML，按来源分组渲染（系统提示 / 思维链 / 工具调用 / 子agent）。 | Export the append-only session log as human-readable Markdown / HTML, grouped by trajector | 30 | HTML | yes |
@@ -1418,7 +1419,6 @@
 | [cpj-dev/dsh-plugin-cc](https://github.com/cpj-dev/dsh-plugin-cc) | 将 DeepSeek Harness 接入 Claude Code，用于审查、点评、委派与会话导入。 | Bridge Deepseek-harness into Claude Code for review, critique, delegation, and session imp | 21 | JavaScript | yes |
 | [hellodigua/dsh-share](https://github.com/hellodigua/dsh-share) | DSH 对话分享插件 | DSH conversation sharing plugin | 19 | JavaScript | yes |
 | [feiyang-dev/dsh-usage-plugin](https://github.com/feiyang-dev/dsh-usage-plugin) | DeepSeek Harness 用量与消耗插件（dsh-usage）—— 每次调用的 token 用量/缓存命中统计、峰谷计费、余额查询、CSV/JSON/PNG 导出，可经桌面 | A DeepSeek Harness usage and consumption plugin (dsh-usage) — per-call token usage / cache | 15 | JavaScript | yes |
-| [modusensus/dsh-mneme](https://github.com/modusensus/dsh-mneme) | DeepSeek Harness 结构化记忆引擎。SQLite 存储 + 可人工编辑的 Markdown 镜像、autoDream 自我巩固、实体-属性-时间轴、离线语义搜索、系统 | Structured memory engine for DeepSeek Harness: SQLite + human-editable Markdown mirror, au | 14 | JavaScript | yes |
 | [Ghost011118/dsh-balance-meter](https://github.com/Ghost011118/dsh-balance-meter) | dsh-balance-meter — DSH 插件（会话） | DeepSeek account balance and session cost readout for the DeepSeek Harness Web GUI | 14 | JavaScript | yes |
 | [Tyan66666/billion-context-dsh](https://github.com/Tyan66666/billion-context-dsh) | billion-context-dsh — DSH 插件（会话） | Model-driven context management (Active Context Pruning / ACP) for the DeepSeek Harness —  | 13 | TypeScript | yes |
 | [feibi-mochi/deepseek-harness-wallet](https://github.com/feibi-mochi/deepseek-harness-wallet) | Balance monitoring, per-session spend & token tracking, low-balance alerts, and an officia | Balance monitoring, per-session spend and token tracking, low-balance alerts, and an offic | 13 | JavaScript | yes |
