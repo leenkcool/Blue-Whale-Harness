@@ -1839,3 +1839,4 @@ scwlkq/deepseek-harness
 tmpdot/dsh-checkpoint-diff
 ravenli059/dsh-login
 ravenli059/dsh-android-agent
+GDWhisper/dsh-web-startup-auth
