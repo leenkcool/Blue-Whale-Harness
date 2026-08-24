@@ -1839,3 +1839,15 @@ scwlkq/deepseek-harness
 tmpdot/dsh-checkpoint-diff
 ravenli059/dsh-login
 ravenli059/dsh-android-agent
+zouyuxuan122/Deepseek-Harness-EAC
+dsh-tauri-desk/deepseek-harness-desktop
+MeteorNOX/DeepSeek-Balance-Whale-Widget
+xmanrui/dsh-im
+vibeinging/dsh-desktop
+shaobeichen/dsh-pocket
+myYangyunfan/dsh_desktop
+fufankeji/deepseek-harness-studio
+yjh051108/dsh-router-standard
+Devin-AXIS/deepseek-design
+ZSeven-W/dsh-ios
+howmp/dsh-pentest

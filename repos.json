@@ -29964,5 +29964,197 @@
   "_lists": [
    "plugin"
   ]
+ },
+ {
+  "repo": "zouyuxuan122/Deepseek-Harness-EAC",
+  "name": "Deepseek-Harness-EAC",
+  "category": "utility",
+  "language": "JavaScript",
+  "license": "none",
+  "stars": 1209,
+  "compat": "unknown",
+  "desc_en": "Bundled-runtime DSH desktop client with one-click startup and 10 UI themes (EAC)",
+  "desc_zh": "DeepSeek Harness 的 Windows/Linux 桌面端「揽尽万象 EAC」：内置 Node 运行时与完整 dsh CLI 内核，一键启动，内置 10 套 UI 主题。",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
+ },
+ {
+  "repo": "dsh-tauri-desk/deepseek-harness-desktop",
+  "name": "deepseek-harness-desktop",
+  "category": "utility",
+  "language": "Rust",
+  "license": "MIT",
+  "stars": 1017,
+  "compat": "unknown",
+  "desc_en": "Tauri desktop wrapper for dsh: tiny installer, zero env setup, cross-platform",
+  "desc_zh": "基于 Tauri 的 DeepSeek Harness 桌面版：安装包仅约 5MB，零环境配置（自动装配 Node 内核），预置常用插件，支持 Windows / macOS / Linux。",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
+ },
+ {
+  "repo": "MeteorNOX/DeepSeek-Balance-Whale-Widget",
+  "name": "DeepSeek-Balance-Whale-Widget",
+  "category": "ui",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 748,
+  "compat": "unknown",
+  "desc_en": "Whale balance/usage widget pinned inside the DSH Web UI",
+  "desc_zh": "住在 DSH Web 界面右下角的小鲸鱼娘余额挂件：显示 DeepSeek API 余额、今日已用与每轮对话消耗，支持数字滚动动画与拖拽吸附，随界面自动启用；标准 DSH 插件，可用 dsh plugin 安装。",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
+ },
+ {
+  "repo": "xmanrui/dsh-im",
+  "name": "dsh-im",
+  "category": "tools",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 705,
+  "compat": "unknown",
+  "desc_en": "One plugin, nine IM channels: bring bots into DeepSeek Harness",
+  "desc_zh": "通过扫码、App Manifest 或机器人凭据把 IM 机器人接入 DeepSeek Harness：一个插件统一管理飞书、微信、钉钉、企业微信、QQ、Slack、Telegram、Discord、WhatsApp 九种渠道与 AI Office 连接器，每个渠道可接入多个机器人。",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
+ },
+ {
+  "repo": "vibeinging/dsh-desktop",
+  "name": "dsh-desktop",
+  "category": "utility",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 625,
+  "compat": "unknown",
+  "desc_en": "Electron desktop workbench wrapping official DSH Web with bundles & worktrees",
+  "desc_zh": "以官方 DSH Web 为核心的插件化桌面工作台：精选社区 Bundle、离线 Profile、Git Worktree、文件附件与受控原生能力，组合在一个 Electron 应用中。",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
+ },
+ {
+  "repo": "shaobeichen/dsh-pocket",
+  "name": "dsh-pocket",
+  "category": "tools",
+  "language": "JavaScript",
+  "license": "GPL-2.0",
+  "stars": 552,
+  "compat": "unknown",
+  "desc_en": "QR-code remote access to your local dsh web from a phone",
+  "desc_zh": "把 DeepSeek Harness 装进口袋：电脑上跑 dsh web，手机扫码即同步访问同一界面，支持局域网与公网穿透、实时同屏。",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
+ },
+ {
+  "repo": "myYangyunfan/dsh_desktop",
+  "name": "dsh_desktop",
+  "category": "utility",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 548,
+  "compat": "unknown",
+  "desc_en": "Windows/macOS client bundling full dsh runtime, now Tauri 2 based",
+  "desc_zh": "开箱即用的 DeepSeek Harness Windows/macOS 桌面客户端：内置完整 dsh 运行时与全部官方插件，免装 Node.js；v0.5.0 迁移至 Tauri 2，「守护瀑布」让坏插件/坏配置不再白屏。",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
+ },
+ {
+  "repo": "fufankeji/deepseek-harness-studio",
+  "name": "deepseek-harness-studio",
+  "category": "utility",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 483,
+  "compat": "unknown",
+  "desc_en": "Zero-code desktop studio: plugin market, presets and visual enhancements",
+  "desc_zh": "赋范空间出品的 DeepSeek Harness 零代码桌面增强：视觉增强、本地模型、插件市场一键安装与管理、Preset 广场与 AI 智能推荐。",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
+ },
+ {
+  "repo": "yjh051108/dsh-router-standard",
+  "name": "dsh-router-standard",
+  "category": "orchestration",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 370,
+  "compat": "unknown",
+  "desc_en": "Routes tasks across spec/mixed/react reasoning bands with injected personas",
+  "desc_zh": "面向 DeepSeek Harness 的任务感知推理模式路由器：spec/mixed/react 三档行为带，人格注入 + 首轮工具注入，对 Agent 可见的调节参数。",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
+ },
+ {
+  "repo": "Devin-AXIS/deepseek-design",
+  "name": "deepseek-design",
+  "category": "ui",
+  "language": "JavaScript",
+  "license": "unknown",
+  "stars": 369,
+  "compat": "unknown",
+  "desc_en": "Generate and visually edit real design artifacts and PPT inside dsh",
+  "desc_zh": "DeepSeek Harness 可编辑设计系统：AI 生成、可视化持续编辑设计作品，附模板市场与 PPT 输出（npm 包 deepseek-idesign / ippt / ivideo）。",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
+ },
+ {
+  "repo": "ZSeven-W/dsh-ios",
+  "name": "dsh-ios",
+  "category": "tools",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 227,
+  "compat": "unknown",
+  "desc_en": "Live iOS Simulator + USB iPhone control as a DSH plugin (22 tools)",
+  "desc_zh": "把实时 iOS 模拟器（以及 USB 连接的真机 iPhone）搬进 DSH 对话：22 个 Agent 工具负责启动、构建、按无障碍标识/OCR/列表行驱动 UI，侧边栏提供可点按拖拽的 MJPEG 实时画面。",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
+ },
+ {
+  "repo": "howmp/dsh-pentest",
+  "name": "dsh-pentest",
+  "category": "tools",
+  "language": "JavaScript",
+  "license": "none",
+  "stars": 224,
+  "compat": "unknown",
+  "desc_en": "Authorized-pentest mode for dsh with chain/vuln/asset views",
+  "desc_zh": "面向 DeepSeek Harness 的渗透测试模式（限授权场景）：记录目标、探索线索、验证结果、资产与漏洞，Web 端提供探索链路/漏洞/资产视图；自包含 bundle，可通过 dsh plugin add 安装。",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
  }
 ]

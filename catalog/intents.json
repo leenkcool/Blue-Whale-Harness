@@ -90402,5 +90402,518 @@
   "compat": "unknown",
   "featured": false,
   "analyzed_at": "2026-08-23T07:30:51.091Z"
+ },
+ "zouyuxuan122/Deepseek-Harness-EAC": {
+  "repo": "zouyuxuan122/Deepseek-Harness-EAC",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "utility",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "JavaScript",
+  "intent": "Windows/Linux desktop client for DeepSeek Harness (EAC = Embracing All Creation): bundled Node.js runtime with the full dsh CLI kernel, one-click startup and 10 built-in UI themes.",
+  "intentEn": "Windows/Linux desktop client for DeepSeek Harness (EAC = Embracing All Creation): bundled Node.js runtime with the full dsh CLI kernel, one-click startup and 10 built-in UI themes.",
+  "intentZh": "DeepSeek Harness 的 Windows/Linux 桌面端「揽尽万象 EAC」：内置 Node 运行时与完整 dsh CLI 内核，一键启动，内置 10 套 UI 主题。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "Electron"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 1209,
+  "forks": 42,
+  "created_at": "2026-08-14T16:29:54Z",
+  "updated_at": "2026-08-24T04:18:56.152Z",
+  "license": "none",
+  "open_issues": 14,
+  "topics": [
+   "deepseek-harness",
+   "dsh-plugins",
+   "desktop-app",
+   "electron",
+   "tauri",
+   "windows"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T04:18:56.152Z"
+ },
+ "dsh-tauri-desk/deepseek-harness-desktop": {
+  "repo": "dsh-tauri-desk/deepseek-harness-desktop",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "utility",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "dsh-plugin-topic",
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "Rust",
+  "intent": "Tauri-based DeepSeek Harness desktop app: ~5MB installer, zero environment setup (auto-provisioned Node runtime), preset plugins; Windows / macOS / Linux.",
+  "intentEn": "Tauri-based DeepSeek Harness desktop app: ~5MB installer, zero environment setup (auto-provisioned Node runtime), preset plugins; Windows / macOS / Linux.",
+  "intentZh": "基于 Tauri 的 DeepSeek Harness 桌面版：安装包仅约 5MB，零环境配置（自动装配 Node 内核），预置常用插件，支持 Windows / macOS / Linux。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "Rust",
+   "Tauri"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 1017,
+  "forks": 60,
+  "created_at": "2026-08-14T02:36:29Z",
+  "updated_at": "2026-08-24T04:18:56.152Z",
+  "license": "MIT",
+  "open_issues": 8,
+  "topics": [
+   "deepseek-harness",
+   "dsh-plugin",
+   "desktop",
+   "tauri"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T04:18:56.152Z"
+ },
+ "MeteorNOX/DeepSeek-Balance-Whale-Widget": {
+  "repo": "MeteorNOX/DeepSeek-Balance-Whale-Widget",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "ui",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "dsh-plugin-topic",
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "JavaScript",
+  "intent": "A whale-girl widget living in the bottom-right corner of the DSH Web UI: DeepSeek API balance, daily usage and per-turn cost stats with rolling-number animations, drag-to-dock and auto-enable; standard DSH plugin installable via `dsh plugin`.",
+  "intentEn": "A whale-girl widget living in the bottom-right corner of the DSH Web UI: DeepSeek API balance, daily usage and per-turn cost stats with rolling-number animations, drag-to-dock and auto-enable; standard DSH plugin installable via `dsh plugin`.",
+  "intentZh": "住在 DSH Web 界面右下角的小鲸鱼娘余额挂件：显示 DeepSeek API 余额、今日已用与每轮对话消耗，支持数字滚动动画与拖拽吸附，随界面自动启用；标准 DSH 插件，可用 dsh plugin 安装。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 748,
+  "forks": 31,
+  "created_at": "2026-08-18T03:13:51Z",
+  "updated_at": "2026-08-24T04:18:56.152Z",
+  "license": "MIT",
+  "open_issues": 16,
+  "topics": [
+   "dsh-plugin",
+   "deepseek-harness",
+   "floating-widget",
+   "plugin",
+   "cordis"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T04:18:56.152Z"
+ },
+ "xmanrui/dsh-im": {
+  "repo": "xmanrui/dsh-im",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "dsh-plugin-topic",
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "JavaScript",
+  "intent": "Connect IM bots to DeepSeek Harness via QR code, App Manifest or bot credentials: one plugin managing 9 channels (Feishu, WeChat, DingTalk, WeCom, QQ, Slack, Telegram, Discord, WhatsApp) plus an AI Office connector, with multiple independent bots per channel.",
+  "intentEn": "Connect IM bots to DeepSeek Harness via QR code, App Manifest or bot credentials: one plugin managing 9 channels (Feishu, WeChat, DingTalk, WeCom, QQ, Slack, Telegram, Discord, WhatsApp) plus an AI Office connector, with multiple independent bots per channel.",
+  "intentZh": "通过扫码、App Manifest 或机器人凭据把 IM 机器人接入 DeepSeek Harness：一个插件统一管理飞书、微信、钉钉、企业微信、QQ、Slack、Telegram、Discord、WhatsApp 九种渠道与 AI Office 连接器，每个渠道可接入多个机器人。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 705,
+  "forks": 75,
+  "created_at": "2026-08-14T20:40:06Z",
+  "updated_at": "2026-08-24T04:18:56.152Z",
+  "license": "MIT",
+  "open_issues": 7,
+  "topics": [
+   "dsh-plugin",
+   "deepseek-harness",
+   "im-bot",
+   "telegram-bot",
+   "wechat-bot",
+   "feishu-bot"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T04:18:56.152Z"
+ },
+ "vibeinging/dsh-desktop": {
+  "repo": "vibeinging/dsh-desktop",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "utility",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "JavaScript",
+  "intent": "Pluginized desktop workbench around the official DSH Web: curated community bundles, offline profiles, Git worktree, file attachments and controlled native capabilities in one Electron app.",
+  "intentEn": "Pluginized desktop workbench around the official DSH Web: curated community bundles, offline profiles, Git worktree, file attachments and controlled native capabilities in one Electron app.",
+  "intentZh": "以官方 DSH Web 为核心的插件化桌面工作台：精选社区 Bundle、离线 Profile、Git Worktree、文件附件与受控原生能力，组合在一个 Electron 应用中。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "Electron",
+   "React"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 625,
+  "forks": 35,
+  "created_at": "2026-08-13T10:41:33Z",
+  "updated_at": "2026-08-24T04:18:56.152Z",
+  "license": "MIT",
+  "open_issues": 4,
+  "topics": [
+   "deepseek-harness",
+   "dsh-plugin",
+   "desktop-app",
+   "electron",
+   "local-first"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T04:18:56.152Z"
+ },
+ "shaobeichen/dsh-pocket": {
+  "repo": "shaobeichen/dsh-pocket",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "dsh-plugin-topic",
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "JavaScript",
+  "intent": "Put DeepSeek Harness in your pocket: run dsh web on your computer and mirror it to your phone by scanning a QR code — LAN and public-network tunneling with real-time screen sync.",
+  "intentEn": "Put DeepSeek Harness in your pocket: run dsh web on your computer and mirror it to your phone by scanning a QR code — LAN and public-network tunneling with real-time screen sync.",
+  "intentZh": "把 DeepSeek Harness 装进口袋：电脑上跑 dsh web，手机扫码即同步访问同一界面，支持局域网与公网穿透、实时同屏。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 552,
+  "forks": 32,
+  "created_at": "2026-08-15T09:36:29Z",
+  "updated_at": "2026-08-24T04:18:56.152Z",
+  "license": "GPL-2.0",
+  "open_issues": 10,
+  "topics": [
+   "dsh-plugin",
+   "deepseek-harness",
+   "mobile",
+   "qr",
+   "remote",
+   "tunnel"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T04:18:56.152Z"
+ },
+ "myYangyunfan/dsh_desktop": {
+  "repo": "myYangyunfan/dsh_desktop",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "utility",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "JavaScript",
+  "intent": "Out-of-the-box DeepSeek Harness desktop client for Windows/macOS: bundled dsh runtime with all official plugins, no Node.js required; v0.5.0 migrated to Tauri 2 with a guard cascade so broken plugins/configs never blank-screen.",
+  "intentEn": "Out-of-the-box DeepSeek Harness desktop client for Windows/macOS: bundled dsh runtime with all official plugins, no Node.js required; v0.5.0 migrated to Tauri 2 with a guard cascade so broken plugins/configs never blank-screen.",
+  "intentZh": "开箱即用的 DeepSeek Harness Windows/macOS 桌面客户端：内置完整 dsh 运行时与全部官方插件，免装 Node.js；v0.5.0 迁移至 Tauri 2，「守护瀑布」让坏插件/坏配置不再白屏。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "Tauri",
+   "Electron"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 548,
+  "forks": 27,
+  "created_at": "2026-08-13T16:00:16Z",
+  "updated_at": "2026-08-24T04:18:56.152Z",
+  "license": "MIT",
+  "open_issues": 11,
+  "topics": [
+   "dsh",
+   "desktop-app",
+   "electron",
+   "ai-agent"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T04:18:56.152Z"
+ },
+ "fufankeji/deepseek-harness-studio": {
+  "repo": "fufankeji/deepseek-harness-studio",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "utility",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "TypeScript",
+  "intent": "Zero-code desktop companion for DeepSeek Harness by Fufan Space: visual enhancements, local model support, plugin marketplace with one-click install & management, Preset square and AI recommendations.",
+  "intentEn": "Zero-code desktop companion for DeepSeek Harness by Fufan Space: visual enhancements, local model support, plugin marketplace with one-click install & management, Preset square and AI recommendations.",
+  "intentZh": "赋范空间出品的 DeepSeek Harness 零代码桌面增强：视觉增强、本地模型、插件市场一键安装与管理、Preset 广场与 AI 智能推荐。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "Electron"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 483,
+  "forks": 48,
+  "created_at": "2026-08-15T03:00:06Z",
+  "updated_at": "2026-08-24T04:18:56.152Z",
+  "license": "MIT",
+  "open_issues": 2,
+  "topics": [
+   "deepseek-harness",
+   "dsh-plugin",
+   "desktop-app",
+   "plugin-manager"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T04:18:56.152Z"
+ },
+ "yjh051108/dsh-router-standard": {
+  "repo": "yjh051108/dsh-router-standard",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "orchestration",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "dsh-plugin-topic",
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "JavaScript",
+  "intent": "Task-aware reasoning-mode router for DeepSeek Harness: three measured behavior bands (spec/mixed/react), persona plus first-turn tool injection, and agent-visible tuning knobs.",
+  "intentEn": "Task-aware reasoning-mode router for DeepSeek Harness: three measured behavior bands (spec/mixed/react), persona plus first-turn tool injection, and agent-visible tuning knobs.",
+  "intentZh": "面向 DeepSeek Harness 的任务感知推理模式路由器：spec/mixed/react 三档行为带，人格注入 + 首轮工具注入，对 Agent 可见的调节参数。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 370,
+  "forks": 33,
+  "created_at": "2026-08-14T18:14:16Z",
+  "updated_at": "2026-08-24T04:18:56.152Z",
+  "license": "MIT",
+  "open_issues": 43,
+  "topics": [
+   "dsh-plugin",
+   "deepseek-harness",
+   "cordis",
+   "ai-agents"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T04:18:56.152Z"
+ },
+ "Devin-AXIS/deepseek-design": {
+  "repo": "Devin-AXIS/deepseek-design",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "ui",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "dsh-plugin-topic",
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "JavaScript",
+  "intent": "Editable design system for DeepSeek Harness: AI-generated, visually editable design artifacts with template marketplace and PPT output (npm: deepseek-idesign / deepseek-ippt / deepseek-ivideo).",
+  "intentEn": "Editable design system for DeepSeek Harness: AI-generated, visually editable design artifacts with template marketplace and PPT output (npm: deepseek-idesign / deepseek-ippt / deepseek-ivideo).",
+  "intentZh": "DeepSeek Harness 可编辑设计系统：AI 生成、可视化持续编辑设计作品，附模板市场与 PPT 输出（npm 包 deepseek-idesign / ippt / ivideo）。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 369,
+  "forks": 109,
+  "created_at": "2026-08-15T13:08:53Z",
+  "updated_at": "2026-08-24T04:18:56.152Z",
+  "license": "unknown",
+  "open_issues": 2,
+  "topics": [
+   "dsh-plugin",
+   "deepseek-harness",
+   "design-studio",
+   "ppt",
+   "visual-editor"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T04:18:56.152Z"
+ },
+ "ZSeven-W/dsh-ios": {
+  "repo": "ZSeven-W/dsh-ios",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "dsh-plugin-topic",
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "DSH plugin putting a live iOS Simulator — and a USB-connected iPhone — inside the conversation: 22 agent tools for booting, building and driving the UI by accessibility identity, OCR or list rows, plus a tappable MJPEG sidebar panel.",
+  "intentEn": "DSH plugin putting a live iOS Simulator — and a USB-connected iPhone — inside the conversation: 22 agent tools for booting, building and driving the UI by accessibility identity, OCR or list rows, plus a tappable MJPEG sidebar panel.",
+  "intentZh": "把实时 iOS 模拟器（以及 USB 连接的真机 iPhone）搬进 DSH 对话：22 个 Agent 工具负责启动、构建、按无障碍标识/OCR/列表行驱动 UI，侧边栏提供可点按拖拽的 MJPEG 实时画面。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 227,
+  "forks": 22,
+  "created_at": "2026-08-19T18:02:50Z",
+  "updated_at": "2026-08-24T04:18:56.152Z",
+  "license": "MIT",
+  "open_issues": 1,
+  "topics": [
+   "dsh-plugin",
+   "deepseek-harness",
+   "ios-simulator",
+   "iphone",
+   "ui-automation"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T04:18:56.152Z"
+ },
+ "howmp/dsh-pentest": {
+  "repo": "howmp/dsh-pentest",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "dsh-plugin-topic",
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "JavaScript",
+  "intent": "Penetration-testing mode for DeepSeek Harness (authorized use only): record targets, explore leads and validate findings, assets and vulnerabilities, with exploration-chain / vulnerability / asset views in the Web UI; self-contained bundle installable via `dsh plugin add`.",
+  "intentEn": "Penetration-testing mode for DeepSeek Harness (authorized use only): record targets, explore leads and validate findings, assets and vulnerabilities, with exploration-chain / vulnerability / asset views in the Web UI; self-contained bundle installable via `dsh plugin add`.",
+  "intentZh": "面向 DeepSeek Harness 的渗透测试模式（限授权场景）：记录目标、探索线索、验证结果、资产与漏洞，Web 端提供探索链路/漏洞/资产视图；自包含 bundle，可通过 dsh plugin add 安装。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "sqlite"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 224,
+  "forks": 26,
+  "created_at": "2026-08-15T14:30:35Z",
+  "updated_at": "2026-08-24T04:18:56.152Z",
+  "license": "none",
+  "open_issues": 0,
+  "topics": [
+   "dsh-plugin",
+   "dsh-plugins",
+   "deepseek-harness",
+   "pentest"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T04:18:56.152Z"
  }
 }
