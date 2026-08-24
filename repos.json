@@ -29964,5 +29964,21 @@
   "_lists": [
    "plugin"
   ]
+ },
+ {
+  "repo": "LouisHaoL/dsh-timer-agent",
+  "name": "dsh-timer-agent",
+  "category": "tools",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 3,
+  "compat": "unknown",
+  "desc_en": "Host-resident cron engine for DeepSeek Harness (hermes-agent cron inspired): 60s ticker fires real agent sessions; pinned-session / project-workdir / default-workspace targeting; timer_agent model tool + web board",
+  "desc_zh": "DSH 常驻定时任务引擎(参考 hermes-agent cron):60 秒 ticker 按 cron 触发真实 agent 会话;支持钉住会话/项目 workdir/默认空间;timer_agent 模型工具 + Web 面板",
+  "sourceNote": "PR",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
  }
 ]
