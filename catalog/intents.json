@@ -1,4 +1,26 @@
 {
+ "youqishan/dsh-skin-3bridge": {
+  "repo": "youqishan/dsh-skin-3bridge",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "skin",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "@deepseek-ai/cordis",
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "JavaScript",
+  "intent": "A DSH skin editor that allows users to freely upload their favorite character illustrations and backgrounds",
+  "intentEn": "A DSH skin editor that allows users to freely upload their favorite character illustrations and backgrounds",
+  "intentZh": "一款DSH皮肤编辑器，支持用户自由上传自己喜欢的立绘与背景",
+  "zhSource": "native",
+  "enSource": "native",
+  "compat": "unknown",
+  "featured": false
+ },
  "openma-ai/open-managed-agents": {
   "repo": "openma-ai/open-managed-agents",
   "lists": [
