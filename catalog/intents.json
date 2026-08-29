@@ -95566,5 +95566,91 @@
   "compat": "unknown",
   "featured": false,
   "analyzed_at": "2026-08-28T12:39:26.087Z"
+ },
+ "timedomain1/dsh-mermaid-renderer": {
+  "repo": "timedomain1/dsh-mermaid-renderer",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "ui",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "@deepseek-ai/cordis",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "JavaScript",
+  "intent": "A DeepSeek Harness Web plugin that automatically renders Mermaid code blocks as interactive diagrams, with multiple Mermaid diagram types, repeatable zoom, fullscreen viewing, pan controls, diagram/code switching, and source copying.",
+  "intentEn": "A DeepSeek Harness Web plugin that automatically renders Mermaid code blocks as interactive diagrams, with multiple Mermaid diagram types, repeatable zoom, fullscreen viewing, pan controls, diagram/code switching, and source copying.",
+  "intentZh": "DeepSeek Harness Web 插件，自动将聊天中的 Mermaid 代码块渲染为图表，支持多种 Mermaid 图型、连续缩放、全屏查看、拖拽平移、图表/源码切换与一键复制源码。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "mermaid",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 1,
+  "forks": 0,
+  "created_at": "2026-08-20T09:35:58Z",
+  "updated_at": "2026-08-21T12:09:54Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "cordis",
+   "deepseek-harness",
+   "dsh",
+   "dsh-plugin",
+   "mermaid",
+   "plugin"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-29T05:08:53.039Z"
+ },
+ "Shizuku-keop/dsh-launch-doctor": {
+  "repo": "Shizuku-keop/dsh-launch-doctor",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": false,
+  "dshSignals": [
+   "readme-mentions-dsh",
+   "cli-integration",
+   "keyword-dsh"
+  ],
+  "manifestType": "none",
+  "language": "JavaScript",
+  "intent": "Zero-dependency dsh web launch diagnostics CLI: five checks (Node version range flags 24.0-24.11.1 launch-failure family, loader resolveSync shape probe via --expose-internals child, __DSH_BOOT__ entries integrity, preload links + client-modules bootstrap script, /plugins route 200). Auth token auto-discovery from ~/.dsh/web-<port>.log. 21 node:test green; verified on Node 24.11.1 (broken) and 24.19.0 (healthy). Companion to deepseek-harness discussion #4968.",
+  "intentEn": "Zero-dependency dsh web launch diagnostics CLI: five checks (Node version range flags 24.0-24.11.1 launch-failure family, loader resolveSync shape probe via --expose-internals child, __DSH_BOOT__ entries integrity, preload links + client-modules bootstrap script, /plugins route 200). Auth token auto-discovery from ~/.dsh/web-<port>.log. 21 node:test green; verified on Node 24.11.1 (broken) and 24.19.0 (healthy). Companion to deepseek-harness discussion #4968.",
+  "intentZh": "零依赖 dsh web 启动诊断 CLI：五项检查（Node 版本区间——标记 24.0-24.11.1 启动失败族；loader resolveSync 形状探测——--expose-internals 子进程；__DSH_BOOT__ entries 完整性；preload 链接 + client-modules 引导脚本；/plugins 路由 200）。token 从 ~/.dsh/web-<port>.log 自动发现。21 项 node:test 全绿；在 Node 24.11.1（坏）与 24.19.0（好）真机验证。配套 deepseek-ai/deepseek-harness 讨论 #4968（Node 24 启动失败修复提案）。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "node:test",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 1,
+  "forks": 0,
+  "created_at": "2026-08-29T01:40:29Z",
+  "updated_at": "2026-08-29T01:41:05Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-29T05:08:53.039Z"
  }
 }

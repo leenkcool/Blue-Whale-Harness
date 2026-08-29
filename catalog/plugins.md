@@ -1,6 +1,6 @@
 # Blue-Whale-Harness · DSH 插件总表（中英双语意图）
 
-> 自动生成于 2026-08-28 ｜ 共 **1955** 个仓库 ｜ 真·DSH 插件 **1818** 个 ｜ 已克隆 **1780** 个 ｜ 源码总体积 **6119.6MB**（不含 .git）
+> 自动生成于 2026-08-29 ｜ 共 **1957** 个仓库 ｜ 真·DSH 插件 **1819** 个 ｜ 已克隆 **1780** 个 ｜ 源码总体积 **6119.6MB**（不含 .git）
 
 | 仓库 | 意图(中文) | Intent(English) | 分类 | 真DSH | 语言 | STAR | FORK | 大小 | 创建 | 更新 | License | 兼容 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -1886,6 +1886,8 @@
 | [LOrz-3/pocket-dsh](https://github.com/LOrz-3/pocket-dsh) | 让 DeepSeek Harness 获得一个 QQ 身份：通过手机 QQ 私聊遥控、接收文件、推送回复与日报到 QQ 邮箱，作为外部通道把 dsh 接进腾讯 IM 和邮箱等生态。 | Give DeepSeek Harness a QQ identity: remotely control it from mobile QQ, receive files, an | utility | yes | JavaScript | 1 | 0 |  | 2026-08-14 | 2026-08-15 | MIT | unknown |
 | [wannanbigpig/dsh-usage-stats](https://github.com/wannanbigpig/dsh-usage-stats) | DeepSeek Harness web 用量与计费插件：官方余额、Token 用量、贡献热图与按小时计费统计。 | Balance, token usage, contribution heatmap & per-hour cost stats for dsh web. | tools | yes | JavaScript | 1 | 0 |  | 2026-08-19 | 2026-08-27 | MIT | unknown |
 | [Shizuku-keop/dsh-plugin-console](https://github.com/Shizuku-keop/dsh-plugin-console) | Cordis 插件期望状态对账器：解决「重启后插件不加载」。plugins.intent.json 声明期望插件集合（放 profile 外），dsh-plugin-sync CL | Cordis plugin desired-state reconciler: fixes plugins that silently fail to load after res | tools | yes | JavaScript | 1 | 0 |  | 2026-08-28 | 2026-08-28 | MIT | unknown |
+| [timedomain1/dsh-mermaid-renderer](https://github.com/timedomain1/dsh-mermaid-renderer) | DeepSeek Harness Web 插件，自动将聊天中的 Mermaid 代码块渲染为图表，支持多种 Mermaid 图型、连续缩放、全屏查看、拖拽平移、图表/源码切换与一键 | A DeepSeek Harness Web plugin that automatically renders Mermaid code blocks as interactiv | ui | yes | JavaScript | 1 | 0 |  | 2026-08-20 | 2026-08-21 | MIT | unknown |
+| [Shizuku-keop/dsh-launch-doctor](https://github.com/Shizuku-keop/dsh-launch-doctor) | 零依赖 dsh web 启动诊断 CLI：五项检查（Node 版本区间——标记 24.0-24.11.1 启动失败族；loader resolveSync 形状探测——--expo | Zero-dependency dsh web launch diagnostics CLI: five checks (Node version range flags 24.0 | tools | no | JavaScript | 1 | 0 |  | 2026-08-29 | 2026-08-29 | MIT | unknown |
 | [AtomicsLaboratory/atomstudio](https://github.com/AtomicsLaboratory/atomstudio) | 可执行文档工程环境 | Document engineering environment for executable documents | tools | no | JavaScript | 0 | 0 | 25.3MB | 2026-08-02 | 2026-08-04 | MIT | unknown |
 | [omdsh-dev/Qwen-MM-Plugins](https://github.com/omdsh-dev/Qwen-MM-Plugins) | Qwen-MM-Plugins 支持 | Qwen-MM-Plugins support | tools | yes | TypeScript | 0 | 0 | 207KB | 2026-08-05 | 2026-08-14 | unknown | unknown |
 | [TongDucThanhNam/eragear-code-copilot](https://github.com/TongDucThanhNam/eragear-code-copilot) | 空壳仓库（无描述） | Empty shell repo (no description) | orchestration | no | TypeScript | 0 | 0 | 12.3MB | 2026-01-27 | 2026-08-11 | unknown | unknown |

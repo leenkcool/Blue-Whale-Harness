@@ -4,15 +4,15 @@
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
 
-> 自动生成于 2026-08-28 ｜ 共 **1955** 个仓库 ｜ 真·DSH 插件 **1818** 个 | QQ Group:839509497 |Tg Group: [http://t.me/deepseekdsh](http://t.me/deepseekdsh)
+> 自动生成于 2026-08-29 ｜ 共 **1957** 个仓库 ｜ 真·DSH 插件 **1819** 个 | QQ Group:839509497 |Tg Group: [http://t.me/deepseekdsh](http://t.me/deepseekdsh)
 
 
 ![频道](https://leenkcool.github.io/pindaoh.png)
 
 ## 统计
 
-- 仓库总数：**1955**
-- 真·DSH 插件：**1818**
+- 仓库总数：**1957**
+- 真·DSH 插件：**1819**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
 ## 分类索引
@@ -21,9 +21,9 @@
 - **utility** — 375 个仓库，★66624
 - **session** — 236 个仓库，★27296
 - **skills** — 53 个仓库，★25583
-- **tools** — 621 个仓库，★22839
+- **tools** — 622 个仓库，★22840
 - **orchestration** — 201 个仓库，★19489
-- **ui** — 208 个仓库，★15330
+- **ui** — 209 个仓库，★15331
 - **uncategorized** — 1 个仓库，★3779
 - **acp** — 66 个仓库，★756
 - **memory** — 6 个仓库，★131
@@ -885,7 +885,7 @@
 | [kuailexiaozixin/tkinter-desktop](https://github.com/kuailexiaozixin/tkinter-desktop) | Tkinter/ttk 原生桌面应用全生命周期技能（MVC + pygubu .ui + SQLite + PyInstaller） | A full-lifecycle skill for native Tkinter/ttk desktop apps (MVC + pygubu .ui + SQLite + Py | 0 | Python | no |
 | [kuailexiaozixin/fasthtml-desktop](https://github.com/kuailexiaozixin/fasthtml-desktop) | FastHTML + pywebview 桌面应用全生命周期技能（本地 HTTP + WebView2 + PyInstaller） | A full-lifecycle skill for FastHTML + pywebview desktop apps (local HTTP + WebView2 + PyIn | 0 | Python | no |
 
-### tools（621）
+### tools（622）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1483,6 +1483,7 @@
 | [jetheaven/dsh-code-reviewer](https://github.com/jetheaven/dsh-code-reviewer) | AI 代码审查插件：粘贴代码即可获得四维分级审查——致命（安全漏洞/崩溃隐患）、重要（逻辑错误/性能瓶颈）、建议（风格/可维护性）、亮点；每个问题标注行号与代码片段并给出修复示例， | AI code review plugin for DSH: paste code to get a four-tier review — Critical (security/c | 1 | TypeScript | yes |
 | [wannanbigpig/dsh-usage-stats](https://github.com/wannanbigpig/dsh-usage-stats) | DeepSeek Harness web 用量与计费插件：官方余额、Token 用量、贡献热图与按小时计费统计。 | Balance, token usage, contribution heatmap & per-hour cost stats for dsh web. | 1 | JavaScript | yes |
 | [Shizuku-keop/dsh-plugin-console](https://github.com/Shizuku-keop/dsh-plugin-console) | Cordis 插件期望状态对账器：解决「重启后插件不加载」。plugins.intent.json 声明期望插件集合（放 profile 外），dsh-plugin-sync CL | Cordis plugin desired-state reconciler: fixes plugins that silently fail to load after res | 1 | JavaScript | yes |
+| [Shizuku-keop/dsh-launch-doctor](https://github.com/Shizuku-keop/dsh-launch-doctor) | 零依赖 dsh web 启动诊断 CLI：五项检查（Node 版本区间——标记 24.0-24.11.1 启动失败族；loader resolveSync 形状探测——--expo | Zero-dependency dsh web launch diagnostics CLI: five checks (Node version range flags 24.0 | 1 | JavaScript | no |
 | [AtomicsLaboratory/atomstudio](https://github.com/AtomicsLaboratory/atomstudio) | 可执行文档工程环境 | Document engineering environment for executable documents | 0 | JavaScript | no |
 | [omdsh-dev/Qwen-MM-Plugins](https://github.com/omdsh-dev/Qwen-MM-Plugins) | Qwen-MM-Plugins 支持 | Qwen-MM-Plugins support | 0 | TypeScript | yes |
 | [Mingxi2077/dsh-plugin-review](https://github.com/Mingxi2077/dsh-plugin-review) | dsh-plugin-review — DSH 插件（工具） | dsh-plugin-review — a DSH plugin (tool). | 0 | JavaScript | yes |
@@ -1717,7 +1718,7 @@
 | [sisyphus-iambe/northstar-exam](https://github.com/sisyphus-iambe/northstar-exam) | northstar-exam — DSH 插件（编排） | Trust checkpoint for AI-generated code, agent reports & embodied-AI artifacts — the exam h | 0 | Python | yes |
 | [houyongsheng/deepseek-harness-molt](https://github.com/houyongsheng/deepseek-harness-molt) | 会自己长出工具的编码智能体。每次任务后反思、写一个可复用工具、测试它，并存入技能库… | The coding agent that grows its own tools. It reflects after each task, writes a reusable  | 0 | Python | yes |
 
-### ui（208）
+### ui（209）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1921,6 +1922,7 @@
 | [qidiai/dsh-contrib-topology](https://github.com/qidiai/dsh-contrib-topology) | 渲染运行中 agent 的实时依赖拓扑图：插件/服务节点、depends-on/provides/contains/disabled 边与 fiber 生命周期阶段。 | DSH plugin that renders a live dependency-topology graph of the running agent — plugin/ser | 1 | TypeScript | yes |
 | [Wanbinyu/dsh-companion](https://github.com/Wanbinyu/dsh-companion) | DeepSeek Harness Web 的本地状态感知伙伴插件，通过角色动画、任务状态、长任务动作、点击反馈和完成气泡展示 Agent 当前状态，而不读取提示词、回复或文件内容。 | A local state-aware companion overlay for DeepSeek Harness Web. Character animation, task  | 1 | TypeScript | yes |
 | [Qiongkura/dsh-interface-settings](https://github.com/Qiongkura/dsh-interface-settings) | 一个 DeepSeek Harness 前端插件：把「壁纸 / 区域透明 / 输入框与轨迹毛玻璃 / 模糊程度 / 启动画面」做成一站式界面设置，作为独立插件项目上传、分享，装进  | A DeepSeek Harness front-end plugin that brings wallpaper, area transparency, liquid-glass | 1 | _No response_ | yes |
+| [timedomain1/dsh-mermaid-renderer](https://github.com/timedomain1/dsh-mermaid-renderer) | DeepSeek Harness Web 插件，自动将聊天中的 Mermaid 代码块渲染为图表，支持多种 Mermaid 图型、连续缩放、全屏查看、拖拽平移、图表/源码切换与一键 | A DeepSeek Harness Web plugin that automatically renders Mermaid code blocks as interactiv | 1 | JavaScript | yes |
 | [Gandufu/dsh-plugin](https://github.com/Gandufu/dsh-plugin) | DeepSeek Harness 插件集合｜齐天大圣双主题皮肤，支持亮暗模式、响应式布局与热插拔 | A DeepSeek Harness plugin collection | the Monkey King dual-theme skin, with light/dark mo | 0 | CSS | yes |
 | [Equinox7379/dsh-turn-watchdog](https://github.com/Equinox7379/dsh-turn-watchdog) | DSH 的回合看门狗：检测卡住的回合并注入静默警告 | Turn watchdog for DSH: detects stuck turns and injects a quiet warning. | 0 | JavaScript | yes |
 | [winyh/dsh-growth](https://github.com/winyh/dsh-growth) | DeepSeek Harness 的增长获取与用户增长分析：AARRR、留存、MRR、实验与单位经济 | Growth acquisition and user growth analysis for DeepSeek Harness: AARRR, retention, MRR, e | 0 | TypeScript | yes |
