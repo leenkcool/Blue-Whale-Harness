@@ -33155,11 +33155,10 @@
   "lists": [
    "plugin"
   ],
-  "dshCategory": "acp",
+  "dshCategory": "tools",
   "isDshPlugin": true,
   "dshSignals": [
    "cordis.patch.yml",
-   "@deepseek-ai/schemastery",
    "@deepseek-ai/dsh-commands",
    "@deepseek-ai/dsh-host-webserver",
    "@deepseek-ai/dsh-tools",
@@ -33167,41 +33166,54 @@
    "@deepseek-ai/dsh-client-runtime",
    "@deepseek-ai/dsh-client-ui-workspace",
    "@deepseek-ai/cordis",
-   "keyword-plugin",
-   "keyword-dsh",
-   "readme-mentions-dsh"
+   "dsh-plugin-topic",
+   "keyword-dsh"
   ],
   "manifestType": "cordis.patch.yml",
   "language": "JavaScript",
-  "intent": "Remote-work assistant for DeepSeek Harness (DSH): connect via SSH (key or password), pick a remote workspace, operate with rw_* tools, and SFTP-mirror it into a real local DSH workspace.",
-  "intentEn": "Remote-work assistant for DeepSeek Harness (DSH): connect via SSH (key or password), pick a remote workspace, operate with rw_* tools, and SFTP-mirror it into a real local DSH workspace.",
-  "intentZh": "DeepSeek Harness 的远程访问助手：/remote 命令与设置页打印精确的 SSH 隧道 / 反向隧道 / 反向代……",
-  "zhSource": "hy3",
+  "intent": "Remote-work assistant for DeepSeek Harness: multi-host SSH (key/password/proxy jump), pick a remote workspace via the native Add-workspace flow (real local SFTP mirror), 20+ rw_* tools (sync/search/edit/tunnels), Git Bash terminal + This-PC drive view on Windows remotes (v0.8.9).",
+  "intentEn": "Remote-work assistant for DeepSeek Harness: multi-host SSH (key/password/proxy jump), pick a remote workspace via the native Add-workspace flow (real local SFTP mirror), 20+ rw_* tools (sync/search/edit/tunnels), Git Bash terminal + This-PC drive view on Windows remotes (v0.8.9).",
+  "intentZh": "DeepSeek Harness 远程工作区助手：多机 SSH 连接（密钥/密码/代理跳板），原生 Add-workspace 选远程目录并创建真实本地镜像，20+ rw_* 工具（SFTP 双向同步、搜索、编辑、隧道），Windows 主机支持 Git Bash 终端与多盘根视图（v0.8.9）。",
+  "zhSource": "native",
   "enSource": "native",
   "needsReview": false,
   "techStack": [
    "JavaScript",
+   "ssh2",
+   "@deepseek-ai/schemastery",
+   "dsh-better-sidebar",
    "esm"
   ],
   "keyDeps": [
-   "@deepseek-ai/schemastery"
+   "@deepseek-ai/dsh-commands",
+   "@deepseek-ai/dsh-host-webserver",
+   "@deepseek-ai/dsh-tools",
+   "@deepseek-ai/dsh-system-prompt",
+   "@deepseek-ai/dsh-client-runtime",
+   "@deepseek-ai/dsh-client-ui-workspace",
+   "@deepseek-ai/cordis"
   ],
-  "entry": "lib/index.js",
-  "stars": 38,
-  "forks": 0,
+  "entry": null,
+  "stars": 46,
+  "forks": 13,
   "created_at": "2026-08-14T04:26:57Z",
-  "updated_at": "2026-08-14T16:21:06Z",
+  "updated_at": "2026-08-31T03:48:43Z",
   "license": "MIT",
-  "open_issues": 0,
+  "open_issues": 1,
   "topics": [
    "deepseek-harness",
+   "dsh",
    "dsh-plugin",
-   "remote"
+   "remote",
+   "sftp",
+   "ssh",
+   "tunnel",
+   "workspace"
   ],
-  "cloned": true,
+  "cloned": false,
   "compat": "unknown",
   "featured": false,
-  "analyzed_at": "2026-08-15T03:47:12.479Z"
+  "analyzed_at": "2026-08-31T03:54:00.873Z"
  },
  "hiyms/dsh-web-search-provider": {
   "repo": "hiyms/dsh-web-search-provider",
@@ -72010,61 +72022,64 @@
  "sandbaseai/sandbase-harness": {
   "repo": "sandbaseai/sandbase-harness",
   "lists": [
-   "watch"
+   "plugin"
   ],
-  "dshCategory": "orchestration",
-  "isDshPlugin": true,
+  "dshCategory": "sandbox",
+  "isDshPlugin": false,
   "dshSignals": [
-   "keyword-plugin",
+   "dsh-plugin-topic",
    "keyword-dsh",
    "readme-mentions-dsh"
   ],
   "manifestType": "none",
   "language": "TypeScript",
-  "intent": "Open-source CMA-compatible agent runtime for any model, with MCP tools, sandboxed sessions, audit, replay, and a local console. Includes a native DeepSeek Harness bundle over stdio MCP.",
-  "intentEn": "Open-source CMA-compatible agent runtime for any model, with MCP tools, sandboxed sessions, audit, replay, and a local console. Includes a native DeepSeek Harness bundle over stdio MCP.",
-  "intentZh": "开源的 CMA 兼容智能体运行时。本地运行多智能体系统，支持任意模型（Ollama/vLLM/Claude/GPT）、MCP 工具与场景模板……",
-  "zhSource": "hy3",
+  "intent": "Local-first self-hosted agent runtime connected to DSH through a native bundle and stdio MCP bridge, with persistent sessions, resumable execution, permissions, credentials, audit/replay, and local, Docker, Kubernetes, or self-hosted worker deployment paths.",
+  "intentEn": "Local-first self-hosted agent runtime connected to DSH through a native bundle and stdio MCP bridge, with persistent sessions, resumable execution, permissions, credentials, audit/replay, and local, Docker, Kubernetes, or self-hosted worker deployment paths.",
+  "intentZh": "本地优先的自托管 Agent Runtime，通过原生 DSH Bundle 与 stdio MCP Bridge 接入，提供持久化会话、可恢复执行、权限、凭据、审计 / 回放，以及本地、Docker、Kubernetes 和自托管 Worker 部署路径。",
+  "zhSource": "native",
   "enSource": "native",
   "needsReview": false,
   "techStack": [
    "TypeScript",
-   "react",
-   "hono",
-   "openai-sdk",
-   "typescript",
-   "vite",
-   "esm",
-   "ts-build"
+   "@ai-sdk/anthropic",
+   "@ai-sdk/openai",
+   "@hono/node-server",
+   "esm"
   ],
-  "keyDeps": [
-   "@ai-sdk/openai"
-  ],
-  "entry": "./dist/index.js",
-  "stars": 634,
-  "forks": 54,
+  "keyDeps": [],
+  "entry": null,
+  "stars": 640,
+  "forks": 61,
   "created_at": "2026-07-11T08:48:07Z",
-  "updated_at": "2026-08-15T00:45:39Z",
-  "license": "NOASSERTION",
-  "open_issues": 2,
+  "updated_at": "2026-08-31T03:49:47Z",
+  "license": "Apache-2.0",
+  "open_issues": 7,
   "topics": [
+   "agent-harness",
+   "agent-memory",
    "agent-observability",
    "agent-runtime",
+   "agent-sandbox",
    "ai-agents",
-   "deepseek",
+   "ai-infrastructure",
+   "audit-logging",
    "deepseek-harness",
+   "devops",
+   "docker",
    "dsh-plugin",
-   "dsh-plugin-verify",
-   "dsh-plugins",
+   "harness-engineering",
+   "kubernetes",
+   "local-first",
+   "mcp-gateway",
    "mcp-server",
    "model-context-protocol",
-   "sandbox",
-   "typescript"
+   "sandboxed-execution",
+   "self-hosted"
   ],
-  "cloned": true,
+  "cloned": false,
   "compat": "unknown",
   "featured": false,
-  "analyzed_at": "2026-08-15T03:47:13.798Z"
+  "analyzed_at": "2026-08-31T03:53:39.114Z"
  },
  "mnemon-dev/mnemon": {
   "repo": "mnemon-dev/mnemon",
@@ -95652,5 +95667,61 @@
   "compat": "unknown",
   "featured": false,
   "analyzed_at": "2026-08-29T05:08:53.039Z"
+ },
+ "yj-liuzepeng/dsh-project-brain": {
+  "repo": "yj-liuzepeng/dsh-project-brain",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "memory",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "@deepseek-ai/cordis",
+   "@deepseek-ai/dsh-client-connection",
+   "@deepseek-ai/dsh-session",
+   "@deepseek-ai/dsh-tools",
+   "@deepseek-ai/schemastery",
+   "dsh-plugin-topic",
+   "keyword-dsh"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "JavaScript",
+  "intent": "A persistent project brain for DSH that analyzes the active workspace and semantic architecture, retains decisions, changes, TODOs, and memories across Sessions, and restores context automatically; local retrieval by default with optional vector enhancement.",
+  "intentEn": "A persistent project brain for DSH that analyzes the active workspace and semantic architecture, retains decisions, changes, TODOs, and memories across Sessions, and restores context automatically; local retrieval by default with optional vector enhancement.",
+  "intentZh": "DSH 持久化项目大脑：分析当前工作区与语义架构，跨 Session 保存决策、变更、待办和项目记忆，并在后续对话中自动恢复上下文；默认本地检索，可选向量增强。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "esm"
+  ],
+  "keyDeps": [
+   "@deepseek-ai/cordis",
+   "@deepseek-ai/dsh-client-connection",
+   "@deepseek-ai/dsh-session",
+   "@deepseek-ai/dsh-tools",
+   "@deepseek-ai/schemastery"
+  ],
+  "entry": null,
+  "stars": 1,
+  "forks": 0,
+  "created_at": "2026-08-30T02:32:43Z",
+  "updated_at": "2026-08-30T14:54:23Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "ai-assistant",
+   "deepseek-harness",
+   "developer-tools",
+   "dsh-plugin",
+   "local-first",
+   "project-memory"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-31T03:54:22.571Z"
  }
 }

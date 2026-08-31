@@ -4,14 +4,14 @@
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
 
-> 自动生成于 2026-08-29 ｜ 共 **1957** 个仓库 ｜ 真·DSH 插件 **1819** 个 | QQ Group:839509497 |Tg Group: [http://t.me/deepseekdsh](http://t.me/deepseekdsh)
+> 自动生成于 2026-08-31 ｜ 共 **1958** 个仓库 ｜ 真·DSH 插件 **1819** 个 | QQ Group:839509497 |Tg Group: [http://t.me/deepseekdsh](http://t.me/deepseekdsh)
 
 
 ![频道](https://leenkcool.github.io/pindaoh.png)
 
 ## 统计
 
-- 仓库总数：**1957**
+- 仓库总数：**1958**
 - 真·DSH 插件：**1819**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
@@ -21,13 +21,13 @@
 - **utility** — 375 个仓库，★66624
 - **session** — 236 个仓库，★27296
 - **skills** — 53 个仓库，★25583
-- **tools** — 622 个仓库，★22840
-- **orchestration** — 201 个仓库，★19489
+- **tools** — 623 个仓库，★22886
+- **orchestration** — 200 个仓库，★18855
 - **ui** — 209 个仓库，★15331
 - **uncategorized** — 1 个仓库，★3779
-- **acp** — 66 个仓库，★756
-- **memory** — 6 个仓库，★131
-- **sandbox** — 11 个仓库，★103
+- **sandbox** — 12 个仓库，★743
+- **acp** — 65 个仓库，★718
+- **memory** — 7 个仓库，★132
 - **skin** — 9 个仓库，★38
 - **preset** — 2 个仓库，★4
 - **notify** — 1 个仓库，★2
@@ -885,7 +885,7 @@
 | [kuailexiaozixin/tkinter-desktop](https://github.com/kuailexiaozixin/tkinter-desktop) | Tkinter/ttk 原生桌面应用全生命周期技能（MVC + pygubu .ui + SQLite + PyInstaller） | A full-lifecycle skill for native Tkinter/ttk desktop apps (MVC + pygubu .ui + SQLite + Py | 0 | Python | no |
 | [kuailexiaozixin/fasthtml-desktop](https://github.com/kuailexiaozixin/fasthtml-desktop) | FastHTML + pywebview 桌面应用全生命周期技能（本地 HTTP + WebView2 + PyInstaller） | A full-lifecycle skill for FastHTML + pywebview desktop apps (local HTTP + WebView2 + PyIn | 0 | Python | no |
 
-### tools（622）
+### tools（623）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -933,6 +933,7 @@
 | [Phant0Meow/dsh-memory-meow](https://github.com/Phant0Meow/dsh-memory-meow) | (无描述) | (no description) | 49 | TypeScript | yes |
 | [Yan-Zero/dsh-codex](https://github.com/Yan-Zero/dsh-codex) | dsh-codex — DSH 插件（工具） | Use your ChatGPT subscription in DeepSeek Harness through OpenAI's Codex sign-in flow | 48 | TypeScript | yes |
 | [PivotStackIntelligence/dsh-github](https://github.com/PivotStackIntelligence/dsh-github) | (无描述) | (no description) | 47 | TypeScript | yes |
+| [flymysql/dsh-remote](https://github.com/flymysql/dsh-remote) | DeepSeek Harness 远程工作区助手：多机 SSH 连接（密钥/密码/代理跳板），原生 Add-workspace 选远程目录并创建真实本地镜像，20+ rw_* 工具 | Remote-work assistant for DeepSeek Harness: multi-host SSH (key/password/proxy jump), pick | 46 | JavaScript | yes |
 | [hanelalo/browser-bridge](https://github.com/hanelalo/browser-bridge) | 让你的 agent 像你一样操控浏览器窗口。 | Let your agent drive your browser window like you. | 44 | Rust | no |
 | [HuanLinOTO/dsh-plugin-mineru](https://github.com/HuanLinOTO/dsh-plugin-mineru) | MineRU 文档解析工具 | MineRU document parsing tools | 43 | TypeScript | yes |
 | [PensiveFei/dsh-secure-audit](https://github.com/PensiveFei/dsh-secure-audit) | DeepSeek Harness 的只读安全与合规插件：提示注入检测、中文 PII 脱敏。 | Read-only security & compliance plugin for DeepSeek Harness: prompt-injection detection, C | 43 | JavaScript | yes |
@@ -1512,7 +1513,7 @@
 | [scwlkq/deepseek-harness](https://github.com/scwlkq/deepseek-harness) | 任务看板插件（随 DeepSeek Harness 构建发布）：五态看板（初始化/执行中/待审核/已完成/失败），支持增删改查、搜索、同列拖拽排序，Agent 启动/停止/通过/驳 | Task Board plugin (bundled in a DeepSeek Harness build): a five-state kanban (init/in-prog | 0 | TypeScript | yes |
 | [ywleeo/dsh-vision-dashscope](https://github.com/ywleeo/dsh-vision-dashscope) | 基于阿里云百炼 DashScope 的 MCP server 插件，为纯文本 Agent 提供图片/视频/音频识别与生成能力。大视频/大文件自动走官方临时 OSS 直传（单文件上限 | A DashScope (Alibaba Bailian) MCP plugin giving text-only agents image/video/audio recogni | 0 | Python | yes |
 
-### orchestration（201）
+### orchestration（200）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1523,7 +1524,6 @@
 | [xyTom/coding-tools-mcp](https://github.com/xyTom/coding-tools-mcp) | 赋予任意 AI 智能体编程能力 | Give any AI agent the ability to code | 922 | Python | no |
 | [exoharness/exo](https://github.com/exoharness/exo) | 可递归自编辑自身的 agent+harness 架构 | Fully recursive agent+harness that self-edits at runtime | 890 | Rust | no |
 | [hellowind777/helloagents](https://github.com/hellowind777/helloagents) | 自主高级智能伙伴，持续工作直到完成。 | Autonomous agent that keeps working until done. | 700 | JavaScript | no |
-| [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness) | 开源的 CMA 兼容智能体运行时。本地运行多智能体系统，支持任意模型（Ollama/vLLM/Claude/GPT）、MCP 工具与场景模板…… | Open-source CMA-compatible agent runtime for any model, with MCP tools, sandboxed sessions | 634 | TypeScript | yes |
 | [vibeinging/dsh-work](https://github.com/vibeinging/dsh-work) | 本地优先 DSH 插件工作台 | Local-first AI workbench for DSH plugins | 632 | JavaScript | yes |
 | [SII-Holos/synergy](https://github.com/SII-Holos/synergy) | 面向 Open Agentic Web 的通用智能体 | General-purpose agent for the Open Agentic Web | 549 | TypeScript | no |
 | [yjh051108/dsh-router-standard](https://github.com/yjh051108/dsh-router-standard) | 面向 DeepSeek Harness 的任务感知推理模式路由器：spec/mixed/react 三档行为带，人格注入 + 首轮工具注入，对 Agent 可见的调节参数。 | Task-aware reasoning-mode router for DeepSeek Harness: three measured behavior bands (spec | 370 | JavaScript | yes |
@@ -1938,14 +1938,30 @@
 |---|---|---|---|---|---|
 | [xiaobright/dsh-anchored-standard](https://github.com/xiaobright/dsh-anchored-standard) | 两阶段 DeepSeek Harness 预设：先最小对齐引导，再加载完整 Standard 工具集（Project2 98/99） | Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Pr | 3779 | JavaScript | yes |
 
-### acp（66）
+### sandbox（12）
+
+| 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
+|---|---|---|---|---|---|
+| [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness) | 本地优先的自托管 Agent Runtime，通过原生 DSH Bundle 与 stdio MCP Bridge 接入，提供持久化会话、可恢复执行、权限、凭据、审计 / 回放，以 | Local-first self-hosted agent runtime connected to DSH through a native bundle and stdio M | 640 | TypeScript | no |
+| [cofy-x/axern](https://github.com/cofy-x/axern) | 面向 AI agent 的开源沙箱（不可信代码执行）。 | Open-source sandboxes for untrusted agent code execution. | 58 | Go | no |
+| [Jiao-XXX/dsh-auto-approve](https://github.com/Jiao-XXX/dsh-auto-approve) | DeepSeek Harness 沙箱提权的保守自动批准预设 | Conservative auto-approval preset for DeepSeek Harness sandbox escalations | 11 | JavaScript | yes |
+| [zimzaza4/dsh-bash-win](https://github.com/zimzaza4/dsh-bash-win) | 在 Windows 环境中为 DeepSeek Harness 提供 Git Bash 与 WSL2 bash 工具,含 bwrap 沙箱、审批模式、后台任务 | dsh-bash-win — DSH plugin (sandbox) | 10 | JavaScript | yes |
+| [tensorlakeai/dsh-tensorlake-sandbox](https://github.com/tensorlakeai/dsh-tensorlake-sandbox) | Tensorlake 沙箱的 DeepSeek Harness 插件 | A deepseek harness plugin for tensorlake sandbox | 7 | TypeScript | yes |
+| [1475505/dsh-plugin-miliastra-toolbox](https://github.com/1475505/dsh-plugin-miliastra-toolbox) | 将千星沙箱（原神千星奇域）知识库接入 Deepseek Harness 的插件 | dsh-plugin-miliastra-toolbox — DSH plugin (sandbox) | 6 | TypeScript | yes |
+| [zhangzujian/dsh-same-mode-sandbox-noop](https://github.com/zhangzujian/dsh-same-mode-sandbox-noop) | dsh-same-mode-sandbox-noop — DSH 插件（沙箱） | DSH compatibility plugin for redundant same-mode sandbox escalation requests | 4 | JavaScript | yes |
+| [SeverusZh/dsh-yolo-mode](https://github.com/SeverusZh/dsh-yolo-mode) | dsh-yolo-mode——一个由 LLM 驱动的 DeepSeek Harness 沙箱提权自动批准插件（内置预设 + 自定义权限级别…… | dsh-yolo-mode - an LLM-powered auto-approval plugin for DeepSeek Harness sandbox escalatio | 3 | JavaScript | yes |
+| [taltara/capmark](https://github.com/taltara/capmark) | DSH 插件的能力清单：插件用 Markdown 声明自己可以做什么；网关据此收窄 agent 可见的工具集，并在 tools/pre-execute 上裁决每次调用；`capma | Capability manifests for DSH plugins: a plugin declares in Markdown what it may do, a gate | 2 | TypeScript | no |
+| [SLAPaper/dsh-self-checking-profile](https://github.com/SLAPaper/dsh-self-checking-profile) | 为 DeepSeek Harness（dsh）即插即用的 dsh web Profile，新增 **自检** 沙箱模式 | A drop-in dsh web profile that adds the **Self Checking** sandbox mode to DeepSeek Harness | 1 | JavaScript | yes |
+| [jiangsuyuan/dsh-guard-mode](https://github.com/jiangsuyuan/dsh-guard-mode) | 安全防呆模式:FullAccess 全部能力 + 危险命令黑名单拦截,命中转单次人工批准 | Safe-guard mode: full-access capability plus a blocklist scan on shell commands (one-time  | 1 | TypeScript | yes |
+| [kelai141/dsh-shell-termux](https://github.com/kelai141/dsh-shell-termux) | dsh 的安卓/Termux bash 能力提供者——显式 Termux 环境注入、探测诊断、诚实的应用域沙箱声明。 | dsh-shell-termux — DSH plugin (sandbox) | 0 | TypeScript | yes |
+
+### acp（65）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
 | [weijiafu14/pi2dsh](https://github.com/weijiafu14/pi2dsh) | Bridge the Pi and DeepSeek Harness ecosystems: one Pi Host ABI runs unmodified Pi extensio | Bridge the Pi and DeepSeek Harness ecosystems: one Pi Host ABI runs unmodified Pi extensio | 171 | TypeScript | yes |
 | [Ychris12138/dsh-usage-stats](https://github.com/Ychris12138/dsh-usage-stats) | DeepSeek Harness Web GUI（dsh web）的 token 用量热力图、按模型拆分，以及 DeepSeek 账户余额。 | Token usage heatmap, per-model breakdowns, and DeepSeek account balance for the DeepSeek H | 128 | JavaScript | yes |
 | [sorsama/deepseek-harness-mobile](https://github.com/sorsama/deepseek-harness-mobile) | DeepSeek Harness 的 Android 伴侣应用 | 通过局域网从手机聊天、设目标、审批与接收通知。Kotlin + Jetpack Compose。 | Android companion for DeepSeek Harness | chat, goals, approvals & notifications from your  | 47 | Kotlin | yes |
-| [flymysql/dsh-remote](https://github.com/flymysql/dsh-remote) | DeepSeek Harness 的远程访问助手：/remote 命令与设置页打印精确的 SSH 隧道 / 反向隧道 / 反向代…… | Remote-work assistant for DeepSeek Harness (DSH): connect via SSH (key or password), pick  | 38 | JavaScript | yes |
 | [chenw2759-wq/dsh-easyssh](https://github.com/chenw2759-wq/dsh-easyssh) | 用于远程ssh快速相应，同时可以直接在前端操作/查看远程服务器上的信息与代码。 | For quick remote SSH responses, with the ability to operate/view remote server info and co | 27 | JavaScript | yes |
 | [chenw2759-wq/dsh-IDE](https://github.com/chenw2759-wq/dsh-IDE) | 这是一个ssh前端程序，可以让UI体现类似lab的功能！用于远程ssh快速相应，同时可以直接在前端操作/查看远程服务器上的信息与代码。 | An SSH front-end program that gives the UI Lab-like capabilities: quick remote SSH respons | 27 | JavaScript | yes |
 | [crazywoola/dsh-balance](https://github.com/crazywoola/dsh-balance) | DeepSeek Harness 设置页的余额插件 | DeepSeek Harness balance plugin for the Settings page | 24 | TypeScript | yes |
@@ -2009,7 +2025,7 @@
 | [Lehmaning/dsh-randomuuid-polyfill](https://github.com/Lehmaning/dsh-randomuuid-polyfill) | 在不安全来源（局域网明文 HTTP）上安装 crypto.randomUUID 的 dsh 客户端插件 | dsh client plugin that installs crypto.randomUUID on insecure origins (plain HTTP over a L | 0 | TypeScript | yes |
 | [Zenjibad/dsh-lan-uuid-fix](https://github.com/Zenjibad/dsh-lan-uuid-fix) | dsh 捆绑包：在不安全来源上 polyfill crypto.randomUUID，使 DeepSeek Harness Web UI 可在明文 HTTP 局域网上工作 | dsh bundle: polyfill crypto.randomUUID on insecure origins so the DeepSeek Harness Web UI  | 0 | JavaScript | yes |
 
-### memory（6）
+### memory（7）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -2018,23 +2034,8 @@
 | [jasen215/dsh-continual-harness](https://github.com/jasen215/dsh-continual-harness) | DeepSeek Harness 自我进化插件：持久化记忆与提示笔记，跨会话知识共享，自动评审与证据驱动的小步精修（含回滚护栏），自带 A/B 基准评测与 wrap-up 归档建议 | A DeepSeek Harness plugin for self-improving agents: persistent memory and prompt notes, c | 7 | TypeScript | yes |
 | [qwert702/dsh-memory](https://github.com/qwert702/dsh-memory) | **dsh-memory v2.0**：项目级+全局记忆存储、Trajectory 旁的记忆视图页签（逐条列表 + Obsidian 风格链接图谱）、每轮自动提取记忆、每次请求自动 | **dsh-memory v2.0**: Project-scoped and global memory stores, a Memory view tab beside Tra | 2 | JavaScript | yes |
 | [szx-a/ds](https://github.com/szx-a/ds) | LMA 分层记忆架构：给 DeepSeek Harness agent 跨会话、可挂载、可检索的长期记忆。记忆按「体」独立存储（隔离在存储层而非检索层），用 /mount /unm | LMA (Layered Memory Architecture): cross-session, mountable, searchable long-term memory f | 2 | TypeScript | yes |
+| [yj-liuzepeng/dsh-project-brain](https://github.com/yj-liuzepeng/dsh-project-brain) | DSH 持久化项目大脑：分析当前工作区与语义架构，跨 Session 保存决策、变更、待办和项目记忆，并在后续对话中自动恢复上下文；默认本地检索，可选向量增强。 | A persistent project brain for DSH that analyzes the active workspace and semantic archite | 1 | JavaScript | yes |
 | [JTSDM/dsh-memory-sqlite](https://github.com/JTSDM/dsh-memory-sqlite) | DSH 原生记忆服务层：纯本地 SQLite 存储（Node 内置 node:sqlite，零 npm 依赖）+ content_hash SHA-256 幂等去重 + FTS5/ | Native memory service layer for DeepSeek Harness: zero-dependency local SQLite storage (no | 0 | TypeScript | yes |
-
-### sandbox（11）
-
-| 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
-|---|---|---|---|---|---|
-| [cofy-x/axern](https://github.com/cofy-x/axern) | 面向 AI agent 的开源沙箱（不可信代码执行）。 | Open-source sandboxes for untrusted agent code execution. | 58 | Go | no |
-| [Jiao-XXX/dsh-auto-approve](https://github.com/Jiao-XXX/dsh-auto-approve) | DeepSeek Harness 沙箱提权的保守自动批准预设 | Conservative auto-approval preset for DeepSeek Harness sandbox escalations | 11 | JavaScript | yes |
-| [zimzaza4/dsh-bash-win](https://github.com/zimzaza4/dsh-bash-win) | 在 Windows 环境中为 DeepSeek Harness 提供 Git Bash 与 WSL2 bash 工具,含 bwrap 沙箱、审批模式、后台任务 | dsh-bash-win — DSH plugin (sandbox) | 10 | JavaScript | yes |
-| [tensorlakeai/dsh-tensorlake-sandbox](https://github.com/tensorlakeai/dsh-tensorlake-sandbox) | Tensorlake 沙箱的 DeepSeek Harness 插件 | A deepseek harness plugin for tensorlake sandbox | 7 | TypeScript | yes |
-| [1475505/dsh-plugin-miliastra-toolbox](https://github.com/1475505/dsh-plugin-miliastra-toolbox) | 将千星沙箱（原神千星奇域）知识库接入 Deepseek Harness 的插件 | dsh-plugin-miliastra-toolbox — DSH plugin (sandbox) | 6 | TypeScript | yes |
-| [zhangzujian/dsh-same-mode-sandbox-noop](https://github.com/zhangzujian/dsh-same-mode-sandbox-noop) | dsh-same-mode-sandbox-noop — DSH 插件（沙箱） | DSH compatibility plugin for redundant same-mode sandbox escalation requests | 4 | JavaScript | yes |
-| [SeverusZh/dsh-yolo-mode](https://github.com/SeverusZh/dsh-yolo-mode) | dsh-yolo-mode——一个由 LLM 驱动的 DeepSeek Harness 沙箱提权自动批准插件（内置预设 + 自定义权限级别…… | dsh-yolo-mode - an LLM-powered auto-approval plugin for DeepSeek Harness sandbox escalatio | 3 | JavaScript | yes |
-| [taltara/capmark](https://github.com/taltara/capmark) | DSH 插件的能力清单：插件用 Markdown 声明自己可以做什么；网关据此收窄 agent 可见的工具集，并在 tools/pre-execute 上裁决每次调用；`capma | Capability manifests for DSH plugins: a plugin declares in Markdown what it may do, a gate | 2 | TypeScript | no |
-| [SLAPaper/dsh-self-checking-profile](https://github.com/SLAPaper/dsh-self-checking-profile) | 为 DeepSeek Harness（dsh）即插即用的 dsh web Profile，新增 **自检** 沙箱模式 | A drop-in dsh web profile that adds the **Self Checking** sandbox mode to DeepSeek Harness | 1 | JavaScript | yes |
-| [jiangsuyuan/dsh-guard-mode](https://github.com/jiangsuyuan/dsh-guard-mode) | 安全防呆模式:FullAccess 全部能力 + 危险命令黑名单拦截,命中转单次人工批准 | Safe-guard mode: full-access capability plus a blocklist scan on shell commands (one-time  | 1 | TypeScript | yes |
-| [kelai141/dsh-shell-termux](https://github.com/kelai141/dsh-shell-termux) | dsh 的安卓/Termux bash 能力提供者——显式 Termux 环境注入、探测诊断、诚实的应用域沙箱声明。 | dsh-shell-termux — DSH plugin (sandbox) | 0 | TypeScript | yes |
 
 ### skin（9）
 
