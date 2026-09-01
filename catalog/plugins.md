@@ -1,6 +1,6 @@
 # Blue-Whale-Harness · DSH 插件总表（中英双语意图）
 
-> 自动生成于 2026-08-31 ｜ 共 **1958** 个仓库 ｜ 真·DSH 插件 **1819** 个 ｜ 已克隆 **1778** 个 ｜ 源码总体积 **6119.6MB**（不含 .git）
+> 自动生成于 2026-09-01 ｜ 共 **1959** 个仓库 ｜ 真·DSH 插件 **1820** 个 ｜ 已克隆 **1778** 个 ｜ 源码总体积 **6119.6MB**（不含 .git）
 
 | 仓库 | 意图(中文) | Intent(English) | 分类 | 真DSH | 语言 | STAR | FORK | 大小 | 创建 | 更新 | License | 兼容 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -1624,6 +1624,7 @@
 | [taxueseek/dsh-snippets](https://github.com/taxueseek/dsh-snippets) | 极简片段/命令收藏箱：把常用命令、网址、提示词存成片段，一条调用即可找回；JSONL 存储，5 个工具，零依赖。 | A minimal snippets toolbox for DeepSeek Harness: save frequently used commands, URLs and p | utility | yes | TypeScript | 2 | 0 |  | 2026-08-15 | 2026-08-28 | MIT | unknown |
 | [taxueseek/dsh-healthcheck](https://github.com/taxueseek/dsh-healthcheck) | 环境体检插件：检测磁盘、内存、网络延迟、~/.dsh 目录膨胀与插件版本落后，带历史基线趋势对比；全程只读，不删任何文件。 | Environment health check for DeepSeek Harness: monitors disk, memory, network latency, ~/. | utility | yes | TypeScript | 2 | 0 |  | 2026-08-15 | 2026-08-28 | MIT | unknown |
 | [taxueseek/dsh-plugin-guard](https://github.com/taxueseek/dsh-plugin-guard) | 插件安全门卫 + 诊所：安装前静态审计、安装后哈希锁定校验，支持同类插件检索与机械化排毒（detox）；全程从不执行目标插件。 | Security gate and clinic for DSH plugins: static audit before install, hash-lock verificat | utility | yes | TypeScript | 2 | 0 |  | 2026-08-16 | 2026-08-28 | MIT | unknown |
+| [lhwwxy/dsh-agentic-router](https://github.com/lhwwxy/dsh-agentic-router) | DeepSeek Harness（DSH）插件：学习型智能路由（agentic router）+ 数据飞轮。 | DeepSeek Harness (DSH) plugin: a learning agentic router with a data flywheel. | tools | yes | _No response_ | 2 | 0 |  | 2026-08-18 | 2026-08-19 | MIT | unknown |
 | [Fisfzy/math-lean](https://github.com/Fisfzy/math-lean) | Lean 内核验证的数学推理插件 | Lean kernel-verified math reasoning plugin | tools | yes | TypeScript | 1 | 0 | 307KB | 2026-08-13 | 2026-08-13 | unknown | unknown |
 | [Small-tailqwq/dsh-tps](https://github.com/Small-tailqwq/dsh-tps) | TPS 皮肤插件 | TPS skin plugin | ui | yes | TypeScript | 1 | 0 | 742KB | 2026-08-13 | 2026-08-13 | BSD-3-Clause | unknown |
 | [ilharp/dsh-tool-approval](https://github.com/ilharp/dsh-tool-approval) | 手动审批（Manual/Ask 模式） | Manual approval (Manual/Ask mode) | session | yes | TypeScript | 1 | 0 | 64KB | 2026-08-11 | 2026-08-13 | BSD-3-Clause | unknown |

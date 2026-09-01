@@ -95723,5 +95723,45 @@
   "compat": "unknown",
   "featured": false,
   "analyzed_at": "2026-08-31T03:54:22.571Z"
+ },
+ "lhwwxy/dsh-agentic-router": {
+  "repo": "lhwwxy/dsh-agentic-router",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "dsh-plugin-topic",
+   "keyword-dsh"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "_No response_",
+  "intent": "DeepSeek Harness (DSH) plugin: a learning agentic router with a data flywheel.",
+  "intentEn": "DeepSeek Harness (DSH) plugin: a learning agentic router with a data flywheel.",
+  "intentZh": "DeepSeek Harness（DSH）插件：学习型智能路由（agentic router）+ 数据飞轮。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "_No response_",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 2,
+  "forks": 0,
+  "created_at": "2026-08-18T08:06:02Z",
+  "updated_at": "2026-08-19T08:10:02Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "dsh-plugin"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-09-01T11:27:53.936Z"
  }
 }
