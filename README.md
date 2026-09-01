@@ -1,10 +1,20 @@
 # Blue-Whale-Harness
 
-> 收录所有自由人脉产生的 DeepSeek Harness（DSH）插件。
+[![Stars](https://img.shields.io/github/stars/leenkcool/Blue-Whale-Harness?style=flat-square)](https://github.com/leenkcool/Blue-Whale-Harness/stargazers) [![License](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)](./LICENSE) [![Last commit](https://img.shields.io/github/last-commit/leenkcool/Blue-Whale-Harness?style=flat-square)](https://github.com/leenkcool/Blue-Whale-Harness/commits/main) [![Plugins](https://img.shields.io/badge/repos-1958-orange?style=flat-square)](https://leenkcool.github.io) [![Online catalog](https://img.shields.io/badge/site-leenkool.github.io-brightgreen?style=flat-square)](https://leenkcool.github.io)
 
-🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
+> **DeepSeek Harness（DSH）插件总目录** — 收录 GitHub 上散落各处的 DSH 插件、Skill、MCP Server 与周边工具，逐个校验「是否为真插件」，并做成可搜索、可筛选、可导出的在线总表。
 
-> 自动生成于 2026-08-31 ｜ 共 **1958** 个仓库 ｜ 真·DSH 插件 **1819** 个 | QQ Group:839509497 |Tg Group: [http://t.me/deepseekdsh](http://t.me/deepseekdsh)
+🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 中英文搜索、分类筛选、按 STAR 排序、CSV 导出。
+
+> 自动生成于 2026-09-01 ｜ 共 **1958** 个仓库 ｜ 真·DSH 插件 **1819** 个 | QQ Group:839509497 |Tg Group: [http://t.me/deepseekdsh](http://t.me/deepseekdsh)
+
+### 怎么用
+
+1. **找插件** — 直接开 [在线总表](https://leenkcool.github.io)，按关键词 / 分类 / STAR 检索，比翻 README 快得多。
+2. **翻清单** — 不想开网页就往下看「插件清单」，或下载 [plugins.csv](https://leenkcool.github.io/plugins.csv) 自己筛。
+3. **提交收录** — 发一个 issue（模板 `catalog-intake`）写出仓库地址与分类，或按 `repos.txt` 格式提 PR。
+
+> 收录标准：仓库含 `cordis.patch.yml` 判为**真·DSH 插件**，其余按「相关生态」单独标记，两者都进表、不混算。
 
 
 ![频道](https://leenkcool.github.io/pindaoh.png)
