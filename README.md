@@ -1,12 +1,12 @@
 # Blue-Whale-Harness
 
-[![Stars](https://img.shields.io/github/stars/leenkcool/Blue-Whale-Harness?style=flat-square)](https://github.com/leenkcool/Blue-Whale-Harness/stargazers) [![License](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)](./LICENSE) [![Last commit](https://img.shields.io/github/last-commit/leenkcool/Blue-Whale-Harness?style=flat-square)](https://github.com/leenkcool/Blue-Whale-Harness/commits/main) [![Plugins](https://img.shields.io/badge/repos-1959-orange?style=flat-square)](https://leenkcool.github.io) [![Online catalog](https://img.shields.io/badge/site-leenkool.github.io-brightgreen?style=flat-square)](https://leenkcool.github.io)
+[![Stars](https://img.shields.io/github/stars/leenkcool/Blue-Whale-Harness?style=flat-square)](https://github.com/leenkcool/Blue-Whale-Harness/stargazers) [![License](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)](./LICENSE) [![Last commit](https://img.shields.io/github/last-commit/leenkcool/Blue-Whale-Harness?style=flat-square)](https://github.com/leenkcool/Blue-Whale-Harness/commits/main) [![Plugins](https://img.shields.io/badge/repos-1960-orange?style=flat-square)](https://leenkcool.github.io) [![Online catalog](https://img.shields.io/badge/site-leenkool.github.io-brightgreen?style=flat-square)](https://leenkcool.github.io)
 
 > **DeepSeek Harness（DSH）插件总目录** — 收录 GitHub 上散落各处的 DSH 插件、Skill、MCP Server 与周边工具，逐个校验「是否为真插件」，并做成可搜索、可筛选、可导出的在线总表。
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 中英文搜索、分类筛选、按 STAR 排序、CSV 导出。
 
-> 自动生成于 2026-09-01 ｜ 共 **1959** 个仓库 ｜ 真·DSH 插件 **1820** 个 | QQ Group:839509497 |Tg Group: [http://t.me/deepseekdsh](http://t.me/deepseekdsh)
+> 自动生成于 2026-09-04 ｜ 共 **1960** 个仓库 ｜ 真·DSH 插件 **1821** 个 | QQ Group:839509497 |Tg Group: [http://t.me/deepseekdsh](http://t.me/deepseekdsh)
 
 ### 怎么用
 
@@ -21,8 +21,8 @@
 
 ## 统计
 
-- 仓库总数：**1959**
-- 真·DSH 插件：**1820**
+- 仓库总数：**1960**
+- 真·DSH 插件：**1821**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
 ## 分类索引
@@ -31,7 +31,7 @@
 - **utility** — 375 个仓库，★66624
 - **session** — 236 个仓库，★27296
 - **skills** — 53 个仓库，★25583
-- **tools** — 624 个仓库，★22888
+- **tools** — 625 个仓库，★22890
 - **orchestration** — 200 个仓库，★18855
 - **ui** — 209 个仓库，★15331
 - **uncategorized** — 1 个仓库，★3779
@@ -895,7 +895,7 @@
 | [kuailexiaozixin/tkinter-desktop](https://github.com/kuailexiaozixin/tkinter-desktop) | Tkinter/ttk 原生桌面应用全生命周期技能（MVC + pygubu .ui + SQLite + PyInstaller） | A full-lifecycle skill for native Tkinter/ttk desktop apps (MVC + pygubu .ui + SQLite + Py | 0 | Python | no |
 | [kuailexiaozixin/fasthtml-desktop](https://github.com/kuailexiaozixin/fasthtml-desktop) | FastHTML + pywebview 桌面应用全生命周期技能（本地 HTTP + WebView2 + PyInstaller） | A full-lifecycle skill for FastHTML + pywebview desktop apps (local HTTP + WebView2 + PyIn | 0 | Python | no |
 
-### tools（624）
+### tools（625）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1396,6 +1396,7 @@
 | [TryDing-T/dsh-Plugin--ChineseChess](https://github.com/TryDing-T/dsh-Plugin--ChineseChess) | DSH Web 中国象棋对弈插件：独立侧边栏棋盘，Host 负责完整棋规与版本校验，DSH 模型决定所有黑方落子；支持新局、悔棋、认输、棋谱复制、模型失败重试和跨聊天/标签页继续对 | A DeepSeek Harness Web Chinese-chess plugin with a standalone sidebar board. The Host owns | 2 | TypeScript | yes |
 | [taxueseek/taxue-dsh-artisan](https://github.com/taxueseek/taxue-dsh-artisan) | 一体化视觉创作插件：图像提示词反推（画幅/气质/风格/构图/光色九步锚点还原）、七维诊断优化、元提示词编译；生图接 Gemini、OpenAI、Seedream、Grok、订阅通道 | Visual creation plugin: reverse-engineers images into structured prompts (nine-step anchor | 2 | TypeScript | yes |
 | [lhwwxy/dsh-agentic-router](https://github.com/lhwwxy/dsh-agentic-router) | DeepSeek Harness（DSH）插件：学习型智能路由（agentic router）+ 数据飞轮。 | DeepSeek Harness (DSH) plugin: a learning agentic router with a data flywheel. | 2 | _No response_ | yes |
+| [CMSKL/dsh-plugin-observatory](https://github.com/CMSKL/dsh-plugin-observatory) | DSH 插件安装前兼容性审计与进程内 Loader 生命周期观测，静态检查 package.json、dsh.bundle.patch、DSH/Cordis/Node 版本、依赖、 | A DSH plugin for pre-install static compatibility audits and bounded in-process Loader lif | 2 | TypeScript | yes |
 | [Fisfzy/math-lean](https://github.com/Fisfzy/math-lean) | Lean 内核验证的数学推理插件 | Lean kernel-verified math reasoning plugin | 1 | TypeScript | yes |
 | [lin-cheng-lab/dsh-plugin-doctor](https://github.com/lin-cheng-lab/dsh-plugin-doctor) | DSH 插件体检：安装前检查 peer 版本兼容性，防止 rc 不匹配崩溃 🩺 | dsh-plugin-doctor — DSH plugin (tools) | 1 | TypeScript | yes |
 | [fff122/dsh-prompt-presets](https://github.com/fff122/dsh-prompt-presets) | dsh-prompt-presets — DSH 插件（工具） | Local reusable prompt presets for DeepSeek Harness. | 1 | TypeScript | yes |

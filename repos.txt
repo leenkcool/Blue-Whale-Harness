@@ -1977,3 +1977,4 @@ timedomain1/dsh-mermaid-renderer
 Shizuku-keop/dsh-launch-doctor
 yj-liuzepeng/dsh-project-brain
 lhwwxy/dsh-agentic-router
+CMSKL/dsh-plugin-observatory
