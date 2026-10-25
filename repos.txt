@@ -1990,3 +1990,15 @@ meyaomiao/dsh-graphmemory
 bingaha/dsh-live-mcp
 LAYZR114/dsh-project-memory
 DSH-EAC/DSH-Desktop-EAC
+moonquake2004/dsh-doctor
+moonquake2004/dsh-security
+a86582751/dsh-nexttavern
+ct-jaryn/dsh-plugin-baizhi-agent-toolkit
+yul761/dsh-statecore
+JularDepick/dsh-wakatime-plugin
+GuihaiHU/dsh-temp-note
+YunongDai2005/dsh-theone
+LUgABeEEE/dsh-global-todo
+wang1299/dsh-reforge
+hxlog/dsh-mcp-tools
+JularDepick/dsh-system-monitor-plugin

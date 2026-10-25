@@ -1,12 +1,12 @@
 # Blue-Whale-Harness
 
-[![Stars](https://img.shields.io/github/stars/leenkcool/Blue-Whale-Harness?style=flat-square)](https://github.com/leenkcool/Blue-Whale-Harness/stargazers) [![License](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)](./LICENSE) [![Last commit](https://img.shields.io/github/last-commit/leenkcool/Blue-Whale-Harness?style=flat-square)](https://github.com/leenkcool/Blue-Whale-Harness/commits/main) [![Plugins](https://img.shields.io/badge/repos-1972-orange?style=flat-square)](https://leenkcool.github.io) [![Online catalog](https://img.shields.io/badge/site-leenkool.github.io-brightgreen?style=flat-square)](https://leenkcool.github.io)
+[![Stars](https://img.shields.io/github/stars/leenkcool/Blue-Whale-Harness?style=flat-square)](https://github.com/leenkcool/Blue-Whale-Harness/stargazers) [![License](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)](./LICENSE) [![Last commit](https://img.shields.io/github/last-commit/leenkcool/Blue-Whale-Harness?style=flat-square)](https://github.com/leenkcool/Blue-Whale-Harness/commits/main) [![Plugins](https://img.shields.io/badge/repos-1984-orange?style=flat-square)](https://leenkcool.github.io) [![Online catalog](https://img.shields.io/badge/site-leenkool.github.io-brightgreen?style=flat-square)](https://leenkcool.github.io)
 
 > **DeepSeek Harness（DSH）插件总目录** — 收录 GitHub 上散落各处的 DSH 插件、Skill、MCP Server 与周边工具，逐个校验「是否为真插件」，并做成可搜索、可筛选、可导出的在线总表。
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 中英文搜索、分类筛选、按 STAR 排序、CSV 导出。
 
-> 自动生成于 2026-09-12 ｜ 共 **1972** 个仓库 ｜ 真·DSH 插件 **1832** 个 | QQ Group:839509497 |Tg Group: [http://t.me/deepseekdsh](http://t.me/deepseekdsh)
+> 自动生成于 2026-10-25 ｜ 共 **1984** 个仓库 ｜ 真·DSH 插件 **1842** 个 | QQ Group:839509497 |Tg Group: [http://t.me/deepseekdsh](http://t.me/deepseekdsh)
 
 ### 怎么用
 
@@ -22,23 +22,23 @@
 
 ## 统计
 
-- 仓库总数：**1972**
-- 真·DSH 插件：**1832**
+- 仓库总数：**1984**
+- 真·DSH 插件：**1842**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
 ## 分类索引
 
 - **llm** — 166 个仓库，★101293
-- **utility** — 375 个仓库，★66624
+- **utility** — 377 个仓库，★66626
 - **session** — 236 个仓库，★27296
 - **skills** — 53 个仓库，★25583
-- **tools** — 627 个仓库，★24534
-- **orchestration** — 200 个仓库，★18855
-- **ui** — 214 个仓库，★15341
+- **tools** — 633 个仓库，★24743
+- **orchestration** — 201 个仓库，★18861
+- **ui** — 215 个仓库，★15341
 - **uncategorized** — 1 个仓库，★3779
 - **sandbox** — 12 个仓库，★743
 - **acp** — 65 个仓库，★718
-- **memory** — 9 个仓库，★132
+- **memory** — 11 个仓库，★137
 - **skin** — 11 个仓库，★40
 - **preset** — 2 个仓库，★4
 - **notify** — 1 个仓库，★2
@@ -218,7 +218,7 @@
 | [yugbin/dsh-prompt-order-fix](https://github.com/yugbin/dsh-prompt-order-fix) | 为 DeepSeek Harness 提供确定的 system-prompt section 排序——修复跨重启因同序 section 排序漂移导致的 KV 缓存失效。 | Deterministic system-prompt section ordering for DeepSeek Harness — fixes KV-cache invalid | 0 | TypeScript | yes |
 | [meyaomiao/dsh-oauthpro](https://github.com/meyaomiao/dsh-oauthpro) | DeepSeek Harness 多厂商账号池与额度插件：Codex / Claude / Cursor / Grok 等，实时模型目录与余额；输入栏 chip 管理订阅。 | A DeepSeek Harness provider account-pool and quota plugin for Codex, Claude, Cursor, Grok  | 0 | JavaScript | yes |
 
-### utility（375）
+### utility（377）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -587,6 +587,8 @@
 | [kkishapppy/dsh-usage-record](https://github.com/kkishapppy/dsh-usage-record) | DSH Web 对话区左侧提问导航轨：横线=提问，点击跳转+鱼眼+滚动跟随+后台预加载 | DSH Web conversation-area left-side question navigation rail: horizontal lines = questions | 1 | JavaScript | yes |
 | [Wanbinyu/wanbinyu-harness-toolbox](https://github.com/Wanbinyu/wanbinyu-harness-toolbox) | 面向 DeepSeek Harness 的独立第三方项目入口，以中英文页面集中展示启动器、插件、固定版本下载、兼容记录和基本验证信息；无广告、无遥测，不读取本机 Harness 数 | An independent third-party project hub for DeepSeek Harness, presenting the launcher, plug | 1 | JavaScript | no |
 | [LOrz-3/pocket-dsh](https://github.com/LOrz-3/pocket-dsh) | 让 DeepSeek Harness 获得一个 QQ 身份：通过手机 QQ 私聊遥控、接收文件、推送回复与日报到 QQ 邮箱，作为外部通道把 dsh 接进腾讯 IM 和邮箱等生态。 | Give DeepSeek Harness a QQ identity: remotely control it from mobile QQ, receive files, an | 1 | JavaScript | yes |
+| [JularDepick/dsh-wakatime-plugin](https://github.com/JularDepick/dsh-wakatime-plugin) | 一个 dsh 插件: 将 DSH 的每一次 Agent 交互量化为可视化表现指标,自动同步至 WakaTime,用数据展示你与 Agent 协作的生产力. | A plugin for dsh: quantify every dsh Agent interaction as a visualized performance metric  | 1 | TypeScript | yes |
+| [JularDepick/dsh-system-monitor-plugin](https://github.com/JularDepick/dsh-system-monitor-plugin) | 监控 dsh 系统进程的资源占用，并以图表形式向用户报告结果 | A plugin for dsh: monitor the resource utilization of dsh system processes, and report the | 1 | TypeScript | yes |
 | [rizkirmdhnnn/dsh-tool-notify](https://github.com/rizkirmdhnnn/dsh-tool-notify) | dsh-tool-notify — DSH 插件（其他） | DSH plugin: model-facing notify tool for DeepSeek Harness — send notifications to ntfy or  | 0 | TypeScript | yes |
 | [dshiq04/dsh-notify](https://github.com/dshiq04/dsh-notify) | 面向deepseek harness的消息通知插件 | A message-notification plugin for DeepSeek Harness. | 0 | JavaScript | yes |
 | [KnCRJVirX/dsh-desktop](https://github.com/KnCRJVirX/dsh-desktop) | dsh-desktop — DSH 插件（其他） | dsh-desktop — a DSH plugin (miscellaneous). | 0 | JavaScript | yes |
@@ -897,7 +899,7 @@
 | [kuailexiaozixin/tkinter-desktop](https://github.com/kuailexiaozixin/tkinter-desktop) | Tkinter/ttk 原生桌面应用全生命周期技能（MVC + pygubu .ui + SQLite + PyInstaller） | A full-lifecycle skill for native Tkinter/ttk desktop apps (MVC + pygubu .ui + SQLite + Py | 0 | Python | no |
 | [kuailexiaozixin/fasthtml-desktop](https://github.com/kuailexiaozixin/fasthtml-desktop) | FastHTML + pywebview 桌面应用全生命周期技能（本地 HTTP + WebView2 + PyInstaller） | A full-lifecycle skill for FastHTML + pywebview desktop apps (local HTTP + WebView2 + PyIn | 0 | Python | no |
 
-### tools（627）
+### tools（633）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -922,6 +924,7 @@
 | [omdsh-dev/dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon) | Mnemon 三层记忆体深度集成 | Mnemon three-layer memory deep integration | 251 | JavaScript | yes |
 | [openma-ai/open-managed-agents](https://github.com/openma-ai/open-managed-agents) | Claude Managed Agents API 的开源自托管平台（Cloudflare Workers） | Self-hosted Claude Managed Agents API platform (Cloudflare Workers) | 250 | TypeScript | no |
 | [TencentCloud/tencentmeeting-cli](https://github.com/TencentCloud/tencentmeeting-cli) | 腾讯会议命令行工具（CLI），基于腾讯会议开放平台 OAuth2 授权，支持会议管理、录制管理、参会报告等功能。 | Tencent Meeting CLI — a command-line tool built on the Tencent Meeting Open Platform OAuth | 228 | Go | no |
+| [a86582751/dsh-nexttavern](https://github.com/a86582751/dsh-nexttavern) | 面向 DeepSeek Harness 的角色扮演工作台：人物卡可导入、也可从零交互式写出；长篇 TXT 能改编成可玩的卡；主代理按剧情主动查阅世界书，正文在独立酒馆阅读 TAB  | Roleplay workspace for DeepSeek Harness: card import and authoring, novel-to-card adaptati | 196 | TypeScript | yes |
 | [omdsh-dev/dsh-data-agent](https://github.com/omdsh-dev/dsh-data-agent) | 连数据库、写 SQL 的插件 | Connect DB and write SQL plugin | 176 | TypeScript | yes |
 | [cocofhu/anime-find](https://github.com/cocofhu/anime-find) | DeepSeek Harness 搜番插件：对话内多源搜索番剧，卡片展示 Bangumi 评分与详情，支持复制磁力。 | DeepSeek Harness anime-search plugin: search anime across multiple sources in-chat, show B | 163 | TypeScript | yes |
 | [NanmiCoder/dsh-auto-mode](https://github.com/NanmiCoder/dsh-auto-mode) | DeepSeek Harness 的安全自动授权。 | Safe automatic permissions for DeepSeek Harness. | 131 | TypeScript | yes |
@@ -1071,6 +1074,7 @@
 | [Quophic/dsh-persona-memory](https://github.com/Quophic/dsh-persona-memory) | (无描述) | (no description) | 7 | JavaScript | yes |
 | [inmny/dsh-sandbox-escalation-fix](https://github.com/inmny/dsh-sandbox-escalation-fix) | (无描述) | (no description) | 7 | JavaScript | yes |
 | [CocoSgt/dsh-inspector](https://github.com/CocoSgt/dsh-inspector) | (无描述) | (no description) | 7 | JavaScript | yes |
+| [LUgABeEEE/dsh-global-todo](https://github.com/LUgABeEEE/dsh-global-todo) | 全局待办：人与 Agent 共用同一份跨会话清单。每条记录加入时间，可挂文档与地址，可带一份步骤计划并一键交给指定对话继续做；Agent 标完成只是声明，要人确认才算完。侧边栏面板 | A cross-session todo list person and agent both write to: items record when they were adde | 7 | JavaScript（纯 ESM，无构建步骤、零运行时依赖） | yes |
 | [coppynight/dsh-doctor](https://github.com/coppynight/dsh-doctor) | flutter-doctor 风格诊断与安全自动修复 | flutter-doctor-style diagnostics and safe auto-repair | 6 | JavaScript | yes |
 | [omdsh-dev/dsh-tool-stat](https://github.com/omdsh-dev/dsh-tool-stat) | 描述统计/百分位/相关性工具 | Descriptive stats / percentile / correlation tool | 6 | TypeScript | yes |
 | [nowledge-co/nowledge-mem-deepseek-harness](https://github.com/nowledge-co/nowledge-mem-deepseek-harness) | nowledge-mem-deepseek-harness — DSH 插件（工具） | Nowledge Mem community plugin bundle for DeepSeek Harness | 6 | JavaScript | yes |
@@ -1278,6 +1282,8 @@
 | [LilycleHeart/liuli-theme](https://github.com/LilycleHeart/liuli-theme) | (无描述) | (no description) | 3 | TypeScript | yes |
 | [Whatsmore-nf/dsh-pdf-edit](https://github.com/Whatsmore-nf/dsh-pdf-edit) | PDF 编辑插件：AI 只改文字不改样式，支持单页、批量、换版式，HTML 中转保留样式，高效处理大文件。 | PDF editor with AI text-only edits (styles unchanged): single-page, batch, layout switchin | 3 | TypeScript | yes |
 | [H97y/dsh-devflow](https://github.com/H97y/dsh-devflow) | DeepSeek Harness 的自动开发流水线插件：自动按项目规范处理绝大多数决策，仅需人工裁决的进入等待队列，页面答复后自动恢复。所有状态存于 <root>/.devflow | DeepSeek Harness Auto-Dev Pipeline Plugin: Automatically handles most decisions per projec | 3 | TypeScript | yes |
+| [moonquake2004/dsh-doctor](https://github.com/moonquake2004/dsh-doctor) |  |  | 3 | JavaScript | no |
+| [hxlog/dsh-mcp-tools](https://github.com/hxlog/dsh-mcp-tools) | DeepSeek Harness 的 MCP 工具管理器：在设置页添加 HTTP/stdio MCP 服务器、配置请求头、探测连通性、逐工具开关；被停用的 MCP 工具不会注册进模 | A MCP manager for DeepSeek Harness: add streamable-HTTP or stdio MCP servers in Settings,  | 3 | JavaScript | yes |
 | [vibeinging/dsh-trace](https://github.com/vibeinging/dsh-trace) | DSH 遥测后端：导出轮次/步骤/工具 | Telemetry backend exporting turns/steps/tools | 2 | TypeScript | yes |
 | [omdsh-dev/sandbox-mxc](https://github.com/omdsh-dev/sandbox-mxc) | 微软跨平台沙盒支持 | Microsoft cross-platform sandbox support | 2 | TypeScript | yes |
 | [omdsh-dev/web-components](https://github.com/omdsh-dev/web-components) | web-components 支持 | web-components support | 2 | TypeScript | yes |
@@ -1528,8 +1534,10 @@
 | [Junius-Q/dsh-for-obsidian](https://github.com/Junius-Q/dsh-for-obsidian) | 在 Obsidian 中使用 DeepSeek Harness（dsh）——一个仿 Claudian 风格的本地 AI 智能体，处理你的 vault。 | Use DeepSeek Harness (dsh) inside Obsidian — a local AI agent in a Claudian-style interfac | 0 | TypeScript | yes |
 | [scwlkq/deepseek-harness](https://github.com/scwlkq/deepseek-harness) | 任务看板插件（随 DeepSeek Harness 构建发布）：五态看板（初始化/执行中/待审核/已完成/失败），支持增删改查、搜索、同列拖拽排序，Agent 启动/停止/通过/驳 | Task Board plugin (bundled in a DeepSeek Harness build): a five-state kanban (init/in-prog | 0 | TypeScript | yes |
 | [ywleeo/dsh-vision-dashscope](https://github.com/ywleeo/dsh-vision-dashscope) | 基于阿里云百炼 DashScope 的 MCP server 插件，为纯文本 Agent 提供图片/视频/音频识别与生成能力。大视频/大文件自动走官方临时 OSS 直传（单文件上限 | A DashScope (Alibaba Bailian) MCP plugin giving text-only agents image/video/audio recogni | 0 | Python | yes |
+| [moonquake2004/dsh-security](https://github.com/moonquake2004/dsh-security) | Unified security check framework for DeepSeek Harness ecosystem — covers the full plugin l | Unified security check framework for DeepSeek Harness ecosystem — covers the full plugin l | 0 | JavaScript | no |
+| [ct-jaryn/dsh-plugin-baizhi-agent-toolkit](https://github.com/ct-jaryn/dsh-plugin-baizhi-agent-toolkit) | 面向 DeepSeek Harness 的可选社区配置 bundle，复用其 MCP 客户端连接百智云托管工具包，支持动态工具发现与 Bearer 环境变量配置。需自备账号和 Ke | Optional community configuration bundle connecting DeepSeek Harness to hosted Baizhi Cloud | 0 | JavaScript / YAML | yes |
 
-### orchestration（200）
+### orchestration（201）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1612,6 +1620,7 @@
 | [radres/dsh-plugin-call-me](https://github.com/radres/dsh-plugin-call-me) | 你的 DeepSeek Harness 智能体会打你真实电话：它大声问，你大声答，你的回答左右这次运行。 | Your DeepSeek Harness agent rings your actual phone: it asks out loud, you answer out loud | 6 | JavaScript | yes |
 | [Cavan-Ou/hermes-dsh-collab](https://github.com/Cavan-Ou/hermes-dsh-collab) | Battle-tested multi-agent collaboration playbook for DeepSeek Harness: model-tier routing, | A battle-tested multi-agent collaboration playbook for DeepSeek Harness: model-tier routin | 6 | JavaScript | yes |
 | [KirschBluteX/engineer-software](https://github.com/KirschBluteX/engineer-software) | 面向软件工程任务、聚焦且基于证据的 Codex 工作流 | A runtime-neutral, evidence-driven software engineering workflow for Codex and DeepSeek Ha | 6 | Python | yes |
+| [YunongDai2005/dsh-theone](https://github.com/YunongDai2005/dsh-theone) | 一个主聊天入口，自动把消息分配到不同话题的后台会话和对应项目文件夹；支持消息换话题及撤销、撤销合并，减少翻找旧会话。 | One main chat for DeepSeek Harness, routing messages to separate topic sessions and projec | 6 | TypeScript | yes |
 | [vlln/dsh-loop](https://github.com/vlln/dsh-loop) | 定时循环（/loop 命令 + loop 工具） | Scheduled loop (/loop command + tool) | 5 | JavaScript | yes |
 | [pandashere/dsh-self-control-guard](https://github.com/pandashere/dsh-self-control-guard) | dsh-self-control-guard — DSH 插件（编排） | Self-control guard plugin for DeepSeek Harness host exit and restart workflows. | 5 | TypeScript | yes |
 | [zibo2025/dsh-orchestrator](https://github.com/zibo2025/dsh-orchestrator) | 【编排模式】为 DeepSeek Harness 提供多智能体编排模式：主智能体分解分派、worker 全网格互通，支持逐 worker 指定模型与思考强度 | Orchestration mode for DeepSeek Harness: a multi-agent orchestration pattern where a lead  | 5 | TypeScript | yes |
@@ -1734,7 +1743,7 @@
 | [sisyphus-iambe/northstar-exam](https://github.com/sisyphus-iambe/northstar-exam) | northstar-exam — DSH 插件（编排） | Trust checkpoint for AI-generated code, agent reports & embodied-AI artifacts — the exam h | 0 | Python | yes |
 | [houyongsheng/deepseek-harness-molt](https://github.com/houyongsheng/deepseek-harness-molt) | 会自己长出工具的编码智能体。每次任务后反思、写一个可复用工具、测试它，并存入技能库… | The coding agent that grows its own tools. It reflects after each task, writes a reusable  | 0 | Python | yes |
 
-### ui（214）
+### ui（215）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1952,6 +1961,7 @@
 | [penguinpanda/sebastian-kitchen-board](https://github.com/penguinpanda/sebastian-kitchen-board) | Sebastian 是面向 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的家庭厨房与生活 | Sebastian is a family kitchen & life assistant for [DeepSeek Harness](https://github.com/d | 0 | JavaScript | yes |
 | [mozhuanzuojing/dsh-vscode](https://github.com/mozhuanzuojing/dsh-vscode) | 在 VSCode 辅助侧边栏内嵌 100% 原版 DeepSeek Harness (DSH) Web 界面；点击对话/轨迹里的文件路径直接在 VSCode 编辑器打开（本地代理  | Embeds the 100% original DeepSeek Harness (DSH) Web UI in a VSCode auxiliary sidebar; clic | 0 | TypeScript | no |
 | [wolfsonliu/dsh-file-explorer](https://github.com/wolfsonliu/dsh-file-explorer) | dsh-file-explorer 是一个为 DeepSeek Harness (DSH) Web 开发的会话工作区文件浏览器插件。它解决了在对话过程中需要频繁切换到系统文件管理器 | A floating file-explorer panel for DSH Web — browse the workspace file tree, preview files | 0 | JavaScript | yes |
+| [GuihaiHU/dsh-temp-note](https://github.com/GuihaiHU/dsh-temp-note) | DeepSeek Harness 右侧边栏的临时笔记：支持会话级、工作区级、全局三种范围，浏览器本地自动保存、一键复制，以及用默认模型一键优化为 Markdown 并支持撤销。 | A temp note in the DeepSeek Harness right sidebar with session, workspace, and global scop | 0 | JavaScript | yes |
 
 ### uncategorized（1）
 
@@ -2046,15 +2056,17 @@
 | [Lehmaning/dsh-randomuuid-polyfill](https://github.com/Lehmaning/dsh-randomuuid-polyfill) | 在不安全来源（局域网明文 HTTP）上安装 crypto.randomUUID 的 dsh 客户端插件 | dsh client plugin that installs crypto.randomUUID on insecure origins (plain HTTP over a L | 0 | TypeScript | yes |
 | [Zenjibad/dsh-lan-uuid-fix](https://github.com/Zenjibad/dsh-lan-uuid-fix) | dsh 捆绑包：在不安全来源上 polyfill crypto.randomUUID，使 DeepSeek Harness Web UI 可在明文 HTTP 局域网上工作 | dsh bundle: polyfill crypto.randomUUID on insecure origins so the DeepSeek Harness Web UI  | 0 | JavaScript | yes |
 
-### memory（9）
+### memory（11）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
 | [seriousz158/dsh-memory](https://github.com/seriousz158/dsh-memory) | DeepSeek Harness 的记忆插件（dsh-bundle）。 | Memory plugin for DeepSeek Harness (dsh-bundle). | 112 | JavaScript | yes |
 | [mianyoubiaoqing/dsh-Mmem](https://github.com/mianyoubiaoqing/dsh-Mmem) | 支持同一 dsh 进程内多记忆空间的 DSH 记忆插件。 | DSH memory plugin supporting multiple memory spaces within the same dsh process. | 8 | TypeScript | yes |
 | [jasen215/dsh-continual-harness](https://github.com/jasen215/dsh-continual-harness) | DeepSeek Harness 自我进化插件：持久化记忆与提示笔记，跨会话知识共享，自动评审与证据驱动的小步精修（含回滚护栏），自带 A/B 基准评测与 wrap-up 归档建议 | A DeepSeek Harness plugin for self-improving agents: persistent memory and prompt notes, c | 7 | TypeScript | yes |
+| [wang1299/dsh-reforge](https://github.com/wang1299/dsh-reforge) | DSH-Reforge 是 DeepSeek Harness 社区插件，从有测试依据的单仓库 Python Bug 修复中积累可追溯经验，按适用条件为后续任务提供参考。实验性 al | DSH-Reforge is a DeepSeek Harness plugin that builds traceable experience from test-verifi | 3 | TypeScript | yes |
 | [qwert702/dsh-memory](https://github.com/qwert702/dsh-memory) | **dsh-memory v2.0**：项目级+全局记忆存储、Trajectory 旁的记忆视图页签（逐条列表 + Obsidian 风格链接图谱）、每轮自动提取记忆、每次请求自动 | **dsh-memory v2.0**: Project-scoped and global memory stores, a Memory view tab beside Tra | 2 | JavaScript | yes |
 | [szx-a/ds](https://github.com/szx-a/ds) | LMA 分层记忆架构：给 DeepSeek Harness agent 跨会话、可挂载、可检索的长期记忆。记忆按「体」独立存储（隔离在存储层而非检索层），用 /mount /unm | LMA (Layered Memory Architecture): cross-session, mountable, searchable long-term memory f | 2 | TypeScript | yes |
+| [yul761/dsh-statecore](https://github.com/yul761/dsh-statecore) | 基于 StateCore 的可审计项目记忆：自动摄入每条用户/助手消息，每步 pre-step 自动注入预算内记忆摘要，compaction 后自动重注入；五个原生工具 remem | Auditable project memory powered by StateCore: auto-ingests every user/assistant message,  | 2 | TypeScript | yes |
 | [yj-liuzepeng/dsh-project-brain](https://github.com/yj-liuzepeng/dsh-project-brain) | DSH 持久化项目大脑：分析当前工作区与语义架构，跨 Session 保存决策、变更、待办和项目记忆，并在后续对话中自动恢复上下文；默认本地检索，可选向量增强。 | A persistent project brain for DSH that analyzes the active workspace and semantic archite | 1 | JavaScript | yes |
 | [JTSDM/dsh-memory-sqlite](https://github.com/JTSDM/dsh-memory-sqlite) | DSH 原生记忆服务层：纯本地 SQLite 存储（Node 内置 node:sqlite，零 npm 依赖）+ content_hash SHA-256 幂等去重 + FTS5/ | Native memory service layer for DeepSeek Harness: zero-dependency local SQLite storage (no | 0 | TypeScript | yes |
 | [meyaomiao/dsh-graphmemory](https://github.com/meyaomiao/dsh-graphmemory) | DeepSeek Harness 知识图谱记忆：从对话抽取结构化三元组，跨会话召回，压缩上下文；也可用于 OpenClaw。 | Knowledge-graph memory for DeepSeek Harness: extract triples from conversations, recall ac | 0 | TypeScript | yes |
