@@ -97361,5 +97361,60 @@
   "compat": "unknown",
   "featured": false,
   "analyzed_at": "2026-10-30T03:40:27.977Z"
+ },
+ "CorpusIQ/corpusiq-docs": {
+  "repo": "CorpusIQ/corpusiq-docs",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "mcp",
+  "isDshPlugin": false,
+  "dshSignals": [
+   "mcp-server",
+   "model-context-protocol",
+   "external-tool",
+   "business-data-connectors"
+  ],
+  "manifestType": "none",
+  "language": "Python",
+  "intent": "CorpusIQ — a knowledge/documentation repository and MCP ecosystem index covering 36+ business API connectors (Stripe, GA4, Shopify, HubSpot, Google Ads, QuickBooks, etc.) and autonomous-agent patterns.",
+  "intentEn": "CorpusIQ — a knowledge/documentation repository and MCP ecosystem index covering 36+ business API connectors (Stripe, GA4, Shopify, HubSpot, Google Ads, QuickBooks, etc.) and autonomous-agent patterns.",
+  "intentZh": "CorpusIQ —— 面向商业 API 连接器（Stripe、GA4、Shopify、HubSpot、Google Ads、QuickBooks 等 36+）与自主智能体模式的 MCP 生态知识/文档仓库。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "Python",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 26,
+  "forks": 10,
+  "created_at": "2026-05-25T17:08:56Z",
+  "updated_at": "2026-10-30T00:26:20Z",
+  "license": null,
+  "open_issues": 0,
+  "topics": [
+   "agent-skills",
+   "ai-agents",
+   "awesome-mcp",
+   "business-ai",
+   "business-intelligence",
+   "claude-code",
+   "corpusiq",
+   "gemini-cli-extension",
+   "hermes-agent",
+   "mcp",
+   "mcp-server",
+   "model-context-protocol",
+   "nous-research",
+   "remote-mcp",
+   "skills-marketplace"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-10-30T03:47:40.396Z"
  }
 }

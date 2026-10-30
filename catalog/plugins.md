@@ -1,6 +1,6 @@
 # Blue-Whale-Harness · DSH 插件总表（中英双语意图）
 
-> 自动生成于 2026-10-30 ｜ 共 **1987** 个仓库 ｜ 真·DSH 插件 **1844** 个 ｜ 已克隆 **1778** 个 ｜ 源码总体积 **6119.6MB**（不含 .git）
+> 自动生成于 2026-10-30 ｜ 共 **1988** 个仓库 ｜ 真·DSH 插件 **1844** 个 ｜ 已克隆 **1778** 个 ｜ 源码总体积 **6119.6MB**（不含 .git）
 
 | 仓库 | 意图(中文) | Intent(English) | 分类 | 真DSH | 语言 | STAR | FORK | 大小 | 创建 | 更新 | License | 兼容 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -273,6 +273,7 @@
 | [liguobao/dsh-desktop](https://github.com/liguobao/dsh-desktop) | DeepSeek Harness 的独立开源桌面外壳。本地启动内置的 @deepseek-ai/dsh Web UI 并加载到…… | An independent, open-source desktop wrapper for DeepSeek Harness. It starts the bundled @d | utility | yes | JavaScript | 26 | 1 | 2.0MB | 2026-08-14 | 2026-08-15 | MIT | unknown |
 | [AtlasCloudAI/atlas-cloud-skills](https://github.com/AtlasCloudAI/atlas-cloud-skills) | 面向 Claude Code、Codex 与 Gemini CLI 的 Atlas Cloud 技能——从你的编码智能体生成图片/视频并调用 300+ AI 模型。 | Atlas Cloud skills for Claude Code, Codex & Gemini CLI — generate images/videos and call 3 | llm | no | JavaScript | 26 | 3 | 520KB | 2026-03-08 | 2026-08-14 | unknown | unknown |
 | [WeirdSky924/agent-handoff-skill](https://github.com/WeirdSky924/agent-handoff-skill) | 在 Codex 或 Claude Code 中使用这款跨平台技能，建立仓库级的连续性记忆，让后续智能体能恢复目标…… | Use this cross-platform skill in Codex or Claude Code to establish repository-local contin | session | yes | Python | 26 | 3 | 193KB | 2026-05-05 | 2026-08-14 | unknown | unknown |
+| [CorpusIQ/corpusiq-docs](https://github.com/CorpusIQ/corpusiq-docs) | CorpusIQ —— 面向商业 API 连接器（Stripe、GA4、Shopify、HubSpot、Google Ads、QuickBooks 等 36+）与自主智能体模式的  | CorpusIQ — a knowledge/documentation repository and MCP ecosystem index covering 36+ busin | mcp | no | Python | 26 | 10 |  | 2026-05-25 | 2026-10-30 |  | unknown |
 | [834063245-creator/HoloGram](https://github.com/834063245-creator/HoloGram) | 3D 代码依赖拓扑图生成器（14 语言） | 3D code dependency graph generator (14 languages) | tools | yes | TypeScript | 25 | 1 | 107.5MB | 2026-06-14 | 2026-08-14 | MIT | unknown |
 | [lzszq/dsh-scholar](https://github.com/lzszq/dsh-scholar) | dsh-scholar（文献相关） | dsh-scholar (literature) | tools | yes | TypeScript | 25 | 2 | 9.8MB | 2026-08-06 | 2026-08-14 | MIT | unknown |
 | [techysy/deepseek-harness-fnos](https://github.com/techysy/deepseek-harness-fnos) | DeepSeek Harness (DeepSeek 官方 agent 浏览器 UI) fnOS 应用 — 本地常驻服务, 官方统一网关接入 | deepseek-harness-fnos — DSH plugin (orchestration) | orchestration | yes | Shell | 25 | 0 | 471KB | 2026-08-13 | 2026-08-14 | MIT | unknown |

@@ -2005,3 +2005,4 @@ JularDepick/dsh-system-monitor-plugin
 vostride/agent-qa
 Verisw/rea-dsh
 achenjins/dsh-runninghub-plugin
+CorpusIQ/corpusiq-docs

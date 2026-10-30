@@ -1,12 +1,12 @@
 # Blue-Whale-Harness
 
-[![Stars](https://img.shields.io/github/stars/leenkcool/Blue-Whale-Harness?style=flat-square)](https://github.com/leenkcool/Blue-Whale-Harness/stargazers) [![License](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)](./LICENSE) [![Last commit](https://img.shields.io/github/last-commit/leenkcool/Blue-Whale-Harness?style=flat-square)](https://github.com/leenkcool/Blue-Whale-Harness/commits/main) [![Plugins](https://img.shields.io/badge/repos-1987-orange?style=flat-square)](https://leenkcool.github.io) [![Online catalog](https://img.shields.io/badge/site-leenkool.github.io-brightgreen?style=flat-square)](https://leenkcool.github.io)
+[![Stars](https://img.shields.io/github/stars/leenkcool/Blue-Whale-Harness?style=flat-square)](https://github.com/leenkcool/Blue-Whale-Harness/stargazers) [![License](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)](./LICENSE) [![Last commit](https://img.shields.io/github/last-commit/leenkcool/Blue-Whale-Harness?style=flat-square)](https://github.com/leenkcool/Blue-Whale-Harness/commits/main) [![Plugins](https://img.shields.io/badge/repos-1988-orange?style=flat-square)](https://leenkcool.github.io) [![Online catalog](https://img.shields.io/badge/site-leenkool.github.io-brightgreen?style=flat-square)](https://leenkcool.github.io)
 
 > **DeepSeek Harness（DSH）插件总目录** — 收录 GitHub 上散落各处的 DSH 插件、Skill、MCP Server 与周边工具，逐个校验「是否为真插件」，并做成可搜索、可筛选、可导出的在线总表。
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 中英文搜索、分类筛选、按 STAR 排序、CSV 导出。
 
-> 自动生成于 2026-10-30 ｜ 共 **1987** 个仓库 ｜ 真·DSH 插件 **1844** 个 | QQ Group:839509497 |Tg Group: [http://t.me/deepseekdsh](http://t.me/deepseekdsh)
+> 自动生成于 2026-10-30 ｜ 共 **1988** 个仓库 ｜ 真·DSH 插件 **1844** 个 | QQ Group:839509497 |Tg Group: [http://t.me/deepseekdsh](http://t.me/deepseekdsh)
 
 ### 怎么用
 
@@ -22,7 +22,7 @@
 
 ## 统计
 
-- 仓库总数：**1987**
+- 仓库总数：**1988**
 - 真·DSH 插件：**1844**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
@@ -40,6 +40,7 @@
 - **acp** — 65 个仓库，★718
 - **memory** — 11 个仓库，★137
 - **skin** — 11 个仓库，★40
+- **mcp** — 1 个仓库，★26
 - **preset** — 3 个仓库，★5
 - **notify** — 1 个仓库，★2
 
@@ -2089,6 +2090,12 @@
 | [lengduan/dsh-815-skin](https://github.com/lengduan/dsh-815-skin) | Web GUI 史料皮肤：对话区陈坚油画《公元一九四五年九月九日九时》（南京受降），侧栏挂《终战诏书》。加载即生效、卸载即还原，不改会话、不调模型。 | Historical Web GUI skin: Chen Jian's 9 Sept 1945 Nanjing surrender painting as chat backdr | 1 | TypeScript | yes |
 | [youqishan/dsh-skin-3bridge](https://github.com/youqishan/dsh-skin-3bridge) | 一款DSH皮肤编辑器，支持用户自由上传自己喜欢的立绘与背景 | A DSH skin editor that allows users to freely upload their favorite character illustration | 1 | JavaScript | yes |
 | [MrmoLabs/dsh-yorha-ui](https://github.com/MrmoLabs/dsh-yorha-ui) | 面向 DeepSeek Harness Web 的 NieR:Automata / YoRHa 风格工业终端主题，提供沙色/炭黑明暗配色、直角几何与全界面统一样式，运行时无需 CD | A NieR:Automata / YoRHa-inspired industrial terminal theme for DeepSeek Harness Web, with  | 0 | TypeScript | yes |
+
+### mcp（1）
+
+| 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
+|---|---|---|---|---|---|
+| [CorpusIQ/corpusiq-docs](https://github.com/CorpusIQ/corpusiq-docs) | CorpusIQ —— 面向商业 API 连接器（Stripe、GA4、Shopify、HubSpot、Google Ads、QuickBooks 等 36+）与自主智能体模式的  | CorpusIQ — a knowledge/documentation repository and MCP ecosystem index covering 36+ busin | 26 | Python | no |
 
 ### preset（3）
 
