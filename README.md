@@ -1,12 +1,12 @@
 # Blue-Whale-Harness
 
-[![Stars](https://img.shields.io/github/stars/leenkcool/Blue-Whale-Harness?style=flat-square)](https://github.com/leenkcool/Blue-Whale-Harness/stargazers) [![License](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)](./LICENSE) [![Last commit](https://img.shields.io/github/last-commit/leenkcool/Blue-Whale-Harness?style=flat-square)](https://github.com/leenkcool/Blue-Whale-Harness/commits/main) [![Plugins](https://img.shields.io/badge/repos-1984-orange?style=flat-square)](https://leenkcool.github.io) [![Online catalog](https://img.shields.io/badge/site-leenkool.github.io-brightgreen?style=flat-square)](https://leenkcool.github.io)
+[![Stars](https://img.shields.io/github/stars/leenkcool/Blue-Whale-Harness?style=flat-square)](https://github.com/leenkcool/Blue-Whale-Harness/stargazers) [![License](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)](./LICENSE) [![Last commit](https://img.shields.io/github/last-commit/leenkcool/Blue-Whale-Harness?style=flat-square)](https://github.com/leenkcool/Blue-Whale-Harness/commits/main) [![Plugins](https://img.shields.io/badge/repos-1987-orange?style=flat-square)](https://leenkcool.github.io) [![Online catalog](https://img.shields.io/badge/site-leenkool.github.io-brightgreen?style=flat-square)](https://leenkcool.github.io)
 
 > **DeepSeek Harness（DSH）插件总目录** — 收录 GitHub 上散落各处的 DSH 插件、Skill、MCP Server 与周边工具，逐个校验「是否为真插件」，并做成可搜索、可筛选、可导出的在线总表。
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 中英文搜索、分类筛选、按 STAR 排序、CSV 导出。
 
-> 自动生成于 2026-10-25 ｜ 共 **1984** 个仓库 ｜ 真·DSH 插件 **1842** 个 | QQ Group:839509497 |Tg Group: [http://t.me/deepseekdsh](http://t.me/deepseekdsh)
+> 自动生成于 2026-10-30 ｜ 共 **1987** 个仓库 ｜ 真·DSH 插件 **1844** 个 | QQ Group:839509497 |Tg Group: [http://t.me/deepseekdsh](http://t.me/deepseekdsh)
 
 ### 怎么用
 
@@ -22,8 +22,8 @@
 
 ## 统计
 
-- 仓库总数：**1984**
-- 真·DSH 插件：**1842**
+- 仓库总数：**1987**
+- 真·DSH 插件：**1844**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
 ## 分类索引
@@ -31,8 +31,8 @@
 - **llm** — 166 个仓库，★101293
 - **utility** — 377 个仓库，★66626
 - **session** — 236 个仓库，★27296
+- **tools** — 635 个仓库，★25657
 - **skills** — 53 个仓库，★25583
-- **tools** — 633 个仓库，★24743
 - **orchestration** — 201 个仓库，★18861
 - **ui** — 215 个仓库，★15341
 - **uncategorized** — 1 个仓库，★3779
@@ -40,7 +40,7 @@
 - **acp** — 65 个仓库，★718
 - **memory** — 11 个仓库，★137
 - **skin** — 11 个仓库，★40
-- **preset** — 2 个仓库，★4
+- **preset** — 3 个仓库，★5
 - **notify** — 1 个仓库，★2
 
 ## 插件清单
@@ -841,65 +841,7 @@
 | [dmsobtl/dsh-session-analyst](https://github.com/dmsobtl/dsh-session-analyst) | DSH 插件：Agent 会话质量分析 —— 工具成功率、token 效率、冗余调用检测、跨会话回归对比。PS：上传文件有点问题，等我重新整理下 | DSH plugin: agent session-quality analysis — tool success rate, token efficiency, redundan | 0 | TypeScript | yes |
 | [zzy2210/dsh-subagent-status](https://github.com/zzy2210/dsh-subagent-status) | DeepSeek Harness 常驻插件:在会话标题栏显示主代理与每个子代理实际使用的模型和思考档位 | Persistent DSH web plugin: shows the | Persistent DSH web plugin: shows the model & reasoning effort actually used by the main ag | 0 | JavaScript | yes |
 
-### skills（53）
-
-| 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
-|---|---|---|---|---|---|
-| [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill) | 把离别化为温暖的 Skill（数字生命）。 | A farewell-warming Skill for the community. | 24046 | Python | yes |
-| [linhay/harmony-next.skills](https://github.com/linhay/harmony-next.skills) | HarmonyOS NEXT 开发专家指导 skills。 | Expert guidance skills for HarmonyOS NEXT development. | 340 | Python | no |
-| [alaliqing/claude-paper](https://github.com/alaliqing/claude-paper) | 自动化研究论文学习的 Claude Code 插件。 | Claude Code plugin automating research-paper study. | 328 | Vue | yes |
-| [worldwonderer/oh-story-dsh](https://github.com/worldwonderer/oh-story-dsh) | DSH 小说创作与短剧制作插件：由 Oh Story 与 Drama Skills 驱动。 | A DSH plugin for novel writing and short-drama production, powered by Oh Story and Drama S | 207 | Python | yes |
-| [Fishquito7/dsh-skill-viewer](https://github.com/Fishquito7/dsh-skill-viewer) | DSH Web UI plugin: Skills settings section with hot enable/disable, delete and add（Web界面的s | DSH Web UI plugin: Skills settings section with hot enable/disable, delete and add | 107 | JavaScript | yes |
-| [LayneChai/superpowers-dsh](https://github.com/LayneChai/superpowers-dsh) | DeepSeek Harness 的 Superpowers 技能集：源自 obra/superpowers 的测试驱动开发、调试、规划与协作技能 | Superpowers skills for DeepSeek Harness: TDD, debugging, planning, and collaboration skill | 99 | JavaScript | yes |
-| [dhicoc/dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) | 一套完整的逆向技能（85 个 SKILL.md），作为 DeepSeek Harness（dsh）Cordis 插件——逆向工程、授权渗透测试与安全研…… | Complete reverse-skill (85 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse e | 88 | PowerShell | yes |
-| [Jayden-X-L/forkprobe](https://github.com/Jayden-X-L/forkprobe) | 在同一任务上对比多个技能，选出最优者。 | Compare multiple skills on the same task and pick the winner. | 71 | Python | yes |
-| [Lyn-77/ProMentor](https://github.com/Lyn-77/ProMentor) | 让 AI 编程助手化身资深导师的 Coding Agent Skill。 | Coding-agent skill turning your AI into a mentor. | 65 | TypeScript | yes |
-| [kuangre123/iosdev](https://github.com/kuangre123/iosdev) | ios app 开发 skill | An iOS app development skill. | 25 | unknown | no |
-| [upstash/skills](https://github.com/upstash/skills) | Upstash 的技能合集 | Collection of skills for Upstash | 23 | JavaScript | yes |
-| [zhaiyateng/dsh-design-skills](https://github.com/zhaiyateng/dsh-design-skills) | DeepSeek Harness（DSH）的设计美学技能包——让 vibe coding 出的网站摆脱 AI 味。6 种风格：dark-saas、apple-minim…… | Design aesthetics skill pack for DeepSeek Harness (DSH) - keeps vibe-coded websites away f | 19 | JavaScript | yes |
-| [zebbkira/dsh-skills-mcp-manager](https://github.com/zebbkira/dsh-skills-mcp-manager) | 面向 DeepSeek Harness Web GUI 的正式插件包：在设置页的「Web UI 插件」分组中新增一张「技能与 MCP」卡片，用于在浏览器里管理技能（skills）与 | An official plugin pack for the DeepSeek Harness Web GUI: adds a 'Skills & MCP' card under | 17 | TypeScript | yes |
-| [Totoro-qaq/Cobsidian](https://github.com/Totoro-qaq/Cobsidian) | 维护 Obsidian 的 agent 无关工作流 skill。 | Agent-agnostic workflow skill for Obsidian. | 14 | Python | yes |
-| [pypcfx-glitch/risk-rule-design](https://github.com/pypcfx-glitch/risk-rule-design) | 数据风控规则挖掘：提炼自《百日风控专家》课程思想。 | Rule mining for data risk control, distilled from the ideas of the "100-Day Risk Control E | 14 | JavaScript | yes |
-| [omdsh-dev/dsh-plugin-skills](https://github.com/omdsh-dev/dsh-plugin-skills) | 构建与测试 DeepSeek Harness 插件的 Agent skills。 | Agent skills for building & testing DSH plugins. | 12 | unknown | yes |
-| [qkycir-123/dsh-run2skill](https://github.com/qkycir-123/dsh-run2skill) | 把成功的 DeepSeek Harness 会话自动转化为可复用、可审阅的 Agent Skills。 | Automatically turn successful DeepSeek Harness sessions into reusable, reviewable Agent Sk | 10 | TypeScript | yes |
-| [DDDFXYqiming/Agent_Extensions](https://github.com/DDDFXYqiming/Agent_Extensions) | 通用智能体技能与 DSH 扩展库。 | Generic agent skills & DSH extension library. | 7 | JavaScript | yes |
-| [itmoqing/DeepSeek-Harness-Skill](https://github.com/itmoqing/DeepSeek-Harness-Skill) | 这是一个Codex/Claude来进行任务发布给DeepSeek Harness干活的工作流的Skill，能实现并发，多个工作区一起执行 | A Skill that lets Codex/Claude dispatch tasks to DeepSeek Harness to execute, supporting c | 6 | PowerShell | yes |
-| [xiaoxiaosrm/dsh-mattpocock-skills](https://github.com/xiaoxiaosrm/dsh-mattpocock-skills) | mattpocock/skills 的非官方 DSH 移植——工程（18）+ 生产力（7）技能，作为 DeepSeek Harness 合集插件。MIT，© Matt Poco…… | Unofficial DSH port of mattpocock/skills — Engineering (18) + Productivity (7) skills as a | 6 | Shell | yes |
-| [levi-qiao/dsh-plugin-longgraph](https://github.com/levi-qiao/dsh-plugin-longgraph) | DeepSeek Harness 社区插件：在 ctx.skills 上创作 longgraph / loop-graph / loop-converge 的技能 | DeepSeek Harness community plugin: longgraph / loop-graph / loop-converge authoring skills | 5 | TypeScript | yes |
-| [Wenaixi/dsh-ponytail](https://github.com/Wenaixi/dsh-ponytail) | DietrichGebert/ponytail 的 DSH 完整移植版——懒惰 senior 模式，hook 注入。 | Full DSH port of DietrichGebert/ponytail — lazy senior mode with hook injection. | 5 | TypeScript | yes |
-| [YYTbit/dsh-plugin-opencode-bridge](https://github.com/YYTbit/dsh-plugin-opencode-bridge) | dsh-plugin-opencode-bridge — DSH 插件（技能） | Bridge opencode skills and config into DeepSeek Harness | 4 | TypeScript | yes |
-| [Aidenwu0209/dsh-PaddleOCR-Skills](https://github.com/Aidenwu0209/dsh-PaddleOCR-Skills) | DeepSeek Harness 的 PaddleOCR 技能，带原生工具与图形配置 | PaddleOCR skills for DeepSeek Harness with native tools and GUI configuration | 4 | Python | yes |
-| [dongsheng123132/dsh-capability-receipt](https://github.com/dongsheng123132/dsh-capability-receipt) | DeepSeek Harness 实际加载技能的内容寻址回执 | Content-addressed receipts for skills actually loaded by DeepSeek Harness | 4 | JavaScript | yes |
-| [xiaoxianyu-office/dsh-skills-manager](https://github.com/xiaoxianyu-office/dsh-skills-manager) | DSH Skills 管理器：设置页系统/用户技能分类，用户技能开关/编辑/删除/新建。Skills manager for DeepSeek Harness: system/us | A DSH Skills manager: system/user skill categories in the settings page, with toggle/edit/ | 4 | JavaScript | yes |
-| [seamas0825-lab/dsh-youmind-plugin](https://github.com/seamas0825-lab/dsh-youmind-plugin) | DeepSeek Harness 的 YouMind OpenAPI 工具与技能捆绑包 | YouMind OpenAPI tools and skill bundle for DeepSeek Harness | 4 | JavaScript | yes |
-| [Thhoho/reSanity](https://github.com/Thhoho/reSanity) | 散户认知组合管理 SKILL.md。 | Retail-investor cognition management SKILL.md. | 4 | Python | yes |
-| [octoparse/agent-skills](https://github.com/octoparse/agent-skills) | Octoparse agent skills 合集。 | Collection of Octoparse agent skills. | 4 | Python | no |
-| [rainforest888/dsh-plugins-raincode](https://github.com/rainforest888/dsh-plugins-raincode) | dsh-plugins-raincode — DSH 插件（技能） | dsh-plugins-raincode — a DSH plugin (skills). | 3 | TypeScript | yes |
-| [Moximxxx/dsh-find-skill](https://github.com/Moximxxx/dsh-find-skill) | dsh-find-skill — DSH 插件（技能） | dsh plugin bridging the vercel-labs/skills ecosystem: LLM-driven skill search, install, an | 3 | TypeScript | yes |
-| [MOLAaaaaaaa/dsh-seismicx](https://github.com/MOLAaaaaaaa/dsh-seismicx) | dsh-seismicx — DSH 插件（技能） | DeepSeek Harness plugin for the SeismicX earthquake-catalog skill | 3 | TypeScript | yes |
-| [Lanxing6480/dsh-skill-manager](https://github.com/Lanxing6480/dsh-skill-manager) | Deepseek Harness 的Skill管理插件 | A Skill management plugin for DeepSeek Harness. | 3 | JavaScript | yes |
-| [jingzhao-l/iterate-plugin](https://github.com/jingzhao-l/iterate-plugin) | DeepSeek Harness (dsh) 插件：把 iterate 技能落成自治闭环代码迭代 — 多轮并行审查、确定性去重收敛、原子修复+验证自停、meta-review 一致 | DeepSeek Harness (dsh) plugin: turns the iterate skill into an autonomous closed-loop code | 3 | TypeScript | yes |
-| [litestartup-com/litestartup-skills](https://github.com/litestartup-com/litestartup-skills) | 发布博客/文档/网站的 skills。 | Skills for publishing blog/docs/website. | 3 | Shell | no |
-| [paean-ai/8x-skills](https://github.com/paean-ai/8x-skills) | 8x skills 技能集。 | 8x skills collection. | 3 | JavaScript | no |
-| [rxa3c/chat2skill](https://github.com/rxa3c/chat2skill) | chat2skill — DSH 插件（技能） | Extracting and iterating skills from daily conversations with AI | 3 | Python | yes |
-| [YYTbit/dsh-plugin-codex-bridge](https://github.com/YYTbit/dsh-plugin-codex-bridge) | dsh-plugin-codex-bridge — DSH 插件（技能） | Bridge codex skills and config into DeepSeek Harness | 2 | TypeScript | yes |
-| [YYTbit/dsh-plugin-pi-bridge](https://github.com/YYTbit/dsh-plugin-pi-bridge) | dsh-plugin-pi-bridge — DSH 插件（技能） | Bridge pi skills and config into DeepSeek Harness | 2 | TypeScript | yes |
-| [TohsakaRIN521/dsh-academic-skill](https://github.com/TohsakaRIN521/dsh-academic-skill) | academic-paper-completion 旨在补全你将要发表的文章中除了理论计算数值分析的其余部分,减少或消除ai引用幻觉 | dsh-academic-skill — DSH plugin (skills) | 2 | Python | no |
-| [phoenixlucky/chrome-mcp-bridge-2026-skill](https://github.com/phoenixlucky/chrome-mcp-bridge-2026-skill) | 为 AI 代理提供稳定可靠的 Streamable HTTP MCP 连接能力 | Provides AI agents with stable, reliable Streamable HTTP MCP connectivity. | 2 | JavaScript | no |
-| [YYTbit/dsh-plugin-auto-docs](https://github.com/YYTbit/dsh-plugin-auto-docs) | dsh-plugin-auto-docs — DSH 插件（技能） | Auto documentation generation skill for DeepSeek Harness | 1 | TypeScript | yes |
-| [YYTbit/dsh-plugin-code-review](https://github.com/YYTbit/dsh-plugin-code-review) | dsh-plugin-code-review — DSH 插件（技能） | Structured code review skill for DeepSeek Harness | 1 | TypeScript | yes |
-| [spike-faye-lei/spike-faye-lei-dsh-skills](https://github.com/spike-faye-lei/spike-faye-lei-dsh-skills) | spike-faye-lei-dsh-skills — DSH 插件（技能） | spike-faye-lei/dsh-skills | 1 | Python | yes |
-| [HomophonicFate/rpg-maker-mac-skill](https://github.com/HomophonicFate/rpg-maker-mac-skill) | rpg-maker-mac-skill — DSH 插件（技能） | rpg-maker-mac-skill — a DSH plugin (skill). | 1 | JavaScript | yes |
-| [Aidenwu0209/dsh-Unlimited-OCR-Skill](https://github.com/Aidenwu0209/dsh-Unlimited-OCR-Skill) | DeepSeek Harness 的 Unlimited-OCR，带原生工具与图形配置 | Unlimited-OCR for DeepSeek Harness with a native tool and GUI configuration | 1 | TypeScript | yes |
-| [CSY656/dsh-skill-remote](https://github.com/CSY656/dsh-skill-remote) | DeepSeek Harness 的远程 skills.sh/GitHub 技能提供方与安装器——一句话安装任意技能 | Remote skills.sh/GitHub skill provider and installer for DeepSeek Harness — install any sk | 1 | TypeScript | yes |
-| [yjm110517/content-to-editable-ppt-skill](https://github.com/yjm110517/content-to-editable-ppt-skill) | content-to-editable-ppt-skill — DSH 插件（技能） | Bootstrap runtime for generating multi-slide editable PowerPoint presentations from topics | 1 | Python | no |
-| [t1yOS/t1y-skills](https://github.com/t1yOS/t1y-skills) | 面向 t1yOS 无服务器平台工作的 AI 编码助手专家技能包 | expert skill package for AI coding assistants working with the t1yOS Serverless platform. | 1 | unknown | no |
-| [phoenixlucky/moon-lovers-skill](https://github.com/phoenixlucky/moon-lovers-skill) | Moon Lovers 白月光 — 为角色卡和恋爱聊天场景设计的温柔克制型 AI 回复 Skill。支持西施、王昭君、貂蝉、杨玉环等四大美人角色卡，输出自然、留白、不油腻的恋爱聊天 | Moon Lovers — a gentle, restrained AI reply skill designed for character cards and romanti | 1 | JavaScript | no |
-| [JimmyJin2006/dsh-skill-manager](https://github.com/JimmyJin2006/dsh-skill-manager) | 在设置界面管理你已有的技能！ | dsh-skill-manager — DSH plugin (skills) | 0 | JavaScript | yes |
-| [kuailexiaozixin/tkinter-desktop](https://github.com/kuailexiaozixin/tkinter-desktop) | Tkinter/ttk 原生桌面应用全生命周期技能（MVC + pygubu .ui + SQLite + PyInstaller） | A full-lifecycle skill for native Tkinter/ttk desktop apps (MVC + pygubu .ui + SQLite + Py | 0 | Python | no |
-| [kuailexiaozixin/fasthtml-desktop](https://github.com/kuailexiaozixin/fasthtml-desktop) | FastHTML + pywebview 桌面应用全生命周期技能（本地 HTTP + WebView2 + PyInstaller） | A full-lifecycle skill for FastHTML + pywebview desktop apps (local HTTP + WebView2 + PyIn | 0 | Python | no |
-
-### tools（633）
+### tools（635）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -909,6 +851,7 @@
 | [DSH-EAC/DSH-Desktop-EAC](https://github.com/DSH-EAC/DSH-Desktop-EAC) | DeepSeek Harness 桌面客户端 —— 内置 Node.js 与 dsh CLI，一键启动、即开即用。10 套内置 UI 皮肤，插件市场、Skills 与 MCP 深度 | DeepSeek Harness Official Desktop Client — Built-in Node.js and dsh CLI, one-click startup | 1643 | JavaScript | no |
 | [hyhmrright/brooks-lint](https://github.com/hyhmrright/brooks-lint) | 基于 12 本经典工程书籍的 AI 代码审查——带引用出处、严重等级与 6 种分析模式的腐化风险诊断…… | AI code reviews grounded in 12 classic engineering books — decay risk diagnostics with boo | 1422 | JavaScript | yes |
 | [xmanrui/dsh-im](https://github.com/xmanrui/dsh-im) | 通过扫码、App Manifest 或机器人凭据把 IM 机器人接入 DeepSeek Harness：一个插件统一管理飞书、微信、钉钉、企业微信、QQ、Slack、Telegra | Connect IM bots to DeepSeek Harness via QR code, App Manifest or bot credentials: one plug | 910 | JavaScript | yes |
+| [vostride/agent-qa](https://github.com/vostride/agent-qa) | vostride 的自然语言自动化测试工具，支持 Web、Android 和 iOS；先进的 memidex 记忆引擎与自我改进能力帮助复用已验证的测试经验。 | Natural-language QA for web, Android, and iOS, with advanced memidex memory and self-impro | 910 | TypeScript | no |
 | [shaobeichen/dsh-pocket](https://github.com/shaobeichen/dsh-pocket) | 把 DeepSeek Harness 装进口袋：电脑上跑 dsh web，手机扫码即同步访问同一界面，支持局域网与公网穿透、实时同屏。 | Put DeepSeek Harness in your pocket: run dsh web on your computer and mirror it to your ph | 721 | JavaScript | yes |
 | [yejiming/MuseAI](https://github.com/yejiming/MuseAI) | 创建你的 AI 角色，进入你的故事世界。和角色聊天、冒险、穿书，让每一次互动都留下羁绊（支持 DeepSeek Harness 插件，欢迎使用） | Create your AI characters and step into your story world. Chat, adventure, and dive into b | 621 | TypeScript | yes |
 | [Lum1104/dsh-browser](https://github.com/Lum1104/dsh-browser) | 把 DSH 网页版扩展成 Agent 工作台的侧边栏：以结构化文本操控浏览器（点击/填表/导航且保留登录态），内置记忆、技能、MCP 工具与会话管理。 | Chrome/Firefox sidebar that turns DSH web into an agent workstation: text-structured brows | 481 | TypeScript | yes |
@@ -1184,6 +1127,7 @@
 | [1e0zj/dsh-plugin-mall](https://github.com/1e0zj/dsh-plugin-mall) | DSH 插件市场：搜索 GitHub dsh-plugin 话题下的插件，安装前做适配与冲突预检，生命周期脚本逐包批准，失败自动回滚，集成在 Web 设置页。 | A DSH plugin marketplace in the Web settings page: search the GitHub dsh-plugin topic, pre | 4 | JavaScript | yes |
 | [Kaixxrua/dsh-aigc-radar](https://github.com/Kaixxrua/dsh-aigc-radar) | DSH 插件：在 agent 动手实现大型模块之前，主动检索 AIGC Radar 精选的 18,000+ 个 500 星以上 GitHub AI 项目；结果以 Web UI 原生 | DeepSeek Harness plugin that proactively searches AIGC Radar's curated 18,000+ GitHub AI p | 4 | TypeScript | yes |
 | [Qiongkura/dsh-usage-plugin](https://github.com/Qiongkura/dsh-usage-plugin) | DeepSeek Harness（DSH）的 Token 用量统计 插件：侧边栏底部入口 + 模态面板，查看所有会话的 Token 消耗。 它是 DSH 官方「用量统计」的增强版— | A Token Usage Statistics plugin for DeepSeek Harness (DSH): sidebar bottom entry + modal p | 4 | TypeScript | yes |
+| [achenjins/dsh-runninghub-plugin](https://github.com/achenjins/dsh-runninghub-plugin) | DeepSeek Harness 插件：调用你在 RunningHub 上保存的 ComfyUI 工作流生成图片、视频和音频。AI 可按工作流链接或 ID 辅助配置输入节点，也可在 | A DeepSeek Harness plugin that runs your saved RunningHub ComfyUI workflows to generate im | 4 | JavaScript | yes |
 | [whiteguo233/dsh-cc-connect](https://github.com/whiteguo233/dsh-cc-connect) | 通过 cc-connect 远程使用 DSH | Use DSH remotely via cc-connect | 3 | Go | yes |
 | [renat3u/dsh-paseo](https://github.com/renat3u/dsh-paseo) | DSH 的 paseo 插件扩展支持 | paseo plugin extension support for DSH | 3 | JavaScript | yes |
 | [omdsh-dev/dsh-tool-encoding](https://github.com/omdsh-dev/dsh-tool-encoding) | base64/hex/url 编解码 + 哈希工具 | base64/hex/url codec + hash tool | 3 | TypeScript | yes |
@@ -1536,6 +1480,64 @@
 | [ywleeo/dsh-vision-dashscope](https://github.com/ywleeo/dsh-vision-dashscope) | 基于阿里云百炼 DashScope 的 MCP server 插件，为纯文本 Agent 提供图片/视频/音频识别与生成能力。大视频/大文件自动走官方临时 OSS 直传（单文件上限 | A DashScope (Alibaba Bailian) MCP plugin giving text-only agents image/video/audio recogni | 0 | Python | yes |
 | [moonquake2004/dsh-security](https://github.com/moonquake2004/dsh-security) | Unified security check framework for DeepSeek Harness ecosystem — covers the full plugin l | Unified security check framework for DeepSeek Harness ecosystem — covers the full plugin l | 0 | JavaScript | no |
 | [ct-jaryn/dsh-plugin-baizhi-agent-toolkit](https://github.com/ct-jaryn/dsh-plugin-baizhi-agent-toolkit) | 面向 DeepSeek Harness 的可选社区配置 bundle，复用其 MCP 客户端连接百智云托管工具包，支持动态工具发现与 Bearer 环境变量配置。需自备账号和 Ke | Optional community configuration bundle connecting DeepSeek Harness to hosted Baizhi Cloud | 0 | JavaScript / YAML | yes |
+
+### skills（53）
+
+| 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
+|---|---|---|---|---|---|
+| [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill) | 把离别化为温暖的 Skill（数字生命）。 | A farewell-warming Skill for the community. | 24046 | Python | yes |
+| [linhay/harmony-next.skills](https://github.com/linhay/harmony-next.skills) | HarmonyOS NEXT 开发专家指导 skills。 | Expert guidance skills for HarmonyOS NEXT development. | 340 | Python | no |
+| [alaliqing/claude-paper](https://github.com/alaliqing/claude-paper) | 自动化研究论文学习的 Claude Code 插件。 | Claude Code plugin automating research-paper study. | 328 | Vue | yes |
+| [worldwonderer/oh-story-dsh](https://github.com/worldwonderer/oh-story-dsh) | DSH 小说创作与短剧制作插件：由 Oh Story 与 Drama Skills 驱动。 | A DSH plugin for novel writing and short-drama production, powered by Oh Story and Drama S | 207 | Python | yes |
+| [Fishquito7/dsh-skill-viewer](https://github.com/Fishquito7/dsh-skill-viewer) | DSH Web UI plugin: Skills settings section with hot enable/disable, delete and add（Web界面的s | DSH Web UI plugin: Skills settings section with hot enable/disable, delete and add | 107 | JavaScript | yes |
+| [LayneChai/superpowers-dsh](https://github.com/LayneChai/superpowers-dsh) | DeepSeek Harness 的 Superpowers 技能集：源自 obra/superpowers 的测试驱动开发、调试、规划与协作技能 | Superpowers skills for DeepSeek Harness: TDD, debugging, planning, and collaboration skill | 99 | JavaScript | yes |
+| [dhicoc/dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) | 一套完整的逆向技能（85 个 SKILL.md），作为 DeepSeek Harness（dsh）Cordis 插件——逆向工程、授权渗透测试与安全研…… | Complete reverse-skill (85 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse e | 88 | PowerShell | yes |
+| [Jayden-X-L/forkprobe](https://github.com/Jayden-X-L/forkprobe) | 在同一任务上对比多个技能，选出最优者。 | Compare multiple skills on the same task and pick the winner. | 71 | Python | yes |
+| [Lyn-77/ProMentor](https://github.com/Lyn-77/ProMentor) | 让 AI 编程助手化身资深导师的 Coding Agent Skill。 | Coding-agent skill turning your AI into a mentor. | 65 | TypeScript | yes |
+| [kuangre123/iosdev](https://github.com/kuangre123/iosdev) | ios app 开发 skill | An iOS app development skill. | 25 | unknown | no |
+| [upstash/skills](https://github.com/upstash/skills) | Upstash 的技能合集 | Collection of skills for Upstash | 23 | JavaScript | yes |
+| [zhaiyateng/dsh-design-skills](https://github.com/zhaiyateng/dsh-design-skills) | DeepSeek Harness（DSH）的设计美学技能包——让 vibe coding 出的网站摆脱 AI 味。6 种风格：dark-saas、apple-minim…… | Design aesthetics skill pack for DeepSeek Harness (DSH) - keeps vibe-coded websites away f | 19 | JavaScript | yes |
+| [zebbkira/dsh-skills-mcp-manager](https://github.com/zebbkira/dsh-skills-mcp-manager) | 面向 DeepSeek Harness Web GUI 的正式插件包：在设置页的「Web UI 插件」分组中新增一张「技能与 MCP」卡片，用于在浏览器里管理技能（skills）与 | An official plugin pack for the DeepSeek Harness Web GUI: adds a 'Skills & MCP' card under | 17 | TypeScript | yes |
+| [Totoro-qaq/Cobsidian](https://github.com/Totoro-qaq/Cobsidian) | 维护 Obsidian 的 agent 无关工作流 skill。 | Agent-agnostic workflow skill for Obsidian. | 14 | Python | yes |
+| [pypcfx-glitch/risk-rule-design](https://github.com/pypcfx-glitch/risk-rule-design) | 数据风控规则挖掘：提炼自《百日风控专家》课程思想。 | Rule mining for data risk control, distilled from the ideas of the "100-Day Risk Control E | 14 | JavaScript | yes |
+| [omdsh-dev/dsh-plugin-skills](https://github.com/omdsh-dev/dsh-plugin-skills) | 构建与测试 DeepSeek Harness 插件的 Agent skills。 | Agent skills for building & testing DSH plugins. | 12 | unknown | yes |
+| [qkycir-123/dsh-run2skill](https://github.com/qkycir-123/dsh-run2skill) | 把成功的 DeepSeek Harness 会话自动转化为可复用、可审阅的 Agent Skills。 | Automatically turn successful DeepSeek Harness sessions into reusable, reviewable Agent Sk | 10 | TypeScript | yes |
+| [DDDFXYqiming/Agent_Extensions](https://github.com/DDDFXYqiming/Agent_Extensions) | 通用智能体技能与 DSH 扩展库。 | Generic agent skills & DSH extension library. | 7 | JavaScript | yes |
+| [itmoqing/DeepSeek-Harness-Skill](https://github.com/itmoqing/DeepSeek-Harness-Skill) | 这是一个Codex/Claude来进行任务发布给DeepSeek Harness干活的工作流的Skill，能实现并发，多个工作区一起执行 | A Skill that lets Codex/Claude dispatch tasks to DeepSeek Harness to execute, supporting c | 6 | PowerShell | yes |
+| [xiaoxiaosrm/dsh-mattpocock-skills](https://github.com/xiaoxiaosrm/dsh-mattpocock-skills) | mattpocock/skills 的非官方 DSH 移植——工程（18）+ 生产力（7）技能，作为 DeepSeek Harness 合集插件。MIT，© Matt Poco…… | Unofficial DSH port of mattpocock/skills — Engineering (18) + Productivity (7) skills as a | 6 | Shell | yes |
+| [levi-qiao/dsh-plugin-longgraph](https://github.com/levi-qiao/dsh-plugin-longgraph) | DeepSeek Harness 社区插件：在 ctx.skills 上创作 longgraph / loop-graph / loop-converge 的技能 | DeepSeek Harness community plugin: longgraph / loop-graph / loop-converge authoring skills | 5 | TypeScript | yes |
+| [Wenaixi/dsh-ponytail](https://github.com/Wenaixi/dsh-ponytail) | DietrichGebert/ponytail 的 DSH 完整移植版——懒惰 senior 模式，hook 注入。 | Full DSH port of DietrichGebert/ponytail — lazy senior mode with hook injection. | 5 | TypeScript | yes |
+| [YYTbit/dsh-plugin-opencode-bridge](https://github.com/YYTbit/dsh-plugin-opencode-bridge) | dsh-plugin-opencode-bridge — DSH 插件（技能） | Bridge opencode skills and config into DeepSeek Harness | 4 | TypeScript | yes |
+| [Aidenwu0209/dsh-PaddleOCR-Skills](https://github.com/Aidenwu0209/dsh-PaddleOCR-Skills) | DeepSeek Harness 的 PaddleOCR 技能，带原生工具与图形配置 | PaddleOCR skills for DeepSeek Harness with native tools and GUI configuration | 4 | Python | yes |
+| [dongsheng123132/dsh-capability-receipt](https://github.com/dongsheng123132/dsh-capability-receipt) | DeepSeek Harness 实际加载技能的内容寻址回执 | Content-addressed receipts for skills actually loaded by DeepSeek Harness | 4 | JavaScript | yes |
+| [xiaoxianyu-office/dsh-skills-manager](https://github.com/xiaoxianyu-office/dsh-skills-manager) | DSH Skills 管理器：设置页系统/用户技能分类，用户技能开关/编辑/删除/新建。Skills manager for DeepSeek Harness: system/us | A DSH Skills manager: system/user skill categories in the settings page, with toggle/edit/ | 4 | JavaScript | yes |
+| [seamas0825-lab/dsh-youmind-plugin](https://github.com/seamas0825-lab/dsh-youmind-plugin) | DeepSeek Harness 的 YouMind OpenAPI 工具与技能捆绑包 | YouMind OpenAPI tools and skill bundle for DeepSeek Harness | 4 | JavaScript | yes |
+| [Thhoho/reSanity](https://github.com/Thhoho/reSanity) | 散户认知组合管理 SKILL.md。 | Retail-investor cognition management SKILL.md. | 4 | Python | yes |
+| [octoparse/agent-skills](https://github.com/octoparse/agent-skills) | Octoparse agent skills 合集。 | Collection of Octoparse agent skills. | 4 | Python | no |
+| [rainforest888/dsh-plugins-raincode](https://github.com/rainforest888/dsh-plugins-raincode) | dsh-plugins-raincode — DSH 插件（技能） | dsh-plugins-raincode — a DSH plugin (skills). | 3 | TypeScript | yes |
+| [Moximxxx/dsh-find-skill](https://github.com/Moximxxx/dsh-find-skill) | dsh-find-skill — DSH 插件（技能） | dsh plugin bridging the vercel-labs/skills ecosystem: LLM-driven skill search, install, an | 3 | TypeScript | yes |
+| [MOLAaaaaaaa/dsh-seismicx](https://github.com/MOLAaaaaaaa/dsh-seismicx) | dsh-seismicx — DSH 插件（技能） | DeepSeek Harness plugin for the SeismicX earthquake-catalog skill | 3 | TypeScript | yes |
+| [Lanxing6480/dsh-skill-manager](https://github.com/Lanxing6480/dsh-skill-manager) | Deepseek Harness 的Skill管理插件 | A Skill management plugin for DeepSeek Harness. | 3 | JavaScript | yes |
+| [jingzhao-l/iterate-plugin](https://github.com/jingzhao-l/iterate-plugin) | DeepSeek Harness (dsh) 插件：把 iterate 技能落成自治闭环代码迭代 — 多轮并行审查、确定性去重收敛、原子修复+验证自停、meta-review 一致 | DeepSeek Harness (dsh) plugin: turns the iterate skill into an autonomous closed-loop code | 3 | TypeScript | yes |
+| [litestartup-com/litestartup-skills](https://github.com/litestartup-com/litestartup-skills) | 发布博客/文档/网站的 skills。 | Skills for publishing blog/docs/website. | 3 | Shell | no |
+| [paean-ai/8x-skills](https://github.com/paean-ai/8x-skills) | 8x skills 技能集。 | 8x skills collection. | 3 | JavaScript | no |
+| [rxa3c/chat2skill](https://github.com/rxa3c/chat2skill) | chat2skill — DSH 插件（技能） | Extracting and iterating skills from daily conversations with AI | 3 | Python | yes |
+| [YYTbit/dsh-plugin-codex-bridge](https://github.com/YYTbit/dsh-plugin-codex-bridge) | dsh-plugin-codex-bridge — DSH 插件（技能） | Bridge codex skills and config into DeepSeek Harness | 2 | TypeScript | yes |
+| [YYTbit/dsh-plugin-pi-bridge](https://github.com/YYTbit/dsh-plugin-pi-bridge) | dsh-plugin-pi-bridge — DSH 插件（技能） | Bridge pi skills and config into DeepSeek Harness | 2 | TypeScript | yes |
+| [TohsakaRIN521/dsh-academic-skill](https://github.com/TohsakaRIN521/dsh-academic-skill) | academic-paper-completion 旨在补全你将要发表的文章中除了理论计算数值分析的其余部分,减少或消除ai引用幻觉 | dsh-academic-skill — DSH plugin (skills) | 2 | Python | no |
+| [phoenixlucky/chrome-mcp-bridge-2026-skill](https://github.com/phoenixlucky/chrome-mcp-bridge-2026-skill) | 为 AI 代理提供稳定可靠的 Streamable HTTP MCP 连接能力 | Provides AI agents with stable, reliable Streamable HTTP MCP connectivity. | 2 | JavaScript | no |
+| [YYTbit/dsh-plugin-auto-docs](https://github.com/YYTbit/dsh-plugin-auto-docs) | dsh-plugin-auto-docs — DSH 插件（技能） | Auto documentation generation skill for DeepSeek Harness | 1 | TypeScript | yes |
+| [YYTbit/dsh-plugin-code-review](https://github.com/YYTbit/dsh-plugin-code-review) | dsh-plugin-code-review — DSH 插件（技能） | Structured code review skill for DeepSeek Harness | 1 | TypeScript | yes |
+| [spike-faye-lei/spike-faye-lei-dsh-skills](https://github.com/spike-faye-lei/spike-faye-lei-dsh-skills) | spike-faye-lei-dsh-skills — DSH 插件（技能） | spike-faye-lei/dsh-skills | 1 | Python | yes |
+| [HomophonicFate/rpg-maker-mac-skill](https://github.com/HomophonicFate/rpg-maker-mac-skill) | rpg-maker-mac-skill — DSH 插件（技能） | rpg-maker-mac-skill — a DSH plugin (skill). | 1 | JavaScript | yes |
+| [Aidenwu0209/dsh-Unlimited-OCR-Skill](https://github.com/Aidenwu0209/dsh-Unlimited-OCR-Skill) | DeepSeek Harness 的 Unlimited-OCR，带原生工具与图形配置 | Unlimited-OCR for DeepSeek Harness with a native tool and GUI configuration | 1 | TypeScript | yes |
+| [CSY656/dsh-skill-remote](https://github.com/CSY656/dsh-skill-remote) | DeepSeek Harness 的远程 skills.sh/GitHub 技能提供方与安装器——一句话安装任意技能 | Remote skills.sh/GitHub skill provider and installer for DeepSeek Harness — install any sk | 1 | TypeScript | yes |
+| [yjm110517/content-to-editable-ppt-skill](https://github.com/yjm110517/content-to-editable-ppt-skill) | content-to-editable-ppt-skill — DSH 插件（技能） | Bootstrap runtime for generating multi-slide editable PowerPoint presentations from topics | 1 | Python | no |
+| [t1yOS/t1y-skills](https://github.com/t1yOS/t1y-skills) | 面向 t1yOS 无服务器平台工作的 AI 编码助手专家技能包 | expert skill package for AI coding assistants working with the t1yOS Serverless platform. | 1 | unknown | no |
+| [phoenixlucky/moon-lovers-skill](https://github.com/phoenixlucky/moon-lovers-skill) | Moon Lovers 白月光 — 为角色卡和恋爱聊天场景设计的温柔克制型 AI 回复 Skill。支持西施、王昭君、貂蝉、杨玉环等四大美人角色卡，输出自然、留白、不油腻的恋爱聊天 | Moon Lovers — a gentle, restrained AI reply skill designed for character cards and romanti | 1 | JavaScript | no |
+| [JimmyJin2006/dsh-skill-manager](https://github.com/JimmyJin2006/dsh-skill-manager) | 在设置界面管理你已有的技能！ | dsh-skill-manager — DSH plugin (skills) | 0 | JavaScript | yes |
+| [kuailexiaozixin/tkinter-desktop](https://github.com/kuailexiaozixin/tkinter-desktop) | Tkinter/ttk 原生桌面应用全生命周期技能（MVC + pygubu .ui + SQLite + PyInstaller） | A full-lifecycle skill for native Tkinter/ttk desktop apps (MVC + pygubu .ui + SQLite + Py | 0 | Python | no |
+| [kuailexiaozixin/fasthtml-desktop](https://github.com/kuailexiaozixin/fasthtml-desktop) | FastHTML + pywebview 桌面应用全生命周期技能（本地 HTTP + WebView2 + PyInstaller） | A full-lifecycle skill for FastHTML + pywebview desktop apps (local HTTP + WebView2 + PyIn | 0 | Python | no |
 
 ### orchestration（201）
 
@@ -2088,12 +2090,13 @@
 | [youqishan/dsh-skin-3bridge](https://github.com/youqishan/dsh-skin-3bridge) | 一款DSH皮肤编辑器，支持用户自由上传自己喜欢的立绘与背景 | A DSH skin editor that allows users to freely upload their favorite character illustration | 1 | JavaScript | yes |
 | [MrmoLabs/dsh-yorha-ui](https://github.com/MrmoLabs/dsh-yorha-ui) | 面向 DeepSeek Harness Web 的 NieR:Automata / YoRHa 风格工业终端主题，提供沙色/炭黑明暗配色、直角几何与全界面统一样式，运行时无需 CD | A NieR:Automata / YoRHa-inspired industrial terminal theme for DeepSeek Harness Web, with  | 0 | TypeScript | yes |
 
-### preset（2）
+### preset（3）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
 | [yyh-001/dsh-companion](https://github.com/yyh-001/dsh-companion) | DeepSeek 陪伴模式插件：人设、记忆、聊得下去。 | DSH companion-mode plugin: persona, memory, conversation. | 3 | JavaScript | yes |
 | [HaoyanZhang123/deepseek-harness-live-preset-switch](https://github.com/HaoyanZhang123/deepseek-harness-live-preset-switch) | DeepSeek Harness 对话中实时切换预设 | Live agent-preset switching at turn boundaries for DeepSeek Harness | 1 | TypeScript | yes |
+| [Verisw/rea-dsh](https://github.com/Verisw/rea-dsh) | DeepSeek Harness 逆向工程模式：一个预设挂载约 139 个 REA 工具（Ghidra / Hopper / IDA）、逆向工程师人格与证据优先的分析流程；一个 b | Reverse-engineering preset for DeepSeek Harness: one preset mounts ~139 REA tools (Ghidra  | 1 | JavaScript | yes |
 
 ### notify（1）
 

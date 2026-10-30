@@ -97190,5 +97190,176 @@
   "compat": "unknown",
   "featured": false,
   "analyzed_at": "2026-10-25T03:20:34.169Z"
+ },
+ "vostride/agent-qa": {
+  "repo": "vostride/agent-qa",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": false,
+  "dshSignals": [
+   "dsh-plugin-topic",
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "TypeScript",
+  "intent": "Natural-language QA for web, Android, and iOS, with advanced memidex memory and self-improvement to reuse validated testing lessons.",
+  "intentEn": "Natural-language QA for web, Android, and iOS, with advanced memidex memory and self-improvement to reuse validated testing lessons.",
+  "intentZh": "vostride 的自然语言自动化测试工具，支持 Web、Android 和 iOS；先进的 memidex 记忆引擎与自我改进能力帮助复用已验证的测试经验。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 910,
+  "forks": 23,
+  "created_at": "2026-05-07T20:17:57Z",
+  "updated_at": "2026-10-28T21:00:54Z",
+  "license": "NOASSERTION",
+  "open_issues": 6,
+  "topics": [
+   "ai-agents",
+   "ai-testing",
+   "anthropic",
+   "autonomous-agents",
+   "browser-automation",
+   "chatgpt",
+   "claude-code",
+   "clawdbot",
+   "codex",
+   "developer-tools",
+   "dsh-plugin",
+   "end-to-end-testing",
+   "fair-source",
+   "frontend",
+   "mcp",
+   "mcp-server",
+   "mcp-tools",
+   "model-context-protocol",
+   "openai",
+   "playwright"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-10-30T03:40:09.991Z"
+ },
+ "Verisw/rea-dsh": {
+  "repo": "Verisw/rea-dsh",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "preset",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "@deepseek-ai/cordis",
+   "@deepseek-ai/dsh",
+   "dsh-plugin-topic",
+   "keyword-dsh"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "JavaScript",
+  "intent": "Reverse-engineering preset for DeepSeek Harness: one preset mounts ~139 REA tools (Ghidra / Hopper / IDA), a reverse-engineer persona and an evidence-first workflow. One bundle installs into the desktop, web, headless and dsh-tui profiles; the engine starts on demand and stops when idle.",
+  "intentEn": "Reverse-engineering preset for DeepSeek Harness: one preset mounts ~139 REA tools (Ghidra / Hopper / IDA), a reverse-engineer persona and an evidence-first workflow. One bundle installs into the desktop, web, headless and dsh-tui profiles; the engine starts on demand and stops when idle.",
+  "intentZh": "DeepSeek Harness 逆向工程模式：一个预设挂载约 139 个 REA 工具（Ghidra / Hopper / IDA）、逆向工程师人格与证据优先的分析流程；一个 bundle 同时装进 desktop / web / headless / dsh-tui 四个 profile，引擎按需启动、空闲自动退出。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "esm"
+  ],
+  "keyDeps": [
+   "@deepseek-ai/cordis",
+   "@deepseek-ai/dsh"
+  ],
+  "entry": null,
+  "stars": 1,
+  "forks": 0,
+  "created_at": "2026-10-24T21:58:22Z",
+  "updated_at": "2026-10-25T10:16:31Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "agent-preset",
+   "cordis-plugin",
+   "deepseek",
+   "deepseek-harness",
+   "dsh",
+   "dsh-plugin",
+   "dsh-preset",
+   "ghidra",
+   "hopper",
+   "ida",
+   "mcp",
+   "plugin",
+   "reverse-engineering"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-10-30T03:40:22.264Z"
+ },
+ "achenjins/dsh-runninghub-plugin": {
+  "repo": "achenjins/dsh-runninghub-plugin",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "@deepseek-ai/cordis",
+   "@deepseek-ai/dsh-tools",
+   "@deepseek-ai/dsh-http-proxy",
+   "@deepseek-ai/dsh-typert-protocol",
+   "@deepseek-ai/schemastery",
+   "dsh-plugin-topic",
+   "keyword-dsh"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "JavaScript",
+  "intent": "A DeepSeek Harness plugin that runs your saved RunningHub ComfyUI workflows to generate images, video and audio. The AI configures a workflow from its link or ID, or you edit it in the settings panel; tasks can run in the background and bring results back to the chat.",
+  "intentEn": "A DeepSeek Harness plugin that runs your saved RunningHub ComfyUI workflows to generate images, video and audio. The AI configures a workflow from its link or ID, or you edit it in the settings panel; tasks can run in the background and bring results back to the chat.",
+  "intentZh": "DeepSeek Harness 插件：调用你在 RunningHub 上保存的 ComfyUI 工作流生成图片、视频和音频。AI 可按工作流链接或 ID 辅助配置输入节点，也可在配置面板手动导入编辑；任务可后台运行，完成后把结果带回对话；多个 API Key 按国内站 / 海外站分池管理。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "esm"
+  ],
+  "keyDeps": [
+   "@deepseek-ai/cordis",
+   "@deepseek-ai/dsh-tools",
+   "@deepseek-ai/dsh-http-proxy",
+   "@deepseek-ai/dsh-typert-protocol",
+   "@deepseek-ai/schemastery",
+   "cordis",
+   "schemastery"
+  ],
+  "entry": null,
+  "stars": 4,
+  "forks": 1,
+  "created_at": "2026-09-30T10:13:48Z",
+  "updated_at": "2026-10-28T12:32:12Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "deepseek-harness",
+   "deepseek-harness-plugin",
+   "dsh",
+   "dsh-plugin"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-10-30T03:40:27.977Z"
  }
 }

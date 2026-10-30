@@ -2002,3 +2002,6 @@ LUgABeEEE/dsh-global-todo
 wang1299/dsh-reforge
 hxlog/dsh-mcp-tools
 JularDepick/dsh-system-monitor-plugin
+vostride/agent-qa
+Verisw/rea-dsh
+achenjins/dsh-runninghub-plugin
