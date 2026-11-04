@@ -97416,5 +97416,103 @@
   "compat": "unknown",
   "featured": false,
   "analyzed_at": "2026-10-30T03:47:40.396Z"
+ },
+ "hxlog/dsh-skills-tools": {
+  "repo": "hxlog/dsh-skills-tools",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "dsh-plugin-topic",
+   "keyword-dsh"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "JavaScript",
+  "intent": "Skills manager in DSH Settings: import Agent Skills from Git repositories, group them by repository, switch each skill on or off, and expand SKILL.md content; disabled skills never reach the model and imported repositories stay as read-only snapshots.",
+  "intentEn": "Skills manager in DSH Settings: import Agent Skills from Git repositories, group them by repository, switch each skill on or off, and expand SKILL.md content; disabled skills never reach the model and imported repositories stay as read-only snapshots.",
+  "intentZh": "DSH 设置内的 Skills 管理器：从 Git 仓库导入 Agent Skills，按仓库分组，逐项启用或停用，展开查看 SKILL.md 正文；停用的技能不会注册进模型，导入的仓库以只读快照保存。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 1,
+  "forks": 0,
+  "created_at": "2026-11-03T12:55:44Z",
+  "updated_at": "2026-11-04T05:17:34Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "agent-skills",
+   "deepseek-harness",
+   "dsh",
+   "dsh-desktop",
+   "dsh-pack",
+   "dsh-plugin",
+   "dsh-plugin-desktop",
+   "dsh-plugins",
+   "dsh-skill",
+   "skill-management",
+   "skills"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-11-04T23:36:19.116Z"
+ },
+ "Lionad-Morotar/dsh-jump": {
+  "repo": "Lionad-Morotar/dsh-jump",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "ui",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "@deepseek-ai/cordis",
+   "@deepseek-ai/dsh",
+   "dsh-plugin-topic",
+   "keyword-dsh"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "Keyboard navigation for the DSH web GUI: a chord surfaces letter labels over every visible interactive target, and typing a label clicks or focuses it. Vimium-style; label length is derived per round from the candidate count.",
+  "intentEn": "Keyboard navigation for the DSH web GUI: a chord surfaces letter labels over every visible interactive target, and typing a label clicks or focuses it. Vimium-style; label length is derived per round from the candidate count.",
+  "intentZh": "DSH Web 键盘跳跃导航：按下组合键后，屏幕上每个可交互元素浮出一个字母标签，敲标签即可点击或聚焦它，类似 Vimium；标签长度按候选数每轮推导，Esc 退出，组合键可在设置里改。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [
+   "@deepseek-ai/cordis",
+   "@deepseek-ai/dsh"
+  ],
+  "entry": null,
+  "stars": 0,
+  "forks": 0,
+  "created_at": "2026-10-30T04:44:10Z",
+  "updated_at": "2026-11-02T14:34:03Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "deepseek-harness",
+   "dsh",
+   "dsh-plugin",
+   "keyboard-navigation"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-11-04T23:36:24.757Z"
  }
 }

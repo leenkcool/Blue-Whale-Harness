@@ -2006,3 +2006,5 @@ vostride/agent-qa
 Verisw/rea-dsh
 achenjins/dsh-runninghub-plugin
 CorpusIQ/corpusiq-docs
+hxlog/dsh-skills-tools
+Lionad-Morotar/dsh-jump

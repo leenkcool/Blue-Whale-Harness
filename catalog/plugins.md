@@ -1,6 +1,6 @@
 # Blue-Whale-Harness · DSH 插件总表（中英双语意图）
 
-> 自动生成于 2026-10-30 ｜ 共 **1988** 个仓库 ｜ 真·DSH 插件 **1844** 个 ｜ 已克隆 **1778** 个 ｜ 源码总体积 **6119.6MB**（不含 .git）
+> 自动生成于 2026-11-04 ｜ 共 **1990** 个仓库 ｜ 真·DSH 插件 **1846** 个 ｜ 已克隆 **1778** 个 ｜ 源码总体积 **6119.6MB**（不含 .git）
 
 | 仓库 | 意图(中文) | Intent(English) | 分类 | 真DSH | 语言 | STAR | FORK | 大小 | 创建 | 更新 | License | 兼容 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -1911,6 +1911,7 @@
 | [JularDepick/dsh-wakatime-plugin](https://github.com/JularDepick/dsh-wakatime-plugin) | 一个 dsh 插件: 将 DSH 的每一次 Agent 交互量化为可视化表现指标,自动同步至 WakaTime,用数据展示你与 Agent 协作的生产力. | A plugin for dsh: quantify every dsh Agent interaction as a visualized performance metric  | utility | yes | TypeScript | 1 | 0 |  | 2026-08-15 | 2026-10-23 | Apache-2.0 | unknown |
 | [JularDepick/dsh-system-monitor-plugin](https://github.com/JularDepick/dsh-system-monitor-plugin) | 监控 dsh 系统进程的资源占用，并以图表形式向用户报告结果 | A plugin for dsh: monitor the resource utilization of dsh system processes, and report the | utility | yes | TypeScript | 1 | 0 |  | 2026-08-23 | 2026-10-17 | Apache-2.0 | unknown |
 | [Verisw/rea-dsh](https://github.com/Verisw/rea-dsh) | DeepSeek Harness 逆向工程模式：一个预设挂载约 139 个 REA 工具（Ghidra / Hopper / IDA）、逆向工程师人格与证据优先的分析流程；一个 b | Reverse-engineering preset for DeepSeek Harness: one preset mounts ~139 REA tools (Ghidra  | preset | yes | JavaScript | 1 | 0 |  | 2026-10-24 | 2026-10-25 | MIT | unknown |
+| [hxlog/dsh-skills-tools](https://github.com/hxlog/dsh-skills-tools) | DSH 设置内的 Skills 管理器：从 Git 仓库导入 Agent Skills，按仓库分组，逐项启用或停用，展开查看 SKILL.md 正文；停用的技能不会注册进模型，导入 | Skills manager in DSH Settings: import Agent Skills from Git repositories, group them by r | tools | yes | JavaScript | 1 | 0 |  | 2026-11-03 | 2026-11-04 | MIT | unknown |
 | [AtomicsLaboratory/atomstudio](https://github.com/AtomicsLaboratory/atomstudio) | 可执行文档工程环境 | Document engineering environment for executable documents | tools | no | JavaScript | 0 | 0 | 25.3MB | 2026-08-02 | 2026-08-04 | MIT | unknown |
 | [omdsh-dev/Qwen-MM-Plugins](https://github.com/omdsh-dev/Qwen-MM-Plugins) | Qwen-MM-Plugins 支持 | Qwen-MM-Plugins support | tools | yes | TypeScript | 0 | 0 | 207KB | 2026-08-05 | 2026-08-14 | unknown | unknown |
 | [TongDucThanhNam/eragear-code-copilot](https://github.com/TongDucThanhNam/eragear-code-copilot) | 空壳仓库（无描述） | Empty shell repo (no description) | orchestration | no | TypeScript | 0 | 0 | 12.3MB | 2026-01-27 | 2026-08-11 | unknown | unknown |
@@ -1991,4 +1992,5 @@
 | [moonquake2004/dsh-security](https://github.com/moonquake2004/dsh-security) | Unified security check framework for DeepSeek Harness ecosystem — covers the full plugin l | Unified security check framework for DeepSeek Harness ecosystem — covers the full plugin l | tools | no | JavaScript | 0 | 1 |  | 2026-08-19 | 2026-09-15 |  | unknown |
 | [ct-jaryn/dsh-plugin-baizhi-agent-toolkit](https://github.com/ct-jaryn/dsh-plugin-baizhi-agent-toolkit) | 面向 DeepSeek Harness 的可选社区配置 bundle，复用其 MCP 客户端连接百智云托管工具包，支持动态工具发现与 Bearer 环境变量配置。需自备账号和 Ke | Optional community configuration bundle connecting DeepSeek Harness to hosted Baizhi Cloud | tools | yes | JavaScript / YAML | 0 | 0 |  | 2026-09-21 | 2026-09-21 | MIT | unknown |
 | [GuihaiHU/dsh-temp-note](https://github.com/GuihaiHU/dsh-temp-note) | DeepSeek Harness 右侧边栏的临时笔记：支持会话级、工作区级、全局三种范围，浏览器本地自动保存、一键复制，以及用默认模型一键优化为 Markdown 并支持撤销。 | A temp note in the DeepSeek Harness right sidebar with session, workspace, and global scop | ui | yes | JavaScript | 0 | 0 |  | 2026-10-19 | 2026-10-19 | MIT | unknown |
+| [Lionad-Morotar/dsh-jump](https://github.com/Lionad-Morotar/dsh-jump) | DSH Web 键盘跳跃导航：按下组合键后，屏幕上每个可交互元素浮出一个字母标签，敲标签即可点击或聚焦它，类似 Vimium；标签长度按候选数每轮推导，Esc 退出，组合键可在设置 | Keyboard navigation for the DSH web GUI: a chord surfaces letter labels over every visible | ui | yes | TypeScript | 0 | 0 |  | 2026-10-30 | 2026-11-02 | MIT | unknown |
 | [gxx950224/SapBuddy-dsh](https://github.com/gxx950224/SapBuddy-dsh) | SapBuddy-dsh | SapBuddy-dsh | tools | yes | TypeScript | 3 | 0 | 1.1MB | 2026-08-14 | 2026-08-14 | MIT | unknown |
