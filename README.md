@@ -1,12 +1,12 @@
 # Blue-Whale-Harness
 
-[![Stars](https://img.shields.io/github/stars/leenkcool/Blue-Whale-Harness?style=flat-square)](https://github.com/leenkcool/Blue-Whale-Harness/stargazers) [![License](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)](./LICENSE) [![Last commit](https://img.shields.io/github/last-commit/leenkcool/Blue-Whale-Harness?style=flat-square)](https://github.com/leenkcool/Blue-Whale-Harness/commits/main) [![Plugins](https://img.shields.io/badge/repos-1990-orange?style=flat-square)](https://leenkcool.github.io) [![Online catalog](https://img.shields.io/badge/site-leenkool.github.io-brightgreen?style=flat-square)](https://leenkcool.github.io)
+[![Stars](https://img.shields.io/github/stars/leenkcool/Blue-Whale-Harness?style=flat-square)](https://github.com/leenkcool/Blue-Whale-Harness/stargazers) [![License](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)](./LICENSE) [![Last commit](https://img.shields.io/github/last-commit/leenkcool/Blue-Whale-Harness?style=flat-square)](https://github.com/leenkcool/Blue-Whale-Harness/commits/main) [![Plugins](https://img.shields.io/badge/repos-1994-orange?style=flat-square)](https://leenkcool.github.io) [![Online catalog](https://img.shields.io/badge/site-leenkool.github.io-brightgreen?style=flat-square)](https://leenkcool.github.io)
 
 > **DeepSeek Harness（DSH）插件总目录** — 收录 GitHub 上散落各处的 DSH 插件、Skill、MCP Server 与周边工具，逐个校验「是否为真插件」，并做成可搜索、可筛选、可导出的在线总表。
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 中英文搜索、分类筛选、按 STAR 排序、CSV 导出。
 
-> 自动生成于 2026-11-04 ｜ 共 **1990** 个仓库 ｜ 真·DSH 插件 **1846** 个 | QQ Group:839509497 |Tg Group: [http://t.me/deepseekdsh](http://t.me/deepseekdsh)
+> 自动生成于 2026-11-19 ｜ 共 **1994** 个仓库 ｜ 真·DSH 插件 **1850** 个 | QQ Group:839509497 |Tg Group: [http://t.me/deepseekdsh](http://t.me/deepseekdsh)
 
 ### 怎么用
 
@@ -22,8 +22,8 @@
 
 ## 统计
 
-- 仓库总数：**1990**
-- 真·DSH 插件：**1846**
+- 仓库总数：**1994**
+- 真·DSH 插件：**1850**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
 ## 分类索引
@@ -31,9 +31,9 @@
 - **llm** — 166 个仓库，★101293
 - **utility** — 377 个仓库，★66626
 - **session** — 236 个仓库，★27296
-- **tools** — 636 个仓库，★25658
+- **tools** — 639 个仓库，★25659
 - **skills** — 53 个仓库，★25583
-- **orchestration** — 201 个仓库，★18861
+- **orchestration** — 202 个仓库，★18876
 - **ui** — 216 个仓库，★15341
 - **uncategorized** — 1 个仓库，★3779
 - **sandbox** — 12 个仓库，★743
@@ -842,7 +842,7 @@
 | [dmsobtl/dsh-session-analyst](https://github.com/dmsobtl/dsh-session-analyst) | DSH 插件：Agent 会话质量分析 —— 工具成功率、token 效率、冗余调用检测、跨会话回归对比。PS：上传文件有点问题，等我重新整理下 | DSH plugin: agent session-quality analysis — tool success rate, token efficiency, redundan | 0 | TypeScript | yes |
 | [zzy2210/dsh-subagent-status](https://github.com/zzy2210/dsh-subagent-status) | DeepSeek Harness 常驻插件:在会话标题栏显示主代理与每个子代理实际使用的模型和思考档位 | Persistent DSH web plugin: shows the | Persistent DSH web plugin: shows the model & reasoning effort actually used by the main ag | 0 | JavaScript | yes |
 
-### tools（636）
+### tools（639）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1453,6 +1453,7 @@
 | [Shizuku-keop/dsh-launch-doctor](https://github.com/Shizuku-keop/dsh-launch-doctor) | 零依赖 dsh web 启动诊断 CLI：五项检查（Node 版本区间——标记 24.0-24.11.1 启动失败族；loader resolveSync 形状探测——--expo | Zero-dependency dsh web launch diagnostics CLI: five checks (Node version range flags 24.0 | 1 | JavaScript | no |
 | [busabase/busabase-dsh-plugin](https://github.com/busabase/busabase-dsh-plugin) | 通过 MCP 将 DeepSeek Harness 接入 Busabase 知识与结构化数据，搜索已批准内容、操作 Base / Record、提交 ChangeRequest，并 | Connects DeepSeek Harness to Busabase knowledge and structured data over MCP: search appro | 1 | TypeScript | yes |
 | [hxlog/dsh-skills-tools](https://github.com/hxlog/dsh-skills-tools) | DSH 设置内的 Skills 管理器：从 Git 仓库导入 Agent Skills，按仓库分组，逐项启用或停用，展开查看 SKILL.md 正文；停用的技能不会注册进模型，导入 | Skills manager in DSH Settings: import Agent Skills from Git repositories, group them by r | 1 | JavaScript | yes |
+| [ericenyan/dsh-yubagu](https://github.com/ericenyan/dsh-yubagu) | 开口之前先拦一次：把模型准备发出去的那段话，对着 38 条「把说话当交付」的口癖撞一遍，撞上就整句退回去重说。三档（硬撞/疑似/形状）+ 每轮钩子 + 面板记账。 | Catches AI verbal tics before they are sent: the exact sentence is collided against 38 "de | 1 | JavaScript | yes |
 | [AtomicsLaboratory/atomstudio](https://github.com/AtomicsLaboratory/atomstudio) | 可执行文档工程环境 | Document engineering environment for executable documents | 0 | JavaScript | no |
 | [omdsh-dev/Qwen-MM-Plugins](https://github.com/omdsh-dev/Qwen-MM-Plugins) | Qwen-MM-Plugins 支持 | Qwen-MM-Plugins support | 0 | TypeScript | yes |
 | [Mingxi2077/dsh-plugin-review](https://github.com/Mingxi2077/dsh-plugin-review) | dsh-plugin-review — DSH 插件（工具） | dsh-plugin-review — a DSH plugin (tool). | 0 | JavaScript | yes |
@@ -1482,6 +1483,8 @@
 | [ywleeo/dsh-vision-dashscope](https://github.com/ywleeo/dsh-vision-dashscope) | 基于阿里云百炼 DashScope 的 MCP server 插件，为纯文本 Agent 提供图片/视频/音频识别与生成能力。大视频/大文件自动走官方临时 OSS 直传（单文件上限 | A DashScope (Alibaba Bailian) MCP plugin giving text-only agents image/video/audio recogni | 0 | Python | yes |
 | [moonquake2004/dsh-security](https://github.com/moonquake2004/dsh-security) | Unified security check framework for DeepSeek Harness ecosystem — covers the full plugin l | Unified security check framework for DeepSeek Harness ecosystem — covers the full plugin l | 0 | JavaScript | no |
 | [ct-jaryn/dsh-plugin-baizhi-agent-toolkit](https://github.com/ct-jaryn/dsh-plugin-baizhi-agent-toolkit) | 面向 DeepSeek Harness 的可选社区配置 bundle，复用其 MCP 客户端连接百智云托管工具包，支持动态工具发现与 Bearer 环境变量配置。需自备账号和 Ke | Optional community configuration bundle connecting DeepSeek Harness to hosted Baizhi Cloud | 0 | JavaScript / YAML | yes |
+| [zhiquanchi/dsh-mac-notifications](https://github.com/zhiquanchi/dsh-mac-notifications) | 为 DeepSeek Harness 提供原生 macOS 通知中心提醒：智能体需要你做出选择、任务完成或任务失败时弹出通知，显示 DeepSeek Harness 应用自身名称与 | Native macOS Notification Center alerts for DeepSeek Harness when the agent asks for your  | 0 | JavaScript | yes |
+| [hAcKlyc/dsh-zsearch](https://github.com/hAcKlyc/dsh-zsearch) | DeepSeek Harness 的知乎与全网双源检索：左侧流式回答，右侧按问题分组展示带引用的原文，并内置热门插件评价专题。 | Dual-source Zhihu and web search for DeepSeek Harness, with a streamed answer beside cited | 0 | JavaScript | yes |
 
 ### skills（53）
 
@@ -1541,7 +1544,7 @@
 | [kuailexiaozixin/tkinter-desktop](https://github.com/kuailexiaozixin/tkinter-desktop) | Tkinter/ttk 原生桌面应用全生命周期技能（MVC + pygubu .ui + SQLite + PyInstaller） | A full-lifecycle skill for native Tkinter/ttk desktop apps (MVC + pygubu .ui + SQLite + Py | 0 | Python | no |
 | [kuailexiaozixin/fasthtml-desktop](https://github.com/kuailexiaozixin/fasthtml-desktop) | FastHTML + pywebview 桌面应用全生命周期技能（本地 HTTP + WebView2 + PyInstaller） | A full-lifecycle skill for FastHTML + pywebview desktop apps (local HTTP + WebView2 + PyIn | 0 | Python | no |
 
-### orchestration（201）
+### orchestration（202）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1590,6 +1593,7 @@
 | [btspoony/dsh-llm-fallbacks](https://github.com/btspoony/dsh-llm-fallbacks) | 基于角色的模型重试备用策略 | Role-based LLM retry & fallback strategy | 17 | TypeScript | yes |
 | [didclawapp-ai/zagens](https://github.com/didclawapp-ai/zagens) | DeepSeek V4 的开源 agent harness | Open-source agent harness for DeepSeek V4 | 15 | Rust | no |
 | [HuanLinOTO/dsh-plugin-yet-another-subagent](https://github.com/HuanLinOTO/dsh-plugin-yet-another-subagent) | （无描述） | (no description) | 15 | JavaScript | yes |
+| [xx-hub/dsh-craft-your-textbook](https://github.com/xx-hub/dsh-craft-your-textbook) | 造书工作台：把教材 PDF 加工成 AI 苏格拉底老师能直接拿去上课的教学蓝本，或一本能读的教材。六阶段流水线，关键决定停下来等用户拍板。 | A DeepSeek Harness workbench that turns textbook PDFs into a teaching blueprint an AI tuto | 15 | JavaScript | yes |
 | [btspoony/dsh-advisor](https://github.com/btspoony/dsh-advisor) | 第二模型被动审查每轮并注入建议 | Second model passively reviews each turn and injects advice | 14 | TypeScript | yes |
 | [fuhefei/dsh-sentinel](https://github.com/fuhefei/dsh-sentinel) | 条件驱动唤醒：持久文件/命令/http 触发 | Condition-driven wakeup: durable file/command/http triggers | 14 | TypeScript | yes |
 | [w2112515/dsh-plugin-development](https://github.com/w2112515/dsh-plugin-development) | 可安装的 DeepSeek Harness 合集，教智能体开发与审计 DSH 插件。 | Portable Agent Skill for developing and auditing DeepSeek Harness plugins, with an optiona | 14 | JavaScript | yes |

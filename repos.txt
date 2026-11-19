@@ -2008,3 +2008,7 @@ achenjins/dsh-runninghub-plugin
 CorpusIQ/corpusiq-docs
 hxlog/dsh-skills-tools
 Lionad-Morotar/dsh-jump
+zhiquanchi/dsh-mac-notifications
+ericenyan/dsh-yubagu
+xx-hub/dsh-craft-your-textbook
+hAcKlyc/dsh-zsearch

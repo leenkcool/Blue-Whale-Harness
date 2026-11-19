@@ -97514,5 +97514,201 @@
   "compat": "unknown",
   "featured": false,
   "analyzed_at": "2026-11-04T23:36:24.757Z"
+ },
+ "zhiquanchi/dsh-mac-notifications": {
+  "repo": "zhiquanchi/dsh-mac-notifications",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "dsh-plugin-topic",
+   "keyword-dsh"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "JavaScript",
+  "intent": "Native macOS Notification Center alerts for DeepSeek Harness when the agent asks for your choice, a task completes, or a task fails; notifications carry the DeepSeek Harness app name and icon, and clicking one opens the session.",
+  "intentEn": "Native macOS Notification Center alerts for DeepSeek Harness when the agent asks for your choice, a task completes, or a task fails; notifications carry the DeepSeek Harness app name and icon, and clicking one opens the session.",
+  "intentZh": "为 DeepSeek Harness 提供原生 macOS 通知中心提醒：智能体需要你做出选择、任务完成或任务失败时弹出通知，显示 DeepSeek Harness 应用自身名称与图标，点击通知可直接跳回对应会话。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 0,
+  "forks": 0,
+  "created_at": "2026-11-08T01:46:52Z",
+  "updated_at": "2026-11-09T07:36:40Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "cordis-plugin",
+   "deepseek-harness",
+   "desktop-notifications",
+   "dsh-plugin",
+   "macos",
+   "notifications"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-11-19T07:06:06.382Z"
+ },
+ "ericenyan/dsh-yubagu": {
+  "repo": "ericenyan/dsh-yubagu",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "@deepseek-ai/cordis",
+   "@deepseek-ai/dsh-llm",
+   "@deepseek-ai/schemastery",
+   "dsh-plugin-topic",
+   "keyword-dsh"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "JavaScript",
+  "intent": "Catches AI verbal tics before they are sent: the exact sentence is collided against 38 \"delivery-receipt\" phrases (\"noted\", \"received\", \"I accept\") and thrown away rather than reworded. Three tiers, a per-turn hook, and a ledger panel.",
+  "intentEn": "Catches AI verbal tics before they are sent: the exact sentence is collided against 38 \"delivery-receipt\" phrases (\"noted\", \"received\", \"I accept\") and thrown away rather than reworded. Three tiers, a per-turn hook, and a ledger panel.",
+  "intentZh": "开口之前先拦一次：把模型准备发出去的那段话，对着 38 条「把说话当交付」的口癖撞一遍，撞上就整句退回去重说。三档（硬撞/疑似/形状）+ 每轮钩子 + 面板记账。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "esm"
+  ],
+  "keyDeps": [
+   "@deepseek-ai/cordis",
+   "@deepseek-ai/dsh-llm",
+   "@deepseek-ai/schemastery"
+  ],
+  "entry": null,
+  "stars": 1,
+  "forks": 0,
+  "created_at": "2026-11-12T01:28:48Z",
+  "updated_at": "2026-11-12T01:28:56Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "ai-slop",
+   "chinese",
+   "deepseek-harness",
+   "dsh",
+   "dsh-plugin",
+   "llm",
+   "prompt-engineering",
+   "typescript"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-11-19T07:06:11.441Z"
+ },
+ "xx-hub/dsh-craft-your-textbook": {
+  "repo": "xx-hub/dsh-craft-your-textbook",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "orchestration",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "dsh-plugin-topic",
+   "keyword-dsh"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "JavaScript",
+  "intent": "A DeepSeek Harness workbench that turns textbook PDFs into a teaching blueprint an AI tutor can teach from, or a readable textbook: a six-stage pipeline whose checkpoints wait for the user.",
+  "intentEn": "A DeepSeek Harness workbench that turns textbook PDFs into a teaching blueprint an AI tutor can teach from, or a readable textbook: a six-stage pipeline whose checkpoints wait for the user.",
+  "intentZh": "造书工作台：把教材 PDF 加工成 AI 苏格拉底老师能直接拿去上课的教学蓝本，或一本能读的教材。六阶段流水线，关键决定停下来等用户拍板。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "adm-zip",
+   "jsonrepair",
+   "react",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 15,
+  "forks": 3,
+  "created_at": "2026-08-21T06:32:17Z",
+  "updated_at": "2026-11-17T02:44:08Z",
+  "license": "MIT",
+  "open_issues": 1,
+  "topics": [
+   "ai-education",
+   "deepseek-harness",
+   "dsh",
+   "dsh-plugin",
+   "education",
+   "plugin",
+   "socratic",
+   "textbook"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-11-19T07:06:17.195Z"
+ },
+ "hAcKlyc/dsh-zsearch": {
+  "repo": "hAcKlyc/dsh-zsearch",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "dsh-plugin-topic",
+   "keyword-dsh"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "JavaScript",
+  "intent": "Dual-source Zhihu and web search for DeepSeek Harness, with a streamed answer beside cited source excerpts and a built-in plugin review topic.",
+  "intentEn": "Dual-source Zhihu and web search for DeepSeek Harness, with a streamed answer beside cited source excerpts and a built-in plugin review topic.",
+  "intentZh": "DeepSeek Harness 的知乎与全网双源检索：左侧流式回答，右侧按问题分组展示带引用的原文，并内置热门插件评价专题。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 0,
+  "forks": 0,
+  "created_at": "2026-11-16T18:06:31Z",
+  "updated_at": "2026-11-18T17:44:05Z",
+  "license": "Apache-2.0",
+  "open_issues": 0,
+  "topics": [
+   "cordis",
+   "cordis-plugin",
+   "deepseek-harness",
+   "dsh",
+   "dsh-plugin",
+   "dsh-plugins",
+   "search",
+   "zhihu"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-11-19T07:06:22.243Z"
  }
 }
